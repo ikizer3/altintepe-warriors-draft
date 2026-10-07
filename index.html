@@ -872,7 +872,7 @@ body.mobileDraft .tabBtn{flex:0 0 auto!important;height:36px!important;padding:0
 <div class="nftrPanel"><div class="nftrTitle">Kadrom · Pozisyon Takibi</div><div id="nftrPosTrack" class="positionTrack"></div><div class="nftrTitle" style="margin-top:13px">Draft Planım · 16 Takım Snake · 12 Round · Sıra #2</div><div id="nftrPlan" class="planPicks"></div></div>
 <div class="nftrPanel"><div class="nftrTitle">Sırana Kalabilir</div><div id="canFallTitle" class="sub" style="margin-bottom:8px"></div><div id="canFallGrid" class="canFallGrid"></div></div>
 </div><div class="grid"><aside>
-<div class="card"><h2>Draft Durumu</h2><div class="pick">Pick <span id="pick">1</span> / 224</div><div id="turn" class="mini"></div><div class="kpis"><div class="k"><b id="available">0</b><span>AVAILABLE</span></div><div class="k"><b id="mine">0</b><span>BİZİM KADRO</span></div><div class="k"><b id="round">1</b><span>ROUND</span></div></div></div>
+<div class="card"><h2>Draft Durumu</h2><div class="pick">Pick <span id="pick">1</span> / 192</div><div id="turn" class="mini"></div><div class="kpis"><div class="k"><b id="available">0</b><span>AVAILABLE</span></div><div class="k"><b id="mine">0</b><span>BİZİM KADRO</span></div><div class="k"><b id="round">1</b><span>ROUND</span></div></div></div>
 <div class="card"><h2>🎯 Roster-Aware PICK NOW</h2><div id="recs"></div></div>
 <div id="legacyRoster" style="display:none"><div id="needSummary"></div><div id="roster"></div></div><div class="card"><h2>🏀 Takımlara Göre Draftlananlar</h2>
 <select id="teamBoardSelect" onchange="renderTeamBoard()" style="width:100%;margin-bottom:8px"></select>
@@ -1385,7 +1385,7 @@ function draft(id){
 function undo(){if(S.drafted.length&&confirm("Son seçimi geri al?")){S.drafted.pop();clearReplacementEvent();save();all()}}
 function renderDraftOrderTop(){
   const box=document.getElementById("draftOrderTop"); if(!box)return;
-  const current=S.drafted.length+1, start=1, end=224;
+  const current=S.drafted.length+1, start=1, end=192;
   let a=[];
   for(let n=start;n<=end;n++){
     const team=teamAt(n), done=S.drafted.find(x=>x.pick===n);
@@ -1560,7 +1560,7 @@ function renderShellRight(){
  let a=P.filter(p=>!D[p.id]&&p.draft_score!=null).map(p=>({p,market:p.adp==null?35:Math.max(0,Math.min(100,50+(p.adp-(target||n))*4))})).sort((x,y)=>(y.market+y.p.draft_score*.12)-(x.market+x.p.draft_score*.12)).slice(0,6);
  document.getElementById("shellFall").innerHTML=a.map(x=>`<div class="fallRow"><span class="roundTag">R${Math.ceil((target||n)/16)}</span><div class="fallName">${x.p.name}</div><div class="fallMeta">${x.p.team} · ${x.p.favg?.toFixed(1)??"—"} PROJ · ADP ${x.p.adp??"—"}</div></div>`).join("");
  document.getElementById("shellPickCount").textContent=`${S.drafted.length}/192`;
- document.getElementById("shellPicks").innerHTML=S.drafted.length?S.drafted.slice(-10).reverse().map(x=>`<div class="pickRow"><b>#${x.pick}</b> ${x.name}<br><span style="color:#66788b">${x.owner}</span></div>`).join(""):"Henüz seçim yapılmadı.";
+ document.getElementById("shellPicks").innerHTML=S.drafted.length?S.drafted.slice(-10).map(x=>`<div class="pickRow"><b>#${x.pick}</b> ${x.name}<br><span style="color:#66788b">${x.owner}</span></div>`).join(""):"Henüz seçim yapılmadı.";
 }
 function renderShellTrades(){const e=document.getElementById("shellTrades");if(e)e.innerHTML=TRADES.map(t=>`<div class="tradeCard"><div class="tradeDate">${t[0]}</div><div class="tradePlayer">${t[2]}</div><div class="tradeRoute">${t[3]} → <b>${t[1]}</b></div><div class="tradeReturn"><span>Karşılık</span>${t[4]}</div></div>`).join("")}
 function renderShellRookies(){
