@@ -821,7 +821,8 @@ body.intelFull .nftrShell{grid-template-columns:minmax(0,1fr)!important;gap:0!im
 </style><style>/* V1.76: missing external research is blue, mixed consensus remains yellow */
 .consPill.no-data{background:rgba(56,147,255,.18)!important;color:#9bd0ff!important;border:1px solid rgba(110,185,255,.55)!important;font-weight:900!important;}
 .ppIntelHint{color:#9bd0ff;}
-</style></head><body><header><h1>Altıntepe Warriors — NFTR FANTASY — Altıntepe Warriors</h1><div class="themeToggle"><button id="darkBtn" onclick="setTheme('dark')">🌙 Dark</button><button id="lightBtn" onclick="setTheme('light')">☀️ Açık</button></div><div class="sub">Strategy V5 Optimal • FPTS AVG %32 • FPTS Total %33 • Health %10 • Geçen sezon %10 • GP %5 • Rol/Dakika %5 • Outlook Güveni %5 • ADP sadece zamanlama</div></header><nav class="appTabs">
+</style>
+</head><body><header><h1>Altıntepe Warriors — NFTR FANTASY — Altıntepe Warriors</h1><div class="themeToggle"><button id="darkBtn" onclick="setTheme('dark')">🌙 Dark</button><button id="lightBtn" onclick="setTheme('light')">☀️ Açık</button></div><div class="sub">Strategy V5 Optimal • FPTS AVG %32 • FPTS Total %33 • Health %10 • Geçen sezon %10 • GP %5 • Rol/Dakika %5 • Outlook Güveni %5 • ADP sadece zamanlama</div></header><nav class="appTabs">
 <button class="tabBtn active" data-shell="players" onclick="showShell('players',this)">Oyuncular & Projeksiyonlar</button>
 <button class="tabBtn" data-shell="draftroom" onclick="showShell('draftroom',this)">Draft Room</button>
 <button class="tabBtn" data-shell="nbateams" onclick="showShell('nbateams',this)">NBA Kadroları</button>
@@ -1269,7 +1270,62 @@ function renderReplacementAlert(n){
  }).join("");
  box.innerHTML=`<div class="replacementAlert"><div class="replacementHead">⚡ HEDEF GİTTİ — ALTERNATİF HAZIR</div><div class="replacementTaken"><b>${ev.takenName}</b> #${ev.pick}'de ${ev.owner} tarafından alındı. Canlı listemizde #${ev.rank} idi.</div>${cards}</div>`;
 }
+// V1.77: seeded scenario simulator. These are model-based frequencies, NOT calibrated probabilities.
+let draftSimCache=null;
+function simSeeded(seed){return function(){seed=(Math.imul(seed,1664525)+1013904223)|0;return (seed>>>0)/4294967296}}
+function simNextCandidate(pool,pick,rng){
+ // Market preference: ADP and Strategy V5 both contribute; noise models opponent variation.
+ let best=-Infinity,idx=-1;
+ for(let i=0;i<pool.length;i++){
+  const p=pool[i],adp=Number.isFinite(+p.adp)&&p.adp>0&&p.adp!==140?+p.adp:(p.strategy_rank||400);
+  const rank=p.strategy_rank||400;
+  const score=-Math.abs(adp-pick)*.17-rank*.045+(-Math.log(Math.max(1e-9,rng())))*-4;
+  if(score>best){best=score;idx=i}
+ }
+ return idx;
+}
+function simulateDraftSurvival(samples=80){
+ const n=S.drafted.length+1, next=nextOurPickIncludingCurrent(n), later=nextOurPickAfter(next||n);
+ if(!next||next>192)return null;
+ const taken=new Set(S.drafted.map(x=>x.id));
+ const candidates=P.filter(x=>!taken.has(x.id)&&x.draft_score!=null).sort((a,b)=>b.draft_score-a.draft_score).slice(0,75);
+ const targetIds=new Set(candidates.slice(0,30).map(x=>x.id));
+ const hits=new Map([...targetIds].map(id=>[id,0]));
+ for(let k=0;k<samples;k++){
+  const rng=simSeeded(92731+k*7919+n*53),pool=P.filter(x=>!taken.has(x.id)&&x.draft_score!=null);
+  for(let pick=n;pick<next;pick++){
+   if(teamAt(pick)==='Altıntepe Warriors')continue;
+   const idx=simNextCandidate(pool,pick,rng);if(idx>=0)pool.splice(idx,1);
+  }
+  const left=new Set(pool.map(x=>x.id));for(const id of targetIds)if(left.has(id))hits.set(id,hits.get(id)+1);
+ }
+ return {n,next,later,samples,results:candidates.slice(0,30).map(p=>({id:p.id,name:p.name,rate:hits.get(p.id)/samples,score:p.draft_score,adp:p.adp}))};
+}
+// V1.78: background-only scenario signal; never changes intrinsic V5 or the primary decision.
+let draftSimToken=0, draftSimPending=-1;
+function scheduleBackgroundDraftSimulation(){
+ const n=S.drafted.length+1;
+ if(n>192 || (draftSimCache&&draftSimCache.n===n) || draftSimPending===n)return;
+ const token=++draftSimToken;
+ draftSimPending=n;
+ // Yield to the browser before the computation; the live draft UI renders first.
+ setTimeout(()=>{
+  if(token!==draftSimToken || S.drafted.length+1!==n)return;
+  try{draftSimCache=simulateDraftSurvival(80)}catch(err){console.warn('Background simulation unavailable',err);draftSimCache=null}
+  draftSimPending=-1;
+  if(token===draftSimToken && S.drafted.length+1===n)recs();
+ },60);
+}
+function simulationDecisionNote(p,dec,n){
+ const sim=draftSimCache;
+ if(!sim||sim.n!==n||!sim.later||sim.later<=n)return '';
+ const entry=sim.results.find(x=>x.id===p.id);
+ if(!entry)return '';
+ const label=entry.rate<.4?'BEKLEME RİSKLİ':entry.rate>.8?'BEKLEME DEĞERLENDİRİLEBİLİR':'BEKLEME BELİRSİZ';
+ return `<span class="fitpill" title="80 varsayımsal senaryonun ${Math.round(entry.rate*80)} tanesinde oyuncu #${sim.next} seçimine kadar kaldı. Bu gerçek olasılık değildir.">🧪 ${label} · %${Math.round(entry.rate*100)} senaryo</span>`;
+}
 function recs(){
+ if(draftSimCache && draftSimCache.n!==S.drafted.length+1)draftSimCache=null;
  let n=S.drafted.length+1,D=dm(),avail=P.filter(x=>!D[x.id]&&x.draft_score!=null);
  let a=avail.map(p=>({p,e:pickEval(p,n)})).sort((x,y)=>y.e.pickScore-x.e.pickScore);
  if(n===2){let k=a.find(x=>x.p.id==="lukadoncic");if(k)a=[k,...a.filter(x=>x!==k)]}
@@ -1281,7 +1337,7 @@ function recs(){
    const afterThreat=e.th.afterTeams?.length?` • <span class="threat">Arkamızdaki 5 pick: ${e.th.afterTeams.join(", ")}</span>`:"";
    return `<div class="rec ${dec.cls}"><div class="recTop"><b>${i+1}. ${p.name}</b><span class="decisionTag ${dec.cls}">${dec.action}</span><span class="confidenceTag ${conf.cls}">${conf.level}</span></div>
    <div class="mini">Strategy ${p.draft_score.toFixed(1)} • Live Pick ${e.pickScore.toFixed(1)} • FPTS ${p.favg?.toFixed(1)??"-"} • ADP ${p.adp??"-"} • Sonraki seçim #${dec.next??"—"}</div>
-   <div class="fitbar"><span class="fitpill">Kadro ${e.fit>=0?"+":""}${e.fit.toFixed(1)}</span><span class="fitpill">Zamanlama ${e.sv.score>=0?"+":""}${e.sv.score}</span><span class="scarcity">Kıtlık ${e.sc.score>=0?"+":""}${e.sc.score.toFixed(1)} (${e.sc.label})</span><span class="fitpill">±5 Rakip +${e.th.score.toFixed(1)}</span>${e.vf.flag?`<span class="fitpill vf">${e.vf.label}</span>`:""}</div>
+   <div class="fitbar"><span class="fitpill">Kadro ${e.fit>=0?"+":""}${e.fit.toFixed(1)}</span><span class="fitpill">Zamanlama ${e.sv.score>=0?"+":""}${e.sv.score}</span><span class="scarcity">Kıtlık ${e.sc.score>=0?"+":""}${e.sc.score.toFixed(1)} (${e.sc.label})</span><span class="fitpill">±5 Rakip +${e.th.score.toFixed(1)}</span>${e.vf.flag?`<span class="fitpill vf">${e.vf.label}</span>`:""}${simulationDecisionNote(p,dec,n)}</div>
    <div class="why"><b>${dec.action.startsWith("TAKE")?"NEDEN TAKE NOW: ":"NEDEN WAIT: "}</b>${dec.reason} • ${e.reason} • ${e.sv.label}${threat}${afterThreat}</div></div>`
  }).join("")
 }
@@ -1462,18 +1518,20 @@ function draft(id){
  if(!p||n>192)return;
  const before=liveRecommendationSnapshot(n);
  let owner=teamAt(n);
+ draftSimToken++;draftSimPending=-1;draftSimCache=null;
  S.drafted.push({id:p.id,name:p.name,pos:p.pos,pick:n,owner});
  if(owner!=="Altıntepe Warriors") setReplacementEvent(p,n,owner,before);
  else clearReplacementEvent();
  save();
  all();
 }
-function undo(){if(S.drafted.length&&confirm("Son seçimi geri al?")){S.drafted.pop();clearReplacementEvent();save();all()}}
+function undo(){if(S.drafted.length&&confirm("Son seçimi geri al?")){draftSimToken++;draftSimPending=-1;draftSimCache=null;S.drafted.pop();clearReplacementEvent();save();all()}}
 function confirmResetDraft(){
  const modal=document.getElementById("draftResetModal"); if(modal)modal.classList.add("open");
 }
 function closeResetDraft(){document.getElementById("draftResetModal")?.classList.remove("open")}
 function resetDraftConfirmed(){
+ draftSimToken++;draftSimPending=-1;draftSimCache=null;
  S={drafted:[]};
  localStorage.removeItem("AltintepeDraftV1");
  clearReplacementEvent();
@@ -1497,7 +1555,7 @@ function renderDraftOrderTop(){
 }
 
 var shellSortKey="score",shellSortDir="desc",roomClickSortKey="score",roomClickSortDir="desc";
-function all(){status();renderDraftOrderTop();renderDraftBoard();renderNFTRTop();renderMyTeam();recs();side();renderTeamBoard();renderTable();renderShell();renderV19Room()}initTheme();all();
+function all(){status();renderDraftOrderTop();renderDraftBoard();renderNFTRTop();renderMyTeam();recs();side();renderTeamBoard();renderTable();renderShell();renderV19Room();scheduleBackgroundDraftSimulation()}initTheme();all();
 
 renderProjectionPage();
 
