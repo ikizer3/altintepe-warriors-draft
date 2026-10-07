@@ -661,6 +661,90 @@ body.reportFull .standingsTable{
   overflow-y:visible!important;
 }
 </style>
+
+<style>
+/* V1.65 — iPhone / mobile Draft Room responsive layout */
+@media (max-width: 700px){
+  html,body{max-width:100%;overflow-x:hidden!important}
+  header{
+    height:auto!important;min-height:56px!important;padding:8px 10px!important;
+    gap:8px!important;align-items:center!important
+  }
+  header h1{font-size:12px!important;line-height:1.25!important;flex:1!important}
+  .themeToggle{flex:0 0 auto!important}
+  .themeToggle button{padding:6px 8px!important;font-size:9px!important;min-width:0!important}
+
+  .appTabs{
+    height:52px!important;overflow-x:auto!important;overflow-y:hidden!important;
+    flex-wrap:nowrap!important;-webkit-overflow-scrolling:touch!important;
+    padding:7px 8px!important
+  }
+  .tabBtn{flex:0 0 auto!important;height:36px!important;padding:0 11px!important;font-size:9px!important}
+
+  body.dr41 .globalDraftOrderCard{display:none!important}
+
+  body.dr41 .nftrShell{
+    display:block!important;width:100%!important;height:auto!important;
+    min-height:calc(100vh - 108px)!important;padding:7px!important;overflow:visible!important
+  }
+  body.dr41 .centerRail{
+    display:block!important;width:100%!important;overflow:visible!important;
+    border-radius:10px!important
+  }
+  body.dr41 .rightRail{display:none!important}
+  body.dr41 #center-draftroom{
+    display:block!important;width:100%!important;height:auto!important;
+    overflow:visible!important
+  }
+
+  body.dr41 .roomTop{padding:7px!important}
+  body.dr41 .roomOrderCard{padding:10px!important;margin:0!important}
+  body.dr41 .roomOrderCard h2{font-size:13px!important;margin-bottom:7px!important}
+  body.dr41 .roomOrderStrip{
+    display:flex!important;gap:6px!important;overflow-x:auto!important;
+    -webkit-overflow-scrolling:touch!important;padding-bottom:3px!important
+  }
+  body.dr41 .roomOrderStrip .ord{min-width:145px!important}
+
+  body.dr41 .v19room{
+    display:flex!important;flex-direction:column!important;width:100%!important;
+    height:auto!important;overflow:visible!important;padding:0 7px 10px!important;gap:8px!important
+  }
+  body.dr41 .v19side{
+    width:100%!important;overflow:visible!important;margin:0!important;padding:0!important
+  }
+  body.dr41 .v19side .card{margin:0 0 8px!important;padding:10px!important}
+  body.dr41 .v19side .pick{font-size:29px!important}
+  body.dr41 .v19side .kpis{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:6px!important}
+  body.dr41 .v19side .k{padding:9px 6px!important}
+  body.dr41 .v19side .k b{font-size:18px!important}
+
+  body.dr41 .v19main{
+    width:100%!important;min-width:0!important;overflow:hidden!important;order:2!important
+  }
+  body.dr41 .v19main .controls{
+    display:grid!important;grid-template-columns:1fr 1fr!important;gap:6px!important;padding:8px!important
+  }
+  body.dr41 .v19main .controls input{grid-column:1/-1!important;width:100%!important;min-width:0!important}
+  body.dr41 .v19main .controls select{width:100%!important;min-width:0!important}
+  body.dr41 .v19main .controls label{grid-column:1/-1!important}
+
+  /* On phones the data table should scroll inside its own card, not break page width. */
+  body.dr41 .v19table{
+    width:100%!important;max-width:100%!important;overflow-x:auto!important;
+    overflow-y:visible!important;-webkit-overflow-scrolling:touch!important
+  }
+  body.dr41 .v19table table{
+    width:max-content!important;min-width:1050px!important;table-layout:auto!important
+  }
+  body.dr41 .v19table th,body.dr41 .v19table td{font-size:9px!important;padding:7px 5px!important}
+  body.dr41 .v19table td:nth-child(2){min-width:125px!important}
+  body.dr41 .v19table td:nth-child(13){min-width:190px!important}
+
+  /* Team/History cards remain below PICK NOW instead of creating a second column. */
+  body.dr41 .v13TeamCard,body.dr41 .v19side .card:last-child{width:100%!important}
+}
+</style>
 </head><body><header><h1>Altıntepe Warriors — NFTR FANTASY — Altıntepe Warriors</h1><div class="themeToggle"><button id="darkBtn" onclick="setTheme('dark')">🌙 Dark</button><button id="lightBtn" onclick="setTheme('light')">☀️ Açık</button></div><div class="sub">Strategy V4 • FPTS AVG %50 • FPTS Total %15 • Health %10 • Geçen sezon %10 • GP %5 • Rol/Dakika %5 • Outlook Güveni %5 • ADP sadece zamanlama</div></header><nav class="appTabs">
 <button class="tabBtn active" data-shell="players" onclick="showShell('players',this)">Oyuncular & Projeksiyonlar</button>
 <button class="tabBtn" data-shell="draftroom" onclick="showShell('draftroom',this)">Draft Room</button>
@@ -670,7 +754,7 @@ body.reportFull .standingsTable{
 <button class="tabBtn" data-shell="board" onclick="showShell('board',this)">Draft Board</button>
 <button class="tabBtn" data-shell="report" onclick="showShell('report',this)">Draft Raporu</button>
 </nav>
-<div class="card" style="margin:12px 16px 0 16px;padding:12px 14px">
+<div class="card globalDraftOrderCard" style="margin:12px 16px 0 16px;padding:12px 14px">
   <h2 style="margin-bottom:8px">🏀 Draft Sırası — Şu An Kimde?</h2>
   <div id="draftOrderTop" style="display:flex;gap:8px;overflow-x:auto;padding-bottom:4px"></div>
 </div>
@@ -763,7 +847,7 @@ body.reportFull .standingsTable{
 <select id="teamBoardSelect" onchange="renderTeamBoard()" style="width:100%;margin-bottom:8px"></select>
 <div id="teamBoard"></div></div>
 <div class="card"><h2>Son Seçimler</h2><div id="history"></div><button class="danger" onclick="undo()">Son seçimi geri al</button></div>
-<div class="card note"><b>V1.64:</b> DRAFT butonuna basınca oyuncu mevcut snake draft sırasındaki takıma otomatik gider; takım seçme penceresi yoktur. Draft edilen oyuncu havuzdan çıkar. Her takımın oyuncuları otomatik roster slotlarına yerleşir: önce ana pozisyon, sonra uygun flex (G / SG-SF / PF-C), sonra UTIL ve Bench. Sıra snake olarak otomatik ilerler. #2 Luka kilitlidir. Strategy Score V4 oyuncu değeridir. FPTS AVG ve Total gerçek puan farkını korur. Health skoru GP'den ayrıştırılmıştır; GP ayrıca %5'tir. Outlook Güveni rol/rotasyon belirsizliğini kontrol eder. ADP Strategy Score'a girmez; yalnızca TAKE NOW / WAIT zamanlamasında kullanılır. Sıra Altıntepe Warriors'tan tam bir pick önceki takıma geldiğinde bizim sıradaki kartımız sarı-kırmızı yanıp söner. PICK NOW V2: rakip roster ihtiyacını yalnızca ilgili Altıntepe pickinin önündeki 5 ve arkasındaki 5 pick için risk sinyali olarak inceler; ADP/survival hesabı ise bir sonraki gerçek Altıntepe pickine kadar çalışmaya devam eder; pozisyon havuzundaki kaliteli alternatiflerin sayısına göre kıtlık/replacement sinyali üretir; ADP veya Strategy sırasına göre olağan dışı düşen oyuncularda VALUE FALL alarmı verir. Bunlar tahmin sinyalidir, kesin rakip seçimi iddiası değildir. Roster-Aware PICK NOW motoru Strategy V4'ü değiştirmez; ayrı Live Pick katmanında kadro ihtiyacı, pozisyon esnekliği ve bir sonraki Altıntepe pickine kalma riskini değerlendirir. Erken turlarda BPA/Strategy ağırlığı korunur, kadro ihtiyacının etkisi ilerleyen turlarda artar. Tablo başlıkları tıklanarak yüksekten düşüğe sıralanır. Altıntepe Warriors draft sırasında sarı-kırmızı vurgulanır. Dark/Açık tema seçimi saklanır. Tarayıcı seçimleri localStorage'da saklar.</div>
+<div class="card note"><b>V1.65:</b> DRAFT butonuna basınca oyuncu mevcut snake draft sırasındaki takıma otomatik gider; takım seçme penceresi yoktur. Draft edilen oyuncu havuzdan çıkar. Her takımın oyuncuları otomatik roster slotlarına yerleşir: önce ana pozisyon, sonra uygun flex (G / SG-SF / PF-C), sonra UTIL ve Bench. Sıra snake olarak otomatik ilerler. #2 Luka kilitlidir. Strategy Score V4 oyuncu değeridir. FPTS AVG ve Total gerçek puan farkını korur. Health skoru GP'den ayrıştırılmıştır; GP ayrıca %5'tir. Outlook Güveni rol/rotasyon belirsizliğini kontrol eder. ADP Strategy Score'a girmez; yalnızca TAKE NOW / WAIT zamanlamasında kullanılır. Sıra Altıntepe Warriors'tan tam bir pick önceki takıma geldiğinde bizim sıradaki kartımız sarı-kırmızı yanıp söner. PICK NOW V2: rakip roster ihtiyacını yalnızca ilgili Altıntepe pickinin önündeki 5 ve arkasındaki 5 pick için risk sinyali olarak inceler; ADP/survival hesabı ise bir sonraki gerçek Altıntepe pickine kadar çalışmaya devam eder; pozisyon havuzundaki kaliteli alternatiflerin sayısına göre kıtlık/replacement sinyali üretir; ADP veya Strategy sırasına göre olağan dışı düşen oyuncularda VALUE FALL alarmı verir. Bunlar tahmin sinyalidir, kesin rakip seçimi iddiası değildir. Roster-Aware PICK NOW motoru Strategy V4'ü değiştirmez; ayrı Live Pick katmanında kadro ihtiyacı, pozisyon esnekliği ve bir sonraki Altıntepe pickine kalma riskini değerlendirir. Erken turlarda BPA/Strategy ağırlığı korunur, kadro ihtiyacının etkisi ilerleyen turlarda artar. Tablo başlıkları tıklanarak yüksekten düşüğe sıralanır. Altıntepe Warriors draft sırasında sarı-kırmızı vurgulanır. Dark/Açık tema seçimi saklanır. Tarayıcı seçimleri localStorage'da saklar.</div>
 </aside><main class="card">
 <div class="controls"><input id="q" placeholder="Oyuncu / takım ara" oninput="renderTable()"><select id="pos" onchange="renderTable()"><option value="">Tüm pozisyonlar</option><option>PG</option><option>SG</option><option>SF</option><option>PF</option><option>C</option></select><select id="sort" onchange="tableSortKey=this.value;tableSortDir='desc';renderTable()"><option value="score">Strategy Score</option><option value="favg">FPTS</option><option value="min">Projected MIN</option><option value="gp">Projected GP</option><option value="adp">ADP</option><option value="davg">FPTS FARK</option></select><label class="mini"><input type="checkbox" id="show" onchange="renderTable()"> Draft edilenleri göster</label></div>
 <div style="overflow:auto;max-height:calc(100vh - 130px)"><table><thead><tr><th>#</th><th>Oyuncu</th><th>Pos</th><th>NBA</th><th class="num sortable active" data-sort="score" onclick="sortBy('score')">STRATEGY SCORE ↕</th><th class="num sortable" data-sort="total" onclick="sortBy('total')">FPTS ↕</th><th class="num sortable" data-sort="favg" onclick="sortBy('favg')">FPTS AVG ↕</th><th class="num sortable" data-sort="min" onclick="sortBy('min')">MIN ↕</th><th class="num sortable" data-sort="gp" onclick="sortBy('gp')">GP ↕</th><th class="num sortable" data-sort="adp" onclick="sortBy('adp')">ADP ↕</th><th class="num sortable" data-sort="davg" onclick="sortBy('davg')">FPTS FARK ↕</th><th>Health</th><th>Outlook</th><th></th></tr></thead><tbody id="body"></tbody></table></div>
