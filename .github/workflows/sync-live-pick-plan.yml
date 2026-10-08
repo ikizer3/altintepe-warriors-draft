@@ -1,0 +1,61 @@
+name: Sync Live V5 Pick Plan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: altintepe-live-pick-plan
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and validate live recommendations
+        run: |
+          python3 - <<'PY'
+          import json
+          import pathlib
+          import urllib.request
+
+          url = 'https://altintepe-live-draft.kaanikizer3.workers.dev/recommendations/altintepe-2026-27'
+          request = urllib.request.Request(url, headers={'User-Agent': 'Altintepe-Live-Sync/1.0', 'Cache-Control': 'no-cache'})
+          with urllib.request.urlopen(request, timeout=20) as response:
+              data = json.load(response)
+
+          if data.get('draftId') != 'altintepe-2026-27':
+              raise SystemExit('Draft ID mismatch')
+          if type(data.get('revision')) is not int:
+              raise SystemExit('Invalid revision')
+          if data.get('sourceModelVersion') != 'V1.92 / Strategy V5 Optimal':
+              raise SystemExit('Strategy mismatch')
+          if not isinstance(data.get('topThree'), list) or len(data['topThree']) != 3:
+              raise SystemExit('Invalid top-three recommendations')
+
+          path = pathlib.Path('live/pick-plan.json')
+          path.parent.mkdir(parents=True, exist_ok=True)
+          if path.exists():
+              previous = json.loads(path.read_text(encoding='utf-8'))
+              if data['revision'] < previous.get('revision', -1):
+                  raise SystemExit('Refusing revision rollback')
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('Validated draft revision:', data['revision'])
+          PY
+      - name: Commit only changed snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add live/pick-plan.json
+          if git diff --cached --quiet; then
+            echo 'Snapshot unchanged'
+          else
+            git commit -m 'chore: sync live V5 pick plan'
+            git push
+          fi
