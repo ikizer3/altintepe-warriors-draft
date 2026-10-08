@@ -1347,7 +1347,9 @@ function simNextCandidate(pool,pick,rng){
  return idx;
 }
 function simulateDraftSurvival(samples=80){
- const n=S.drafted.length+1, next=nextOurPickIncludingCurrent(n), later=nextOurPickAfter(next||n);
+ const n=S.drafted.length+1;
+ const next=teamAt(n)==='Altıntepe Warriors'?nextOurPickAfter(n):nextOurPickIncludingCurrent(n);
+ const later=next?nextOurPickAfter(next):null;
  if(!next||next>192)return null;
  const taken=new Set(S.drafted.map(x=>x.id));
  const candidates=P.filter(x=>!taken.has(x.id)&&x.draft_score!=null).sort((a,b)=>b.draft_score-a.draft_score).slice(0,75);
@@ -1375,16 +1377,21 @@ function scheduleBackgroundDraftSimulation(){
   if(token!==draftSimToken || S.drafted.length+1!==n)return;
   try{draftSimCache=simulateDraftSurvival(80)}catch(err){console.warn('Background simulation unavailable',err);draftSimCache=null}
   draftSimPending=-1;
-  if(token===draftSimToken && S.drafted.length+1===n){recs();renderDraftDecisionSummary(n)}
+  if(token===draftSimToken && S.drafted.length+1===n){
+   recs();renderDraftDecisionSummary(n);
+   // Keep the visible Draft Room cards synchronized with completed scenario results.
+   const room=document.getElementById('roomRecs'),source=document.getElementById('recs');
+   if(room&&source)room.innerHTML=source.innerHTML;
+  }
  },60);
 }
 function simulationDecisionNote(p,dec,n){
  const sim=draftSimCache;
- if(!sim||sim.n!==n||!sim.later||sim.later<=n)return '';
+ if(!sim||sim.n!==n||!sim.next||sim.next<=n)return '';
  const entry=sim.results.find(x=>x.id===p.id);
  if(!entry)return '';
  const label=entry.rate<.4?'BEKLEME RİSKLİ':entry.rate>.8?'BEKLEME DEĞERLENDİRİLEBİLİR':'BEKLEME BELİRSİZ';
- return `<span class="fitpill" title="80 varsayımsal senaryonun ${Math.round(entry.rate*80)} tanesinde oyuncu #${sim.next} seçimine kadar kaldı. Bu gerçek olasılık değildir.">🧪 ${label} · %${Math.round(entry.rate*100)} senaryo</span>`;
+ return `<span class="fitpill" title="${sim.samples} varsayımsal senaryonun ${Math.round(entry.rate*sim.samples)} tanesinde oyuncu #${sim.next} seçimine kadar kaldı. Bu gerçek olasılık değildir.">🧪 ${label} · %${Math.round(entry.rate*100)} senaryo</span>`;
 }
 // V1.82 — always-visible paired-pick guidance from pick #3; old summary cards removed.
 // V1.80 — contextual opponent tendencies and paired-pick guidance. V5 remains unchanged.
