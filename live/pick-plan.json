@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 2,
+  "draftId": "altintepe-2026-27",
+  "revision": 22,
+  "lastSuccessfulUpdateUTC": "2026-10-08T15:02:35.392Z",
+  "modelSourceSHA256": "378df1036c80767a4c030e5b13fa936ed4cfc6663438492e46bb6d7b4cb15477",
+  "sourceModelVersion": "V1.92 / Strategy V5 Optimal",
+  "currentPick": 1,
+  "nextOwnPick": 2,
+  "nextSurvivalTarget": 2,
+  "topThree": [
+    {
+      "id": "nikolajokic",
+      "name": "Nikola Jokic",
+      "pos": "C",
+      "team": "DEN",
+      "v5": 96.96,
+      "livePickScore": 105.1725,
+      "projectedAverage": 50.6,
+      "projectedTotal": 3641.8,
+      "adp": 1.5,
+      "decision": {
+        "action": "TAKE NOW",
+        "cls": "takeNow",
+        "risk": 6.5,
+        "next": 2,
+        "gap": 1,
+        "reason": "ADP 1.5 şu anki markette • 1 yakın rakip pozisyon tehdidi • 80 senaryo: 59/80, #2'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
+        "fallbackAction": "TAKE NOW",
+        "simulationRate": 0.7375,
+        "simulation": {
+          "id": "nikolajokic",
+          "name": "Nikola Jokic",
+          "hits": 59,
+          "rate": 0.7375,
+          "score": 96.96,
+          "adp": 1.5,
+          "next": 2,
+          "samples": 80,
+          "band": "medium"
+        },
+        "simulationInfluenced": false
+      },
+      "confidence": {
+        "level": "ORTA GÜVEN",
+        "cls": "confMed",
+        "completeness": 1,
+        "clarity": 1
+      },
+      "rosterFit": {
+        "score": 3.15,
+        "reason": "boş C slotu • flex PF/C"
+      },
+      "scarcity": {
+        "score": 1.75,
+        "label": "C çok kıt",
+        "count": 1
+      },
+      "vorp": {
+        "pos": "C",
+        "delta": 20.6
+      }
+    },
+    {
+      "id": "shaigilgeousalexander",
+      "name": "Shai Gilgeous-Alexander",
+      "pos": "PG",
+      "team": "OKC",
+      "v5": 87.67,
+      "livePickScore": 95.88250000000001,
+      "projectedAverage": 42.9,
+      "projectedTotal": 3261.1,
+      "adp": 3,
+      "decision": {
+        "action": "TAKE NOW",
+        "cls": "takeNow",
+        "risk": 6.5,
+        "next": 2,
+        "gap": 1,
+        "reason": "ADP 3 şu anki markette • 1 yakın rakip pozisyon tehdidi • 80 senaryo: 59/80, #2'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
+        "fallbackAction": "TAKE NOW",
+        "simulationRate": 0.7375,
+        "simulation": {
+          "id": "shaigilgeousalexander",
+          "name": "Shai Gilgeous-Alexander",
+          "hits": 59,
+          "rate": 0.7375,
+          "score": 87.67,
+          "adp": 3,
+          "next": 2,
+          "samples": 80,
+          "band": "medium"
+        },
+        "simulationInfluenced": false
+      },
+      "confidence": {
+        "level": "ORTA GÜVEN",
+        "cls": "confMed",
+        "completeness": 1,
+        "clarity": 1
+      },
+      "rosterFit": {
+        "score": 3.15,
+        "reason": "boş PG slotu • flex G"
+      },
+      "scarcity": {
+        "score": 1.75,
+        "label": "PG çok kıt",
+        "count": 2
+      },
+      "vorp": {
+        "pos": "PG",
+        "delta": 10.5
+      }
+    },
+    {
+      "id": "lukadoncic",
+      "name": "Luka Doncic",
+      "pos": "PG",
+      "team": "LAL",
+      "v5": 87.36,
+      "livePickScore": 95.4675,
+      "projectedAverage": 46.7,
+      "projectedTotal": 3174.6,
+      "adp": 3.6,
+      "decision": {
+        "action": "TAKE NOW",
+        "cls": "takeNow",
+        "risk": 6.5,
+        "next": 2,
+        "gap": 1,
+        "reason": "ADP 3.6 şu anki markette • 1 yakın rakip pozisyon tehdidi • 80 senaryo: 80/80, #2'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
+        "fallbackAction": "TAKE NOW",
+        "simulationRate": 1,
+        "simulation": {
+          "id": "lukadoncic",
+          "name": "Luka Doncic",
+          "hits": 80,
+          "rate": 1,
+          "score": 87.36,
+          "adp": 3.6,
+          "next": 2,
+          "samples": 80,
+          "band": "high"
+        },
+        "simulationInfluenced": false
+      },
+      "confidence": {
+        "level": "ORTA GÜVEN",
+        "cls": "confMed",
+        "completeness": 1,
+        "clarity": 1
+      },
+      "rosterFit": {
+        "score": 3.15,
+        "reason": "boş PG slotu • flex G"
+      },
+      "scarcity": {
+        "score": 1.75,
+        "label": "PG çok kıt",
+        "count": 2
+      },
+      "vorp": {
+        "pos": "PG",
+        "delta": 14.300000000000004
+      }
+    }
+  ],
+  "pairAdviceHtml": "",
+  "simulation": {
+    "engine": "next-pick-survival",
+    "samples": 80,
+    "next": 2,
+    "results": [
+      {
+        "id": "nikolajokic",
+        "name": "Nikola Jokic",
+        "hits": 59,
+        "rate": 0.7375,
+        "score": 96.96,
+        "adp": 1.5
+      },
+      {
+        "id": "shaigilgeousalexander",
+        "name": "Shai Gilgeous-Alexander",
+        "hits": 59,
+        "rate": 0.7375,
+        "score": 87.67,
+        "adp": 3
+      },
+      {
+        "id": "lukadoncic",
+        "name": "Luka Doncic",
+        "hits": 80,
+        "rate": 1,
+        "score": 87.36,
+        "adp": 3.6
+      },
+      {
+        "id": "giannisantetokounmpo",
+        "name": "Giannis Antetokounmpo",
+        "hits": 72,
+        "rate": 0.9,
+        "score": 82.49,
+        "adp": 5.7
+      },
+      {
+        "id": "victorwembanyama",
+        "name": "Victor Wembanyama",
+        "hits": 67,
+        "rate": 0.8375,
+        "score": 81.15,
+        "adp": 3.1
+      },
+      {
+        "id": "jalenjohnson",
+        "name": "Jalen Johnson",
+        "hits": 75,
+        "rate": 0.9375,
+        "score": 80.98,
+        "adp": 8.7
+      },
+      {
+        "id": "cadecunningham",
+        "name": "Cade Cunningham",
+        "hits": 77,
+        "rate": 0.9625,
+        "score": 78.59,
+        "adp": 8.1
+      },
+      {
+        "id": "anthonyedwards",
+        "name": "Anthony Edwards",
+        "hits": 74,
+        "rate": 0.925,
+        "score": 78.45,
+        "adp": 7.2
+      },
+      {
+        "id": "jaysontatum",
+        "name": "Jayson Tatum",
+        "hits": 77,
+        "rate": 0.9625,
+        "score": 77.38,
+        "adp": 9.2
+      },
+      {
+        "id": "donovanmitchell",
+        "name": "Donovan Mitchell",
+        "hits": 80,
+        "rate": 1,
+        "score": 76.74,
+        "adp": 11.2
+      },
+      {
+        "id": "jalenbrunson",
+        "name": "Jalen Brunson",
+        "hits": 80,
+        "rate": 1,
+        "score": 75.94,
+        "adp": 13.1
+      },
+      {
+        "id": "devinbooker",
+        "name": "Devin Booker",
+        "hits": 80,
+        "rate": 1,
+        "score": 74.81,
+        "adp": 21.2
+      },
+      {
+        "id": "jamesharden",
+        "name": "James Harden",
+        "hits": 80,
+        "rate": 1,
+        "score": 74.08,
+        "adp": 28.2
+      },
+      {
+        "id": "joshgiddey",
+        "name": "Josh Giddey",
+        "hits": 80,
+        "rate": 1,
+        "score": 73.9,
+        "adp": 23.2
+      },
+      {
+        "id": "domantassabonis",
+        "name": "Domantas Sabonis",
+        "hits": 80,
+        "rate": 1,
+        "score": 73.26,
+        "adp": 16.9
+      },
+      {
+        "id": "karlanthonytowns",
+        "name": "Karl-Anthony Towns",
+        "hits": 80,
+        "rate": 1,
+        "score": 73.25,
+        "adp": 21
+      },
+      {
+        "id": "kevindurant",
+        "name": "Kevin Durant",
+        "hits": 80,
+        "rate": 1,
+        "score": 73.18,
+        "adp": 19.5
+      },
+      {
+        "id": "traeyoung",
+        "name": "Trae Young",
+        "hits": 80,
+        "rate": 1,
+        "score": 73.07,
+        "adp": 22.8
+      },
+      {
+        "id": "tyresemaxey",
+        "name": "Tyrese Maxey",
+        "hits": 80,
+        "rate": 1,
+        "score": 72.92,
+        "adp": 12.8
+      },
+      {
+        "id": "scottiebarnes",
+        "name": "Scottie Barnes",
+        "hits": 80,
+        "rate": 1,
+        "score": 72.11,
+        "adp": 16.1
+      },
+      {
+        "id": "pascalsiakam",
+        "name": "Pascal Siakam",
+        "hits": 80,
+        "rate": 1,
+        "score": 71.82,
+        "adp": 30.4
+      },
+      {
+        "id": "alperensengun",
+        "name": "Alperen Sengun",
+        "hits": 80,
+        "rate": 1,
+        "score": 71.76,
+        "adp": 24.2
+      },
+      {
+        "id": "amenthompson",
+        "name": "Amen Thompson",
+        "hits": 80,
+        "rate": 1,
+        "score": 71.61,
+        "adp": 20.2
+      },
+      {
+        "id": "deniavdija",
+        "name": "Deni Avdija",
+        "hits": 80,
+        "rate": 1,
+        "score": 71.35,
+        "adp": 35.1
+      },
+      {
+        "id": "cooperflagg",
+        "name": "Cooper Flagg",
+        "hits": 80,
+        "rate": 1,
+        "score": 71.14,
+        "adp": 17.3
+      },
+      {
+        "id": "lameloball",
+        "name": "LaMelo Ball",
+        "hits": 80,
+        "rate": 1,
+        "score": 71.01,
+        "adp": 25.7
+      },
+      {
+        "id": "jamalmurray",
+        "name": "Jamal Murray",
+        "hits": 80,
+        "rate": 1,
+        "score": 70.58,
+        "adp": 32.6
+      },
+      {
+        "id": "bamadebayo",
+        "name": "Bam Adebayo",
+        "hits": 80,
+        "rate": 1,
+        "score": 70.13,
+        "adp": 28.9
+      },
+      {
+        "id": "jalenduren",
+        "name": "Jalen Duren",
+        "hits": 80,
+        "rate": 1,
+        "score": 68.97,
+        "adp": 33.6
+      },
+      {
+        "id": "stephencurry",
+        "name": "Stephen Curry",
+        "hits": 80,
+        "rate": 1,
+        "score": 68.6,
+        "adp": 28.2
+      }
+    ]
+  },
+  "missingScores": 276,
+  "assumption": "Model frequencies, not calibrated probabilities; existing V5 unchanged.",
+  "calculatedAtUTC": "2026-10-08T17:52:54.635Z"
+}
