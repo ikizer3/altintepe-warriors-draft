@@ -27,6 +27,21 @@ body.pickplanFull .pickPlanCards{padding-bottom:40px!important}
 .pickPlanSummary{display:flex;gap:8px;flex-wrap:wrap;padding:10px 12px}.ppKpi{border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:rgba(255,255,255,.02)}.ppKpi b{display:block;font-size:15px}.ppKpi span{font-size:7px;color:var(--muted);font-weight:900}
 .pickPlanCards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:0 12px 14px}.ppCard{border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.02);overflow:hidden}.ppCard.current{border-color:var(--gold);box-shadow:0 0 0 1px rgba(242,201,76,.2)}.ppCard.done{opacity:.68}.ppHead{display:flex;justify-content:space-between;gap:10px;padding:11px 12px;border-bottom:1px solid var(--line)}.ppPick{font-size:17px;font-weight:950;color:var(--gold)}.ppRound{font-size:8px;color:var(--muted);font-weight:900}.ppAction{font-size:8px;font-weight:950;padding:5px 7px;border-radius:999px;background:rgba(242,201,76,.12);color:var(--gold);height:max-content}.ppBody{padding:10px 12px}.ppApproach{font-size:10px;font-weight:900;margin-bottom:5px}.ppLogic{font-size:8px;color:var(--muted);line-height:1.45;margin-bottom:9px}.ppMeta{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:9px}.ppMeta span{font-size:7px;border:1px solid var(--line);border-radius:999px;padding:4px 6px;color:var(--muted)}.ppTable{overflow:auto}.ppTable table{width:100%;min-width:760px}.ppTable th{font-size:7px}.ppTable td{font-size:8px}.ppPlayer{border:0;background:none;color:var(--text);font:inherit;font-weight:900;cursor:pointer;padding:0;text-align:left}.ppPlayer:hover{color:var(--gold)}.ppIntelHint{font-size:7px;color:var(--muted);margin-top:4px;line-height:1.3}.ppV5{font-weight:950;color:var(--gold)}.ppDrafted{text-decoration:line-through;color:var(--muted)}.ppStatus{font-size:7px;font-weight:900}.ppStatus.gone{color:#ff7777}.ppStatus.live{color:#43db94}.ppOutlook{max-width:320px;color:var(--muted);line-height:1.35}.ppEmpty{padding:10px;color:var(--muted);font-size:8px}
 @media(max-width:900px){.pickPlanCards{grid-template-columns:1fr}.pickPlanLegend{flex-wrap:nowrap;overflow-x:auto}.pickPlanLegend span{white-space:nowrap}}
+/* V1.89: reclaim only the removed Players sidebar; other pages keep their rails. */
+body.playersFull .nftrShell{grid-template-columns:200px minmax(0,1fr)}
+body.playersFull .rightRail{display:none}
+body.playersFull .centerRail{min-width:0}
+@media(max-width:950px){
+ body.playersFull{height:auto;overflow-y:auto}
+ body.playersFull .nftrShell{display:block;height:auto;overflow:visible}
+ body.playersFull .leftRail{max-height:280px;margin-bottom:8px}
+ body.playersFull .centerRail{width:100%;min-width:0}
+ body.playersFull .projToolbar{display:grid;grid-template-columns:1fr 1fr}
+ body.playersFull .projToolbar input{grid-column:1/-1;width:100%;min-width:0}
+ body.playersFull .projToolbar select{width:100%;min-width:0}
+ body.playersFull .centerTable{max-height:70vh;overflow:auto}
+}
+.shellPlayerInfo{background:none;border:0;padding:0;color:var(--text);font:inherit;font-weight:900;text-align:left;cursor:pointer}.shellPlayerInfo:hover,.shellPlayerInfo:focus-visible{color:var(--gold);text-decoration:underline}.shellPlayerInfo:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 </style>
 <style>
 #draftOrderTop .ord{min-width:165px;border:1px solid #2b3444;border-radius:9px;padding:8px 10px;background:#111827}
@@ -836,7 +851,7 @@ body.intelFull #center-intel .ixFold > summary{padding:12px;cursor:pointer;font-
 body.intelFull #center-intel .ixFold:not([open]) .ixPanel{display:none;}
 body.intelFull #center-intel .ixFold .ixTable{max-height:420px;overflow:auto!important;}
 @media(max-width:950px){body.intelFull .nftrShell{overflow:hidden!important;}body.intelFull .centerRail{min-height:0!important;}}
-</style></head><body><header><h1>Altıntepe Warriors — NFTR FANTASY — Altıntepe Warriors</h1><div class="themeToggle"><button id="darkBtn" onclick="setTheme('dark')">🌙 Dark</button><button id="lightBtn" onclick="setTheme('light')">☀️ Açık</button></div><div class="sub">Strategy V5 Optimal • FPTS AVG %32 • FPTS Total %33 • Health %10 • Geçen sezon %10 • GP %5 • Rol/Dakika %5 • Outlook Güveni %5 • ADP sadece zamanlama</div></header><nav class="appTabs">
+</style></head><body class="playersFull"><header><h1>Altıntepe Warriors — NFTR FANTASY — Altıntepe Warriors</h1><div class="themeToggle"><button id="darkBtn" onclick="setTheme('dark')">🌙 Dark</button><button id="lightBtn" onclick="setTheme('light')">☀️ Açık</button></div><div class="sub">Strategy V5 Optimal • FPTS AVG %32 • FPTS Total %33 • Health %10 • Geçen sezon %10 • GP %5 • Rol/Dakika %5 • Outlook Güveni %5 • ADP sadece zamanlama</div></header><nav class="appTabs">
 <button class="tabBtn active" data-shell="players" onclick="showShell('players',this)">Oyuncular & Projeksiyonlar</button>
 <button class="tabBtn" data-shell="draftroom" onclick="showShell('draftroom',this)">Draft Room</button>
 <button class="tabBtn" data-shell="nbateams" onclick="showShell('nbateams',this)">NBA Kadroları</button>
@@ -862,7 +877,7 @@ body.intelFull #center-intel .ixFold .ixTable{max-height:420px;overflow:auto!imp
  <main class="shellPanel centerRail">
   <div id="center-players" class="centerPage active">
    <div class="centerHead"><h2>Oyuncular &amp; Projeksiyonlar</h2><div class="desc">25–26 FPTS · 26–27 PROJ · Fark · TOTAL · Strategy V5 Optimal · <b style="color:#43db94">Draft Room ile canlı senkron</b></div></div>
-   <div class="projToolbar"><input id="shellSearch" placeholder="⌕  Oyuncu ara..." oninput="renderShellPlayers()"><select id="shellPos" onchange="renderShellPlayers()"><option value="">Tüm pozisyonlar</option><option>PG</option><option>SG</option><option>SF</option><option>PF</option><option>C</option></select><select id="shellTeam" onchange="renderShellPlayers()"><option value="">Tüm NBA takımları</option></select><select id="shellProj" onchange="renderShellPlayers()"><option value="strategy">Strategy V5 Optimal</option><option value="favg">Proj FPTS</option><option value="ftot">Projected Total</option><option value="adp">ADP</option></select><button onclick="resetShellFilters()">↻</button></div>
+   <div class="projToolbar"><input id="shellSearch" placeholder="⌕  Oyuncu ara..." oninput="renderShellPlayers()"><select id="shellPos" onchange="renderShellPlayers()"><option value="">Tüm pozisyonlar</option><option>PG</option><option>SG</option><option>SF</option><option>PF</option><option>C</option></select><select id="shellTeam" onchange="renderShellPlayers()"><option value="">Tüm NBA takımları</option></select><select id="shellProj" onchange="shellProjectionChanged()"><option value="strategy">Strategy V5 Optimal</option><option value="favg">Proj FPTS</option><option value="ftot">Projected Total</option><option value="adp">ADP</option></select><button onclick="resetShellFilters()">↻</button></div>
    <div class="centerTable"><table><thead><tr><th>RK</th><th>Oyuncu</th><th></th><th class="sortable" onclick="shellSortBy('favg',this)">PROJ FPTS ↕</th><th class="sortable" onclick="shellSortBy('actual',this)">FPTS ↕</th><th class="sortable" onclick="shellSortBy('davg',this)">FPTS FARK ↕</th><th class="sortable" onclick="shellSortBy('total',this)">TOTAL ↕</th><th class="sortable" onclick="shellSortBy('gp',this)">GP ↕</th><th class="sortable" onclick="shellSortBy('min',this)">MIN ↕</th><th class="sortable" onclick="shellSortBy('adp',this)">ADP ↕</th><th class="sortable active" onclick="shellSortBy('score',this)">STRATEGY SCORE ↕</th></tr></thead><tbody id="shellPlayersBody"></tbody></table></div>
   </div>
 
@@ -914,7 +929,7 @@ body.intelFull #center-intel .ixFold .ixTable{max-height:420px;overflow:auto!imp
 <div id="center-pickplan" class="centerPage">
  <div class="centerHead"><h2>🎯 Pick Plan</h2><div class="desc">Master Excel Pick Plan + Pick Targets · adaylar Strategy V5 sırasına göre yeniden sıralanır · draft ilerledikçe seçilen oyuncular otomatik işaretlenir</div></div>
  <div class="pickPlanLegend"><span><b>V5 SIRA</b> ana oyuncu değer sıramız</span><span><b>HEDEF ARALIĞI</b> o seçim için izlenecek Strategy bandı</span><span><b>ŞİMDİ AL</b> bir sonraki seçimimize kalma riski yüksek adayı öne çıkar</span><span><b>ÇİFTİN 2. SEÇİMİ</b> ilk seçimden sonra kalan en güçlü V5 adayını al</span></div>
- <div id="pickPlanSummary" class="pickPlanSummary"></div>
+ <div class="nftrPanel" style="margin:12px 0"><div class="nftrTitle">🎲 192 Seçimlik Mock Draft · A/B/C Planı</div><p class="mini">100 bağımsız model senaryosu; ADP + V5 sıralaması kullanılır. Rakiplerin gerçek davranışı veya kesin kalma olasılığı değildir. Gerçek draft kayıtlarını değiştirmez.</p><button class="primary" onclick="runFullMockDraft()">100 tam draft simülasyonu çalıştır</button><div id="fullMockResults" class="mini" style="margin-top:10px">Henüz çalıştırılmadı.</div></div><div id="pickPlanSummary" class="pickPlanSummary"></div>
  <div id="pickPlanCards" class="pickPlanCards"></div>
  <div class="redditFoot">⚠ Pick Targets sekmesindeki eski V4 öncelik numaraları kullanılmaz. Bu ekran adayları mevcut Strategy V5 sırası ve puanına göre sıralar; ADP yalnızca seçim zamanlaması bağlamıdır.</div>
 </div>
@@ -978,7 +993,7 @@ body.intelFull #center-intel .ixFold .ixTable{max-height:420px;overflow:auto!imp
 
  </main>
  <aside class="rightRail">
-   <div class="sideCard grow"><div class="sideTitle">🛩 Sırana Kalabilir</div><div id="shellFallSub" class="sideSub"></div><div id="shellFall"></div></div>
+   <div style="display:none" aria-hidden="true"><div id="shellFallSub"></div><div id="shellFall"></div></div>
    <div class="sideCard" style="max-height:220px"><div class="sideTitle">Seçimler <span id="shellPickCount" style="float:right;font-size:8px;color:#728296">0/192</span></div><div id="shellPicks" class="sideSub" style="border:0;margin:0;padding:0"></div></div>
  </aside>
 </div>
@@ -1198,6 +1213,15 @@ function positionScarcityBoard(n){
    return {pos,count,strong,level,cls};
  });
 }
+// V1.90: conservative, bounded simulation evidence for live timing decisions.
+// Model frequencies are NOT calibrated real-world probabilities.
+function simulationTimingEvidence(p,n,next){
+ const sim=draftSimCache;
+ if(!sim||sim.n!==n||sim.next!==next||sim.samples<80||!Array.isArray(sim.results))return null;
+ const hit=sim.results.find(x=>x.id===p.id);
+ if(!hit||!Number.isFinite(hit.rate)||hit.rate<0||hit.rate>1)return null;
+ return {rate:hit.rate,samples:sim.samples};
+}
 function decisionForPlayer(p,n,e){
  const next=teamAt(n)==="Altıntepe Warriors"?nextOurPickAfter(n):nextOurPickIncludingCurrent(n);
  if(!next)return {action:"TAKE NOW",cls:"takeNow",reason:"Son draft fırsatı"};
@@ -1217,8 +1241,20 @@ function decisionForPlayer(p,n,e){
  if(scarce>=3){risk+=2;reasons.push(e.sc.label)}
  if(value>=6){risk+=2;reasons.push("value fall")}
  if(e.sv?.score>=6)risk+=2;
- const take=risk>=6 || (e.sv?.score||0)>=6;
- return {action:take?"TAKE NOW":"WAIT",cls:take?"takeNow":"wait",risk,next,gap,reason:reasons.join(" • ")};
+ const heuristicTake=risk>=6 || (e.sv?.score||0)>=6;
+ let take=heuristicTake;
+ const evidence=simulationTimingEvidence(p,n,next);
+ // Only override borderline timing decisions. Strong existing risk cannot be
+ // overruled by an uncalibrated mock; the locked Luka rule remains separate.
+ if(evidence && gap>0 && teamAt(n)==='Altıntepe Warriors'){
+   const pct=Math.round(evidence.rate*100);
+   if(evidence.rate<=.25 && !heuristicTake){
+     take=true;reasons.push(`80+ senaryoda yalnızca %${pct} sonraki seçimimize kaldı: TAKE NOW`);
+   }else if(evidence.rate>=.85 && heuristicTake && risk<8 && (e.sv?.score||0)<6 && (e.sc?.score||0)<3){
+     take=false;reasons.push(`80+ senaryoda %${pct} sonraki seçimimize kaldı: WAIT (model tahmini)`);
+   }else reasons.push(`Simülasyon: %${pct} sonraki seçimimize kaldı; mevcut karar korundu`);
+ }
+ return {action:take?"TAKE NOW":"WAIT",cls:take?"takeNow":"wait",risk,next,gap,simulationRate:evidence?.rate??null,reason:reasons.join(" • ")};
 }
 function decisionConfidence(p,n,e,dec){
  let data=0,total=7;
@@ -1346,6 +1382,77 @@ function simNextCandidate(pool,pick,rng){
  }
  return idx;
 }
+// Optional full 192-position mock; never writes live draft state or localStorage.
+let fullMockCache=null,fullMockRunning=false,fullMockRequested=false,fullMockToken=0,fullMockInput=null;
+function fullMockStateKey(){return JSON.stringify(S.drafted)}
+function mockRosterAssignment(players){
+ // Exact eligibility matching avoids the greedy display roster's forced-slot fallback.
+ const slots=Array(SLOT_ORDER.length).fill(-1);
+ function place(i,seen){
+  for(let s=0;s<slots.length;s++)if(!seen.has(s)&&eligible(players[i].pos,SLOT_ORDER[s])){
+   seen.add(s);if(slots[s]<0||place(slots[s],seen)){slots[s]=i;return true}
+  }
+  return false;
+ }
+ for(let i=0;i<players.length;i++)if(!place(i,new Set()))return null;
+ return slots.map((i,s)=>({slot:SLOT_ORDER[s],id:i<0?null:players[i].id}));
+}
+function syncFullMockDraft(){
+ if(!fullMockRequested||fullMockInput===fullMockStateKey())return;
+ fullMockToken++;fullMockRunning=false;fullMockCache=null;
+ runFullMockDraft();
+}
+window.runFullMockDraft=async function(seed=17421){
+ const out=document.getElementById('fullMockResults');if(!out)return null;
+ // Inline click supplies no argument; deterministic seed and an immutable input snapshot.
+ if(!Number.isFinite(seed))seed=17421;
+ const input=fullMockStateKey(),completed=S.drafted.map(d=>({...d})),token=++fullMockToken;
+ fullMockRequested=true;fullMockRunning=true;fullMockInput=input;fullMockCache=null;
+ const samples=100,start=completed.length+1,lookup=new Map(P.map(p=>[p.id,p]));
+ const taken=new Set(completed.map(d=>d.id));
+ const available=P.filter(p=>!taken.has(p.id)&&Number.isFinite(p.draft_score));
+ const own=MY_PICKS.filter(n=>n>=start),tally=new Map(own.map(n=>[n,new Map()]));
+ const scenarios=[],warnings=new Set();let executed=0;
+ out.textContent='100 tam draft senaryosu hesaplanıyor… 0/100';
+ const yieldUI=()=>new Promise(resolve=>setTimeout(resolve,0));
+ try{
+  if(completed.length>192||taken.size!==completed.length||completed.some((d,i)=>d.pick!==i+1||!lookup.has(d.id)||d.owner!==teamAt(i+1)))throw Error('Gerçek draft kaydı sırası/kimliği geçersiz.');
+  for(let k=0;k<samples;k++){
+   await yieldUI();
+   if(token!==fullMockToken||input!==fullMockStateKey())return null;
+   const rng=simSeeded(seed+k*7919+start*53),pool=available.slice();
+   const picks=completed.map(d=>({...d,actual:true}));
+   const mine=completed.filter(d=>d.owner==='Altıntepe Warriors').map(d=>lookup.get(d.id));
+   let fitEnabled=!!mockRosterAssignment(mine);
+   if(!fitEnabled)warnings.add('Gerçek kadro mevcut slotlara sığmıyor; mock bu kayıtları korur, kadro uygunluğu garanti edilmez.');
+   for(let n=start;n<=192;n++){
+    const owner=teamAt(n),ours=owner==='Altıntepe Warriors';
+    let candidates=pool.filter(p=>!(n===1&&p.id==='lukadoncic'));
+    if(ours&&fitEnabled)candidates=candidates.filter(p=>mockRosterAssignment([...mine,p])!==null);
+    if(!candidates.length){
+     // Unscored records remain unscored; only use them if the scored pool cannot fill a slot.
+     const used=new Set(picks.map(p=>p.id));
+     candidates=P.filter(p=>!used.has(p.id)&&!(n===1&&p.id==='lukadoncic')&&(!ours||!fitEnabled||mockRosterAssignment([...mine,p])!==null));
+     warnings.add('Eksik V5 verili yedek havuz kullanıldı; bu oyunculara puan/projeksiyon üretilmedi.');
+    }
+    let idx=n===2?candidates.findIndex(p=>p.id==='lukadoncic'):simNextCandidate(candidates,n,rng);
+    if(idx<0)throw Error('Pick #'+n+' için geçerli aday yok.');
+    const p=candidates[idx],poolIdx=pool.findIndex(x=>x.id===p.id);
+    if(poolIdx>=0)pool.splice(poolIdx,1);
+    picks.push({id:p.id,name:p.name,pos:p.pos,pick:n,owner,actual:false});
+    if(ours){mine.push(p);tally.get(n).set(p.id,(tally.get(n).get(p.id)||0)+1)}
+   }
+   scenarios.push({seed:seed+k*7919+start*53,picks,roster:mockRosterAssignment(mine)});executed++;
+   if(executed%10===0)out.textContent='100 tam draft senaryosu hesaplanıyor… '+executed+'/100';
+  }
+  if(token!==fullMockToken||input!==fullMockStateKey())return null;
+  const candidates=own.map(n=>({pick:n,players:[...tally.get(n)].sort((a,b)=>b[1]-a[1]||((lookup.get(b[0]).draft_score??-Infinity)-(lookup.get(a[0]).draft_score??-Infinity))).slice(0,3).map(([id,count])=>({id,count}))}));
+  fullMockCache={input,seed,start,samples:executed,scenarios,candidates,warnings:[...warnings]};
+  out.innerHTML=`<p><b>${executed}/${samples} senaryo tamamlandı</b> · Her senaryo 192 pozisyon · ${completed.length} gerçek seçim korundu · ${192-completed.length} yeni seçim/senaryo</p>`+candidates.map(({pick,players})=>`<div class="mockPick" data-pick="${pick}" style="padding:8px 0;border-bottom:1px solid var(--line)"><b>Pick #${pick}</b> — ${players.map(({id,count},i)=>`<span style="display:inline-block;margin:4px 9px 0 0"><b>${'ABC'[i]}:</b> <button class="shellPlayerInfo" data-id="${id}" onclick="openNBAPlayer('${id}')">${lookup.get(id).name}</button> <small>(${count}/${executed} senaryo · V5 ${lookup.get(id).draft_score?.toFixed(1)??'veri yok'})</small></span>`).join('')||'Aday yok'}</div>`).join('')+(own.length?'':'<p>Draft tamamlandı; kalan seçim yok.</p>')+'<p class="mini">A/B/C = o seçimde model tarafından seçilme sıklığı; kalma olasılığı, garanti veya V5 puanı değildir. İlk seçimde yalnızca kilitli Luka geçerlidir. Kadro uygunluğu senaryo bazında kontrol edilir; farklı turların A adayları tek bir ortak kadro planı değildir. ADP + mevcut V5 sıralaması ve rastgele varyasyon kullanılır; rakibe özgü tahmin değildir. V5 boş olan 276 oyuncuya puan/projeksiyon üretilmez; gerektiğinde yalnızca yedek havuzdan seçilir. Tam mock A/B/C doğrudan TAKE NOW/WAIT hesabına katılmaz; ayrı 80 koşulu sonraki-seçim simülasyonu, yeterli veri olduğunda TAKE NOW/WAIT zamanlamasını kontrollü olarak etkiler. V5 ve çift seçim ağırlıkları değişmez.</p>'+[...warnings].map(w=>`<p class="mini">⚠ ${w}</p>`).join('');
+  return fullMockCache;
+ }catch(e){if(token===fullMockToken){out.textContent='Simülasyon hatası: '+e.message;console.error(e)}return null}
+ finally{if(token===fullMockToken)fullMockRunning=false}
+};
 function simulateDraftSurvival(samples=80){
  const n=S.drafted.length+1;
  const next=teamAt(n)==='Altıntepe Warriors'?nextOurPickAfter(n):nextOurPickIncludingCurrent(n);
@@ -1365,7 +1472,7 @@ function simulateDraftSurvival(samples=80){
  }
  return {n,next,later,samples,results:candidates.slice(0,30).map(p=>({id:p.id,name:p.name,rate:hits.get(p.id)/samples,score:p.draft_score,adp:p.adp}))};
 }
-// V1.78: background-only scenario signal; never changes intrinsic V5 or the primary decision.
+// V1.90: background scenario signal may conservatively refine live timing only; intrinsic V5 stays fixed.
 let draftSimToken=0, draftSimPending=-1;
 function scheduleBackgroundDraftSimulation(){
  const n=S.drafted.length+1;
@@ -1695,7 +1802,7 @@ function renderDraftOrderTop(){
 }
 
 var shellSortKey="score",shellSortDir="desc",roomClickSortKey="score",roomClickSortDir="desc";
-function all(){status();renderDraftOrderTop();renderDraftBoard();renderNFTRTop();renderMyTeam();recs();side();renderTeamBoard();renderTable();renderShell();renderV19Room();scheduleBackgroundDraftSimulation()}initTheme();all();
+function all(){status();renderDraftOrderTop();renderDraftBoard();renderNFTRTop();renderMyTeam();recs();side();renderTeamBoard();renderTable();renderShell();renderV19Room();scheduleBackgroundDraftSimulation();syncFullMockDraft()}initTheme();all();
 
 renderProjectionPage();
 
@@ -1914,6 +2021,7 @@ function renderPickPlan(){
 }
 
 function showShell(name,btn){
+ document.body.classList.toggle("playersFull",name==="players");
  document.body.classList.toggle("dr41",name==="draftroom");
  document.body.classList.toggle("reportFull",name==="report");
  document.body.classList.toggle("intelFull",name==="intel");
@@ -1927,13 +2035,20 @@ function showShell(name,btn){
  if(name==="rookies")renderShellRookies();
  if(name==="draftroom")renderV19Room();
  if(name==="board")renderShellBoard();
- if(name==="pickplan")renderPickPlan();
+ if(name==="pickplan"){renderPickPlan();if(!fullMockCache&&!fullMockRunning)runFullMockDraft()}
  if(name==="report")renderDraftReport();
  if(name==="intel")renderDraftIntel();
 }
+function shellProjectionChanged(){
+ const key=document.getElementById("shellProj").value;
+ shellSortKey={strategy:"score",ftot:"total",favg:"favg",adp:"adp"}[key]||"score";
+ shellSortDir=key==="adp"?"asc":"desc";
+ const th=[...document.querySelectorAll('#center-players th.sortable')].find(e=>e.getAttribute('onclick').includes("'"+shellSortKey+"'"));
+ markSortHeader(th,shellSortDir);renderShellPlayers();
+}
 function resetShellFilters(){
  ["shellSearch","shellPos","shellTeam"].forEach(id=>{let e=document.getElementById(id);if(e)e.value=""});
- let e=document.getElementById("shellProj");if(e)e.value="strategy";renderShellPlayers();
+ let e=document.getElementById("shellProj");if(e)e.value="strategy";shellProjectionChanged();
 }
 function renderShellRoster(){
  const mine=S.drafted.filter(x=>x.owner==="Altıntepe Warriors"),slots=assignRoster(mine), box=document.getElementById("shellRoster");
@@ -1951,7 +2066,7 @@ function renderShellPlayers(){
  let a=P.filter(p=>!D[p.id]&&(!q||p.name.toLowerCase().includes(q))&&(!pos||posList(p).includes(pos))&&(!team||p.team===team));
  const sv=p=>shellSortKey==="favg"?p.favg:shellSortKey==="actual"?p.actual_avg:shellSortKey==="davg"?(p.favg??0)-(p.actual_avg??0):shellSortKey==="total"?p.ftot:shellSortKey==="gp"?p.proj_gp:shellSortKey==="min"?p.proj_min:shellSortKey==="adp"?p.adp:p.draft_score;
  a.sort((x,y)=>{let ax=sv(x),ay=sv(y);ax=ax==null?-999999:ax;ay=ay==null?-999999:ay;return shellSortDir==="desc"?ay-ax:ax-ay});
- document.getElementById("shellPlayersBody").innerHTML=a.map((p,i)=>{let d=(p.favg??0)-(p.actual_avg??0);return `<tr><td>${i+1}</td><td><div class="pname">${p.name}</div><div class="pmeta">${p.team} · <span class="posBadge">${p.pos}</span></div></td><td><button class="selectMini" onclick="draft('${p.id}')">DRAFT</button></td><td class="numHi">${p.favg?.toFixed(1)??"—"}</td><td class="numHi">${p.actual_avg?.toFixed(1)??"—"}</td><td class="${d>=0?"deltaPos":"deltaNeg"}">${d>=0?"+":""}${d.toFixed(1)}</td><td>${p.ftot?Math.round(p.ftot):"—"}</td><td>${p.proj_gp??"—"}</td><td>${p.proj_min??"—"}</td><td>${p.adp??"—"}</td><td>${p.draft_score?.toFixed(1)??"—"}</td></tr>`}).join("");
+ document.getElementById("shellPlayersBody").innerHTML=a.map((p,i)=>{let d=(p.favg??0)-(p.actual_avg??0);return `<tr><td>${i+1}</td><td><button type="button" class="shellPlayerInfo" onclick="openNBAPlayer('${p.id}')" title="${p.name} oyuncu bilgilerini aç">${p.name}</button><div class="pmeta">${p.team} · <span class="posBadge">${p.pos}</span></div></td><td><button class="selectMini" onclick="draft('${p.id}')">DRAFT</button></td><td class="numHi">${p.favg?.toFixed(1)??"—"}</td><td class="numHi">${p.actual_avg?.toFixed(1)??"—"}</td><td class="${d>=0?"deltaPos":"deltaNeg"}">${d>=0?"+":""}${d.toFixed(1)}</td><td>${p.ftot?Math.round(p.ftot):"—"}</td><td>${p.proj_gp??"—"}</td><td>${p.proj_min??"—"}</td><td>${p.adp??"—"}</td><td>${p.draft_score?.toFixed(1)??"—"}</td></tr>`}).join("");
 }
 function renderShellRight(){
  const n=S.drafted.length+1,D=dm(),target=teamAt(n)==="Altıntepe Warriors"?(nextOurPickAfter(n)||n):(nextOurPickIncludingCurrent(n)||MY_PICKS.find(x=>x>=n));
