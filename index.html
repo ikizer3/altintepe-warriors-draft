@@ -928,7 +928,7 @@ body.intelFull #center-intel .ixFold .ixTable{max-height:420px;overflow:auto!imp
 
 <div id="center-pickplan" class="centerPage">
  <div class="centerHead"><h2>🎯 Pick Plan</h2><div class="desc">Master Excel Pick Plan + Pick Targets · adaylar Strategy V5 sırasına göre yeniden sıralanır · draft ilerledikçe seçilen oyuncular otomatik işaretlenir</div></div>
- <div class="pickPlanLegend"><span><b>V5 SIRA</b> ana oyuncu değer sıramız</span><span><b>HEDEF ARALIĞI</b> o seçim için izlenecek Strategy bandı</span><span><b>ŞİMDİ AL</b> bir sonraki seçimimize kalma riski yüksek adayı öne çıkar</span><span><b>ÇİFTİN 2. SEÇİMİ</b> ilk seçimden sonra kalan en güçlü V5 adayını al</span></div>
+ <p class="mini" style="padding:0 12px">Canlı TAKE NOW / WAIT ve 80 senaryo açıklaması Draft Room’dadır. Buradaki tur planı ve 100 senaryolu A/B/C ayrı katmanlardır.</p><div class="pickPlanLegend"><span><b>V5 SIRA</b> ana oyuncu değer sıramız</span><span><b>HEDEF ARALIĞI</b> o seçim için izlenecek Strategy bandı</span><span><b>ŞİMDİ AL</b> bir sonraki seçimimize kalma riski yüksek adayı öne çıkar</span><span><b>ÇİFTİN 2. SEÇİMİ</b> ilk seçimden sonra kalan en güçlü V5 adayını al</span></div>
  <div class="nftrPanel" style="margin:12px 0"><div class="nftrTitle">🎲 192 Seçimlik Mock Draft · A/B/C Planı</div><p class="mini">100 bağımsız model senaryosu; ADP + V5 sıralaması kullanılır. Rakiplerin gerçek davranışı veya kesin kalma olasılığı değildir. Gerçek draft kayıtlarını değiştirmez.</p><button class="primary" onclick="runFullMockDraft()">100 tam draft simülasyonu çalıştır</button><div id="fullMockResults" class="mini" style="margin-top:10px">Henüz çalıştırılmadı.</div></div><div id="pickPlanSummary" class="pickPlanSummary"></div>
  <div id="pickPlanCards" class="pickPlanCards"></div>
  <div class="redditFoot">⚠ Pick Targets sekmesindeki eski V4 öncelik numaraları kullanılmaz. Bu ekran adayları mevcut Strategy V5 sırası ve puanına göre sıralar; ADP yalnızca seçim zamanlaması bağlamıdır.</div>
@@ -1213,16 +1213,7 @@ function positionScarcityBoard(n){
    return {pos,count,strong,level,cls};
  });
 }
-// V1.90: conservative, bounded simulation evidence for live timing decisions.
-// Model frequencies are NOT calibrated real-world probabilities.
-function simulationTimingEvidence(p,n,next){
- const sim=draftSimCache;
- if(!sim||sim.n!==n||sim.next!==next||sim.samples<80||!Array.isArray(sim.results))return null;
- const hit=sim.results.find(x=>x.id===p.id);
- if(!hit||!Number.isFinite(hit.rate)||hit.rate<0||hit.rate>1)return null;
- return {rate:hit.rate,samples:sim.samples};
-}
-function decisionForPlayer(p,n,e){
+function legacyDecisionForPlayer(p,n,e){
  const next=teamAt(n)==="Altıntepe Warriors"?nextOurPickAfter(n):nextOurPickIncludingCurrent(n);
  if(!next)return {action:"TAKE NOW",cls:"takeNow",reason:"Son draft fırsatı"};
  const gap=next-n;
@@ -1241,20 +1232,55 @@ function decisionForPlayer(p,n,e){
  if(scarce>=3){risk+=2;reasons.push(e.sc.label)}
  if(value>=6){risk+=2;reasons.push("value fall")}
  if(e.sv?.score>=6)risk+=2;
- const heuristicTake=risk>=6 || (e.sv?.score||0)>=6;
- let take=heuristicTake;
- const evidence=simulationTimingEvidence(p,n,next);
- // Only override borderline timing decisions. Strong existing risk cannot be
- // overruled by an uncalibrated mock; the locked Luka rule remains separate.
- if(evidence && gap>0 && teamAt(n)==='Altıntepe Warriors'){
-   const pct=Math.round(evidence.rate*100);
-   if(evidence.rate<=.25 && !heuristicTake){
-     take=true;reasons.push(`80+ senaryoda yalnızca %${pct} sonraki seçimimize kaldı: TAKE NOW`);
-   }else if(evidence.rate>=.85 && heuristicTake && risk<8 && (e.sv?.score||0)<6 && (e.sc?.score||0)<3){
-     take=false;reasons.push(`80+ senaryoda %${pct} sonraki seçimimize kaldı: WAIT (model tahmini)`);
-   }else reasons.push(`Simülasyon: %${pct} sonraki seçimimize kaldı; mevcut karar korundu`);
- }
- return {action:take?"TAKE NOW":"WAIT",cls:take?"takeNow":"wait",risk,next,gap,simulationRate:evidence?.rate??null,reason:reasons.join(" • ")};
+ const take=risk>=6 || (e.sv?.score||0)>=6;
+ return {action:take?"TAKE NOW":"WAIT",cls:take?"takeNow":"wait",risk,next,gap,reason:reasons.join(" • ")};
+}
+// V1.90: only validated 80-run survival evidence may affect live timing.
+// Preserve V1.90 decision thresholds: <=25%, >=85%, risk<8, SV<6, scarcity<3; own turns only.
+function nextSurvivalTarget(n){
+ if(!Number.isInteger(n)||n<1||n>192)return null;
+ return teamAt(n)==='Altıntepe Warriors'?nextOurPickAfter(n):nextOurPickIncludingCurrent(n);
+}
+function validSurvivalCache(n,sim=draftSimCache){
+ const next=nextSurvivalTarget(n);
+ if(!next||n!==S.drafted.length+1||!sim||sim.engine!=='next-pick-survival'||sim.samples!==80||sim.n!==n||sim.next!==next||sim.input!==JSON.stringify(S.drafted)||!Array.isArray(sim.results))return false;
+ const taken=new Set(S.drafted.map(d=>d.id)),players=new Map(P.map(p=>[p.id,p]));
+ if(sim.results.length!==Math.min(30,P.filter(p=>!taken.has(p.id)&&Number.isFinite(p.draft_score)).length))return false;
+ const seen=new Set();
+ return sim.results.every(r=>{
+  const p=players.get(r.id);
+  if(!p||taken.has(r.id)||!Number.isFinite(p.draft_score)||seen.has(r.id)||r.name!==p.name||r.score!==p.draft_score||r.adp!==p.adp)return false;
+  seen.add(r.id);
+  return Number.isInteger(r.hits)&&r.hits>=0&&r.hits<=80&&Number.isFinite(r.rate)&&r.rate===r.hits/80;
+ });
+}
+function survivalDecisionSignal(p,n){
+ if(!p||!Number.isFinite(p.draft_score)||!validSurvivalCache(n))return null;
+ const r=draftSimCache.results.find(r=>r.id===p.id);
+ return r?{...r,next:draftSimCache.next,samples:80,band:r.rate<=.25?'low':r.rate>=.85?'high':'medium'}:null;
+}
+function simulationTimingEvidence(p,n,next){
+ const signal=survivalDecisionSignal(p,n);
+ return signal&&signal.next===next?signal:null;
+}
+function decisionForPlayer(p,n,e={}){
+ const next=nextSurvivalTarget(n),baseMeta={next,simulation:null,simulationRate:null,simulationInfluenced:false};
+ if(!p||!P.some(x=>x.id===p.id)||S.drafted.some(x=>x.id===p.id))return {...baseMeta,action:'UNAVAILABLE',cls:'wait',reason:'Oyuncu müsait değil; öneri dışı.'};
+ if(!Number.isInteger(n)||n<1||n>192)return {...baseMeta,action:'DRAFT COMPLETE',cls:'wait',reason:'Draft tamamlandı.'};
+ // The first-round lock is stronger than both the market rule and the simulation.
+ if(n===2&&p.id==='lukadoncic')return {...baseMeta,action:'TAKE NOW',cls:'takeNow',locked:true,reason:'#2 seçim kilidi: Luka Dončić; simülasyon bu kilidi değiştiremez.'};
+ if(!Number.isFinite(p.draft_score))return {...baseMeta,action:'NO SCORE',cls:'wait',reason:'V5 puanı eksik; otomatik TAKE NOW / WAIT önerisi üretilmez.'};
+ if(n===2)return {...baseMeta,action:'WAIT',cls:'wait',locked:true,reason:'#2 yalnızca Luka; bu oyuncu sonraki seçimler için izlenir.'};
+ if(n===192)return {...baseMeta,action:'WAIT',cls:'wait',reason:'Rakibin son seçimi; Altıntepe seçimleri tamamlandı.'};
+ const base=legacyDecisionForPlayer(p,n,e),signal=simulationTimingEvidence(p,n,next);
+ if(!signal)return {...base,...baseMeta,fallbackAction:base.action,reason:base.reason+(next?' • Geçerli 80 senaryo sinyali yok/bekleniyor; önceki ADP/kadro kuralı kullanılıyor.':'')};
+ const onClock=teamAt(n)==='Altıntepe Warriors';
+ // These guards/thresholds are from the authoritative V1.90; no new weights.
+ const escalate=onClock&&signal.rate<=.25&&base.action==='WAIT';
+ const soften=onClock&&signal.rate>=.85&&base.action==='TAKE NOW'&&base.risk<8&&(e.sv?.score||0)<6&&(e.sc?.score||0)<3;
+ const action=escalate?'TAKE NOW':soften?'WAIT':base.action,influenced=escalate||soften;
+ const explanation=escalate?'Düşük kalma sıklığı (≤%25) mevcut WAIT kararını TAKE NOW yaptı.':soften?'Yüksek kalma sıklığı (≥%85) sınırdaki riski WAIT yaptı; risk<8, ADP-zamanlama<6, kıtlık<3.':onClock?'Simülasyon mevcut kararı değiştirmedi; güçlü risk kuralı korunur.':'Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur.';
+ return {...base,action,cls:action==='TAKE NOW'?'takeNow':'wait',fallbackAction:base.action,simulationRate:signal.rate,simulation:signal,simulationInfluenced:influenced,reason:base.reason+` • 80 senaryo: ${signal.hits}/${signal.samples}, #${signal.next}'e kalma. ${explanation} Bu model sıklığıdır; gerçek olasılık veya garanti değildir.`};
 }
 function decisionConfidence(p,n,e,dec){
  let data=0,total=7;
@@ -1454,29 +1480,32 @@ window.runFullMockDraft=async function(seed=17421){
  finally{if(token===fullMockToken)fullMockRunning=false}
 };
 function simulateDraftSurvival(samples=80){
- const n=S.drafted.length+1;
+ if(!Number.isInteger(samples)||samples<=0)throw new RangeError('Geçerli pozitif senaryo sayısı gerekli.');
+ const n=S.drafted.length+1,input=JSON.stringify(S.drafted);
  const next=teamAt(n)==='Altıntepe Warriors'?nextOurPickAfter(n):nextOurPickIncludingCurrent(n);
  const later=next?nextOurPickAfter(next):null;
  if(!next||next>192)return null;
  const taken=new Set(S.drafted.map(x=>x.id));
- const candidates=P.filter(x=>!taken.has(x.id)&&x.draft_score!=null).sort((a,b)=>b.draft_score-a.draft_score).slice(0,75);
+ const candidates=P.filter(x=>!taken.has(x.id)&&Number.isFinite(x.draft_score)).sort((a,b)=>b.draft_score-a.draft_score).slice(0,75);
  const targetIds=new Set(candidates.slice(0,30).map(x=>x.id));
  const hits=new Map([...targetIds].map(id=>[id,0]));
  for(let k=0;k<samples;k++){
-  const rng=simSeeded(92731+k*7919+n*53),pool=P.filter(x=>!taken.has(x.id)&&x.draft_score!=null);
+  const rng=simSeeded(92731+k*7919+n*53),pool=P.filter(x=>!taken.has(x.id)&&Number.isFinite(x.draft_score));
   for(let pick=n;pick<next;pick++){
    if(teamAt(pick)==='Altıntepe Warriors')continue;
-   const idx=simNextCandidate(pool,pick,rng);if(idx>=0)pool.splice(idx,1);
+   const choices=pick===1?pool.filter(p=>p.id!=='lukadoncic'):pool;
+   const idx=simNextCandidate(choices,pick,rng);if(idx>=0){const selected=choices[idx];pool.splice(pool.findIndex(p=>p.id===selected.id),1);}
   }
   const left=new Set(pool.map(x=>x.id));for(const id of targetIds)if(left.has(id))hits.set(id,hits.get(id)+1);
  }
- return {n,next,later,samples,results:candidates.slice(0,30).map(p=>({id:p.id,name:p.name,rate:hits.get(p.id)/samples,score:p.draft_score,adp:p.adp}))};
+ return {engine:'next-pick-survival',input,n,next,later,samples,results:candidates.slice(0,30).map(p=>({id:p.id,name:p.name,hits:hits.get(p.id),rate:hits.get(p.id)/samples,score:p.draft_score,adp:p.adp}))};
 }
 // V1.90: background scenario signal may conservatively refine live timing only; intrinsic V5 stays fixed.
 let draftSimToken=0, draftSimPending=-1;
 function scheduleBackgroundDraftSimulation(){
  const n=S.drafted.length+1;
- if(n>192 || (draftSimCache&&draftSimCache.n===n) || draftSimPending===n)return;
+ if(!nextSurvivalTarget(n)){draftSimCache=null;return}
+ if(validSurvivalCache(n)||draftSimPending===n)return;
  const token=++draftSimToken;
  draftSimPending=n;
  // Yield to the browser before the computation; the live draft UI renders first.
@@ -1485,7 +1514,7 @@ function scheduleBackgroundDraftSimulation(){
   try{draftSimCache=simulateDraftSurvival(80)}catch(err){console.warn('Background simulation unavailable',err);draftSimCache=null}
   draftSimPending=-1;
   if(token===draftSimToken && S.drafted.length+1===n){
-   recs();renderDraftDecisionSummary(n);
+   recs();renderDraftDecisionSummary(n);renderReplacementAlert(n);
    // Keep the visible Draft Room cards synchronized with completed scenario results.
    const room=document.getElementById('roomRecs'),source=document.getElementById('recs');
    if(room&&source)room.innerHTML=source.innerHTML;
@@ -1493,12 +1522,11 @@ function scheduleBackgroundDraftSimulation(){
  },60);
 }
 function simulationDecisionNote(p,dec,n){
- const sim=draftSimCache;
- if(!sim||sim.n!==n||!sim.next||sim.next<=n)return '';
- const entry=sim.results.find(x=>x.id===p.id);
+ const entry=survivalDecisionSignal(p,n);
  if(!entry)return '';
- const label=entry.rate<.4?'BEKLEME RİSKLİ':entry.rate>.8?'BEKLEME DEĞERLENDİRİLEBİLİR':'BEKLEME BELİRSİZ';
- return `<span class="fitpill" title="${sim.samples} varsayımsal senaryonun ${Math.round(entry.rate*sim.samples)} tanesinde oyuncu #${sim.next} seçimine kadar kaldı. Bu gerçek olasılık değildir.">🧪 ${label} · %${Math.round(entry.rate*100)} senaryo</span>`;
+ const low=entry.band==='low',high=entry.band==='high';
+ const label=dec?.locked?'LUKA KİLİDİ ÖNCELİKLİ':dec?.simulationInfluenced?dec.action+'’A ETKİ ETTİ':high&&dec?.action==='TAKE NOW'?'ADP/KADRO TAKE NOW ÖNCELİKLİ':low?'DÜŞÜK KALMA SIKLIĞI':high?'YÜKSEK KALMA SIKLIĞI':'BEKLEME BELİRSİZ';
+ return `<span class="fitpill" title="${entry.samples} varsayımsal senaryonun ${entry.hits} tanesinde oyuncu #${entry.next} seçimine kadar kaldı. Bu gerçek olasılık değildir. ${dec?.simulationInfluenced?dec.fallbackAction+' → '+dec.action+'; kaynak V1.90 eşikleriyle sınırlı değişiklik.':'Önceki karar kuralı korundu.'}">🧪 ${label} · ${entry.hits}/${entry.samples} (%${Math.round(entry.rate*100)}) model</span>`;
 }
 // V1.82 — always-visible paired-pick guidance from pick #3; old summary cards removed.
 // V1.80 — contextual opponent tendencies and paired-pick guidance. V5 remains unchanged.
@@ -1548,9 +1576,7 @@ function pairedPickAdvice(n){
  const candidates=available.map(p=>({p,score:pct.get(p.id)})).sort((a,b)=>b.score-a.score).slice(0,24);
  // Existing simulation estimates survival only to the NEXT Altintepe pick.
  // Do not incorrectly label those rates as survival to the second pick.
- const sim=draftSimCache?.n===n?draftSimCache:null;
- const firstRates=(sim&&sim.next===first)?sim.results:[];
- const rate=p=>firstRates.find(x=>x.id===p.id)?.rate;
+ const rate=p=>{const signal=survivalDecisionSignal(p,n);return signal&&signal.next===first?signal.rate:undefined};
  const pairs=[];
  for(let i=0;i<candidates.length;i++)for(let j=i+1;j<candidates.length;j++){
    const a=candidates[i],b=candidates[j],ra=rate(a.p),rb=rate(b.p);
@@ -1567,6 +1593,7 @@ function pairedPickAdvice(n){
 }
 
 function recs(){
+ if(S.drafted.length>=192){document.getElementById("recs").innerHTML="Draft tamamlandı.";return}
  if(draftSimCache && draftSimCache.n!==S.drafted.length+1)draftSimCache=null;
  let n=S.drafted.length+1,D=dm(),avail=P.filter(x=>!D[x.id]&&x.draft_score!=null);
  let a=avail.map(p=>({p,e:pickEval(p,n)})).sort((x,y)=>y.e.pickScore-x.e.pickScore);
@@ -1578,7 +1605,7 @@ function recs(){
    const vp=vorpForPlayer(p,vorpContext(n));
    const threat=e.th.teams.length?` • <span class="threat">Önümüzdeki 5 pick: ${e.th.teams.join(", ")}</span>`:"";
    const afterThreat=e.th.afterTeams?.length?` • <span class="threat">Arkamızdaki 5 pick: ${e.th.afterTeams.join(", ")}</span>`:"";
-   return `<div class="rec ${dec.cls}"><div class="recTop"><b>${i+1}. ${p.name}</b><span class="decisionTag ${dec.cls}">${dec.action}</span><span class="confidenceTag ${conf.cls}">${conf.level}</span></div>
+   return `<div class="rec ${dec.cls}" data-player-id="${p.id}"><div class="recTop"><b>${i+1}. ${p.name}</b><span class="decisionTag ${dec.cls}">${dec.action}</span><span class="confidenceTag ${conf.cls}">${conf.level}</span></div>
    <div class="mini">Strategy ${p.draft_score.toFixed(1)} • Live Pick ${e.pickScore.toFixed(1)} • FPTS ${p.favg?.toFixed(1)??"-"} • ADP ${p.adp??"-"} • Sonraki seçim #${dec.next??"—"}</div>
    <div class="fitbar"><span class="fitpill">Alternatif Farkı ${vp?(vp.delta>=0?"+":"")+vp.delta.toFixed(1)+" ("+vp.pos+")":"—"}</span><span class="fitpill">Kadro ${e.fit>=0?"+":""}${e.fit.toFixed(1)}</span><span class="fitpill">Zamanlama ${e.sv.score>=0?"+":""}${e.sv.score}</span><span class="scarcity">Kıtlık ${e.sc.score>=0?"+":""}${e.sc.score.toFixed(1)} (${e.sc.label})</span><span class="fitpill">±5 Rakip +${e.th.score.toFixed(1)}</span>${e.vf.flag?`<span class="fitpill vf">${e.vf.label}</span>`:""}${simulationDecisionNote(p,dec,n)}</div>
    <div class="why"><b>${dec.action.startsWith("TAKE")?"NEDEN TAKE NOW: ":"NEDEN WAIT: "}</b>${dec.reason} • ${e.reason} • ${e.sv.label}${threat}${afterThreat}</div></div>`
