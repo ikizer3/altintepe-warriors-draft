@@ -886,6 +886,7 @@ body.intelFull .nftrShell{grid-template-columns:minmax(0,1fr)!important;gap:0!im
 </select>
 <div id="roomTeamBoard"><div class="mini">Kadrosunu görmek istediğin takımı yukarıdan seç.</div></div>
 </div>
+   <div class="card" id="roomExtraInsights"><div id="roomScarcityOpponent" class="decisionSummary"></div></div>
    <div class="card"><h2>Son Seçimler</h2><div id="roomHistory"></div><div class="draftResetActions"><button class="danger" onclick="undo()">Son seçimi geri al</button><button class="resetDraftBtn" onclick="confirmResetDraft()">↻ DRAFTI SIFIRLA</button></div></div>
   </aside>
   <main class="card v19main">
@@ -1211,13 +1212,15 @@ function decisionConfidence(p,n,e,dec){
  return {level,cls,completeness,clarity};
 }
 function renderDraftDecisionSummary(n){
- const box=document.getElementById("roomDecisionSummary");if(!box)return;
- // V1.83: keep the pair card first; retain both legacy intelligence cards below it.
+ const pairBox=document.getElementById("roomDecisionSummary");
+ const extraBox=document.getElementById("roomScarcityOpponent");
+ if(pairBox) pairBox.innerHTML=pairedPickAdvice(n);
+ if(!extraBox)return;
  const scarcity=positionScarcityBoard(n);
  const w=localOpponentWindow(n);
  const before=w.before.map(x=>`#${x.pick} ${x.team}`).join(" · ")||"Yok";
  const after=w.after.map(x=>`#${x.pick} ${x.team}`).join(" · ")||"Yok";
- box.innerHTML=pairedPickAdvice(n)+`<div class="decisionBlock"><div class="decisionTitle">POZİSYON KITLIĞI</div><div class="scarcityBoard">${scarcity.map(x=>`<span class="scarBadge ${x.cls}">${x.pos} <b>${x.level}</b> <small>${x.count}</small></span>`).join("")}</div></div>
+ extraBox.innerHTML=`<div class="decisionBlock"><div class="decisionTitle">POZİSYON KITLIĞI</div><div class="scarcityBoard">${scarcity.map(x=>`<span class="scarBadge ${x.cls}">${x.pos} <b>${x.level}</b> <small>${x.count}</small></span>`).join("")}</div></div>
  <div class="decisionBlock opponentWindow"><div class="decisionTitle">±5 PICK RAKİP PENCERESİ</div><div><b>Önümüzde:</b> ${before}</div><div><b>Arkamızda:</b> ${after}</div></div>`;
 }
 
