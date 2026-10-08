@@ -1211,10 +1211,41 @@ function decisionConfidence(p,n,e,dec){
  let cls=level==="YÜKSEK GÜVEN"?"confHigh":level==="ORTA GÜVEN"?"confMed":"confLow";
  return {level,cls,completeness,clarity};
 }
+// V1.86: contextual positional replacement value, based on the next reachable draft window.
+// Replacement is the strongest remaining projected-AVG option near the NEXT pick,
+// not a fabricated league-wide replacement baseline. V5 stays untouched.
+function vorpContext(n){
+ const taken=dm(), first=nextOurPickIncludingCurrent(n), later=first?nextOurPickAfter(first):null;
+ const gap=Math.max(1,(later||Math.min(192,(first||n)+16))-(first||n));
+ const pool=P.filter(p=>!taken[p.id]&&Number.isFinite(p.favg)&&Number.isFinite(p.draft_score));
+ const positions=['PG','SG','SF','PF','C'];
+ const baseline={};
+ for(const pos of positions){
+  const eligiblePool=pool.filter(p=>posList(p).includes(pos)).sort((a,b)=>b.draft_score-a.draft_score);
+  // Approximate how deep the available positional pool may be by the next pick.
+  const index=Math.min(eligiblePool.length-1,Math.max(1,Math.ceil(gap/16*2)+2));
+  baseline[pos]=eligiblePool.length?eligiblePool[index].favg:null;
+ }
+ return {baseline,first,later,gap};
+}
+function vorpForPlayer(p,ctx){
+ if(!Number.isFinite(p.favg))return null;
+ const choices=posList(p).filter(pos=>Number.isFinite(ctx.baseline[pos]));
+ if(!choices.length)return null;
+ const best=choices.map(pos=>({pos,delta:p.favg-ctx.baseline[pos]})).sort((a,b)=>b.delta-a.delta)[0];
+ return best;
+}
+function vorpBoard(n){
+ const ctx=vorpContext(n),taken=dm();
+ const leaders=P.filter(p=>!taken[p.id]&&Number.isFinite(p.draft_score)&&Number.isFinite(p.favg))
+  .map(p=>({p,v:vorpForPlayer(p,ctx)})).filter(x=>x.v).sort((a,b)=>b.v.delta-a.v.delta).slice(0,5);
+ const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ return `<div class="decisionBlock" style="margin-top:8px"><div class="decisionTitle">📊 ALTERNATİFE GÖRE POZİSYON DEĞERİ</div><div class="mini">Proj. AVG FPTS − pozisyondaki sonraki seçim için yaklaşık alternatif. ${ctx.first?'#'+ctx.first+' → #'+(ctx.later||'son'):''}. Bu tahmindir; Strategy V5 değişmez.</div>${leaders.map(x=>`<div class="mini" style="margin-top:5px"><b>${esc(x.p.name)}</b> · ${x.v.pos} · <b>${x.v.delta>=0?'+':''}${x.v.delta.toFixed(1)} FPTS/maç</b></div>`).join('')}</div>`;
+}
 function renderDraftDecisionSummary(n){
  const pairBox=document.getElementById("roomDecisionSummary");
  const extraBox=document.getElementById("roomScarcityOpponent");
- if(pairBox) pairBox.innerHTML=pairedPickAdvice(n);
+ if(pairBox) pairBox.innerHTML=pairedPickAdvice(n)+vorpBoard(n);
  if(!extraBox)return;
  const scarcity=positionScarcityBoard(n);
  const w=localOpponentWindow(n);
@@ -1332,6 +1363,7 @@ function simulationDecisionNote(p,dec,n){
 // V1.82 — always-visible paired-pick guidance from pick #3; old summary cards removed.
 // V1.80 — contextual opponent tendencies and paired-pick guidance. V5 remains unchanged.
 // V1.83: pair card first, scarcity and opponent window retained below.
+// V1.85: VORP contextual information only; no mandatory player preferences.
 // V1.80: no mandatory player preferences. Percentile blend for pair evaluation.
 const PAIR_WEIGHTS={v5:0.60,avg:0.20,total:0.20};
 function pairPercentileScores(available){
@@ -1403,11 +1435,12 @@ function recs(){
    let p=x.p,e=x.e,lock=n===2&&p.id==="lukadoncic",dec=decisionForPlayer(p,n,e);
    if(lock)dec={...dec,action:"TAKE NOW · 🔒 LUKA",cls:"takeNow",reason:"#2 seçim kilidi: Luka Dončić"};
    const conf=decisionConfidence(p,n,e,dec);
+   const vp=vorpForPlayer(p,vorpContext(n));
    const threat=e.th.teams.length?` • <span class="threat">Önümüzdeki 5 pick: ${e.th.teams.join(", ")}</span>`:"";
    const afterThreat=e.th.afterTeams?.length?` • <span class="threat">Arkamızdaki 5 pick: ${e.th.afterTeams.join(", ")}</span>`:"";
    return `<div class="rec ${dec.cls}"><div class="recTop"><b>${i+1}. ${p.name}</b><span class="decisionTag ${dec.cls}">${dec.action}</span><span class="confidenceTag ${conf.cls}">${conf.level}</span></div>
    <div class="mini">Strategy ${p.draft_score.toFixed(1)} • Live Pick ${e.pickScore.toFixed(1)} • FPTS ${p.favg?.toFixed(1)??"-"} • ADP ${p.adp??"-"} • Sonraki seçim #${dec.next??"—"}</div>
-   <div class="fitbar"><span class="fitpill">Kadro ${e.fit>=0?"+":""}${e.fit.toFixed(1)}</span><span class="fitpill">Zamanlama ${e.sv.score>=0?"+":""}${e.sv.score}</span><span class="scarcity">Kıtlık ${e.sc.score>=0?"+":""}${e.sc.score.toFixed(1)} (${e.sc.label})</span><span class="fitpill">±5 Rakip +${e.th.score.toFixed(1)}</span>${e.vf.flag?`<span class="fitpill vf">${e.vf.label}</span>`:""}${simulationDecisionNote(p,dec,n)}</div>
+   <div class="fitbar"><span class="fitpill">Alternatif Farkı ${vp?(vp.delta>=0?"+":"")+vp.delta.toFixed(1)+" ("+vp.pos+")":"—"}</span><span class="fitpill">Kadro ${e.fit>=0?"+":""}${e.fit.toFixed(1)}</span><span class="fitpill">Zamanlama ${e.sv.score>=0?"+":""}${e.sv.score}</span><span class="scarcity">Kıtlık ${e.sc.score>=0?"+":""}${e.sc.score.toFixed(1)} (${e.sc.label})</span><span class="fitpill">±5 Rakip +${e.th.score.toFixed(1)}</span>${e.vf.flag?`<span class="fitpill vf">${e.vf.label}</span>`:""}${simulationDecisionNote(p,dec,n)}</div>
    <div class="why"><b>${dec.action.startsWith("TAKE")?"NEDEN TAKE NOW: ":"NEDEN WAIT: "}</b>${dec.reason} • ${e.reason} • ${e.sv.label}${threat}${afterThreat}</div></div>`
  }).join("");
  // Pair advice now lives in the upper left decision summary, not below recommendations.
