@@ -42,6 +42,31 @@ body.playersFull .centerRail{min-width:0}
  body.playersFull .centerTable{max-height:70vh;overflow:auto}
 }
 .shellPlayerInfo{background:none;border:0;padding:0;color:var(--text);font:inherit;font-weight:900;text-align:left;cursor:pointer}.shellPlayerInfo:hover,.shellPlayerInfo:focus-visible{color:var(--gold);text-decoration:underline}.shellPlayerInfo:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* V1.91: Trades UI only. No draft strategy or player-data changes. */
+#center-trades .tradeGrid,#shellTrades.tradeGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:14px;padding:16px!important;align-content:start}
+#center-trades .centerHead{padding-bottom:12px}
+#center-trades .tradeCard{background:linear-gradient(145deg,#102335,#0b1825);border:1px solid #254154;border-radius:16px;padding:16px;position:relative;overflow:hidden;transition:transform .16s,border-color .16s;min-height:190px}
+#center-trades .tradeCard:hover{transform:translateY(-2px);border-color:#37b9a4}
+#center-trades .tradeCard:before{content:'';position:absolute;inset:0 auto 0 0;width:3px;background:#29d5ad}
+#center-trades .tradeTop{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:11px}
+#center-trades .tradeDate{font-size:11px;color:#a3c1d3}
+#center-trades .tradeStatus{font-size:10px;color:#71e8c5;background:#103d38;border:1px solid #22675a;padding:4px 8px;border-radius:99px;font-weight:800}
+#center-trades .tradePlayer{font-size:20px;line-height:1.24;margin:0 0 13px;overflow-wrap:anywhere}
+#center-trades .tradeFlow{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12px;color:#d9e8f3}
+#center-trades .tradeFlow .tradeTeamPill{border:1px solid #2b485d;background:#142b3c;border-radius:8px;padding:7px 9px;font-weight:800}
+#center-trades .tradeFlow .tradeArrow{color:#4be1b8;font-size:17px;font-weight:900}
+#center-trades .tradeBottom{display:flex;justify-content:space-between;gap:10px;align-items:center;border-top:1px solid #274054;margin-top:15px;padding-top:11px}
+#center-trades .tradeContext{font-size:11px;color:#a8c3d2;line-height:1.4}
+#center-trades .tradeSource{color:#68e5c0;font-size:11px;text-decoration:none;white-space:nowrap;font-weight:800}
+#center-trades .tradeSource:hover{text-decoration:underline}
+#center-trades .tradeToolbar{padding:10px 16px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+#center-trades .tradeToolbar input{flex:1;min-width:180px;max-width:380px;padding:10px 12px;background:#0f2331;border:1px solid #355064;border-radius:9px;color:#f3faff}
+#center-trades .tradeToolbar select{padding:10px;background:#0f2331;border:1px solid #355064;border-radius:9px;color:#f3faff}
+#center-trades .tradeCount{font-size:11px;color:#9db9c9;margin-left:auto}
+#center-trades .tradeEmpty{color:#a8c3d2;padding:22px}
+body.light #center-trades .tradeCard{background:#fff;border-color:#d4e2e9}body.light #center-trades .tradePlayer,body.light #center-trades .tradeFlow{color:#172b37}body.light #center-trades .tradeFlow .tradeTeamPill{background:#edf6f8;border-color:#d5e3e8}body.light #center-trades .tradeContext{color:#496576}body.light #center-trades .tradeToolbar input,body.light #center-trades .tradeToolbar select{background:#fff;color:#182b38}
+@media(max-width:680px){#center-trades .tradeGrid{grid-template-columns:1fr}#center-trades .tradeCard{min-height:0}#center-trades .tradeCount{margin-left:0}}
 </style>
 <style>
 #draftOrderTop .ord{min-width:165px;border:1px solid #2b3444;border-radius:9px;padding:8px 10px;background:#111827}
@@ -898,7 +923,7 @@ body.intelFull #center-intel .ixFold .ixTable{max-height:420px;overflow:auto!imp
     <tbody id="nbaRosterBody"></tbody>
    </table></div>
   </div>
-  <div id="center-trades" class="centerPage"><div class="centerHead"><h2>Takaslar</h2><div class="desc">Oyuncu hareketleri · oyuncu isimleri öncelikli</div></div><div id="shellTrades" class="tradeGrid" style="padding:12px;overflow:auto"></div></div>
+  <div id="center-trades" class="centerPage"><div class="centerHead"><h2>NBA Takas Merkezi</h2><div class="desc">2026 yaz dönemi · Oyuncu hareketleri · NBA.com resmî işlem kayıtları</div></div><div class="tradeToolbar"><input id="tradeSearch" type="search" placeholder="Oyuncu veya takım ara…" oninput="renderShellTrades()" aria-label="Takaslarda ara"><select id="tradeFilter" onchange="renderShellTrades()" aria-label="Takasları filtrele"><option value="all">Tüm oyuncu takasları</option><option value="single">Tek oyuncu</option><option value="multi">Çok oyunculu</option></select><span id="tradeCount" class="tradeCount"></span></div><div id="shellTrades" class="tradeGrid" style="overflow:auto"></div></div>
   <div id="center-rookies" class="centerPage"><div class="centerHead"><h2>Rookie / Draft</h2><div class="desc">2026 Draft sınıfı · bizim API projeksiyonları</div></div><div class="centerTable"><table><thead><tr><th>Pick</th><th>Oyuncu</th><th>Draft eden</th><th>Okul/Kulüp</th><th>API Takımı</th><th>POS</th><th>FPTS</th><th>TOTAL</th><th>Strategy</th></tr></thead><tbody id="shellRookies"></tbody></table></div></div>
   <div id="center-draftroom" class="centerPage">
  <div class="roomTop">
@@ -1719,7 +1744,7 @@ function renderProjectionPage(){
  document.getElementById("projBody").innerHTML=a.map((p,i)=>{let d=deltaAvg(p);return `<tr><td>${(p.strategy_rank ?? (P.findIndex(x=>x.id===p.id)+1))}</td><td><button class="draftPlayerLink" onclick="openNBAPlayer('${p.id}')">${p.name}</button></td><td>${p.pos}</td><td>${p.team}</td><td class="num">${p.actual_avg?.toFixed(1)??"—"}</td><td class="num">${p.favg?.toFixed(1)??"—"}</td><td class="num ${d>0?"deltaUp":d<0?"deltaDown":""}">${signed(d,1)}</td><td class="num">${p.ftot?Math.round(p.ftot):"—"}</td><td class="num">${p.proj_min??"—"}</td><td class="num">${p.proj_gp??"—"}</td><td class="num">${p.draft_score?.toFixed(1)??"—"}</td><td>${p.health||"OK"}</td></tr>`}).join("");
 }
 function renderTrades(){
- document.getElementById("tradeList").innerHTML=TRADES.map(t=>`<div class="tradeCard"><div class="tradeDate">${t[0]}</div><div class="tradeTeam">${t[1]} alıyor</div><div class="tradeAssets">${t[2]}</div><div class="tradeTeam">${t[3]} karşılığı</div><div class="tradeAssets">${t[4]}</div></div>`).join("");
+ document.getElementById("tradeList").innerHTML=TRADES.map(t=>`<div class="tradeCard"><div class="tradeDate">${t[0]}</div><div class="tradeTeam">${t[1]} alıyor</div><div class="tradeAssets">${t[2]}</div><div class="tradeTeam">${t[3]} takımından</div></div>`).join("");
 }
 function renderRookies(){
  const by=Object.fromEntries(P.map(p=>[normName(p.name),p]));
@@ -2103,7 +2128,25 @@ function renderShellRight(){
  document.getElementById("shellPickCount").textContent=`${S.drafted.length}/192`;
  document.getElementById("shellPicks").innerHTML=S.drafted.length?S.drafted.slice(-10).map(x=>`<div class="pickRow"><b>#${x.pick}</b> ${x.name}<br><span style="color:#66788b">${x.owner}</span></div>`).join(""):"Henüz seçim yapılmadı.";
 }
-function renderShellTrades(){const e=document.getElementById("shellTrades");if(e)e.innerHTML=TRADES.map(t=>`<div class="tradeCard"><div class="tradeDate">${t[0]}</div><div class="tradePlayer">${t[2]}</div><div class="tradeRoute">${t[3]} → <b>${t[1]}</b></div><div class="tradeReturn"><span>Karşılık</span>${t[4]}</div></div>`).join("")}
+function renderShellTrades(){
+ const e=document.getElementById("shellTrades");if(!e)return;
+ const q=(document.getElementById("tradeSearch")?.value||"").toLocaleLowerCase("tr").trim();
+ const filter=document.getElementById("tradeFilter")?.value||"all";
+ const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ const isMulti=t=>/\s\+\s|\s\/\s/.test(t[2]) && !/pick|2027|2031|2033/i.test(t[2]);
+ const rows=TRADES.filter(t=>{
+  const ok=!q||[t[0],t[1],t[2],t[3]].join(" ").toLocaleLowerCase("tr").includes(q);
+  return ok&&(filter==="all"||(filter==="multi"?isMulti(t):!isMulti(t)));
+ });
+ const count=document.getElementById("tradeCount");if(count)count.textContent=rows.length+" işlem";
+ e.innerHTML=rows.map(t=>{
+  const name=t[2].replace(/\s*\+\s*2027 2nd/gi,"").replace(/\s*\+\s*pickler/gi,"").trim();
+  const from=t[3],to=t[1];
+  const teamName=x=>x==="4-team trade"?"4 takımlı takas":x==="5-team trade"?"5 takımlı takas":x==="6-team trade"?"6 takımlı takas":x;
+  const context=/team trade|\//i.test(from)||/team trade|\//i.test(to)?"Çok takımlı oyuncu hareketi":"Resmî oyuncu takası";
+  return `<article class="tradeCard"><div class="tradeTop"><span class="tradeDate">${esc(t[0])} 2026</span><span class="tradeStatus">NBA · RESMÎ</span></div><div class="tradePlayer">${esc(name)}</div><div class="tradeFlow"><span class="tradeTeamPill">${esc(teamName(from))}</span><span class="tradeArrow" aria-label="gitti">→</span><span class="tradeTeamPill">${esc(teamName(to))}</span></div><div class="tradeBottom"><span class="tradeContext">${context} · Finansal karşılıklar gizlendi</span><a class="tradeSource" href="https://www.nba.com/news/2026-offseason-trade-tracker" target="_blank" rel="noopener noreferrer">NBA kaynağı ↗</a></div></article>`;
+ }).join("")||'<div class="tradeEmpty">Aramanıza uygun takas bulunamadı.</div>';
+}
 function renderShellRookies(){
  const by=Object.fromEntries(P.map(p=>[normName(p.name),p]));
  const body=document.getElementById("shellRookies"); if(!body)return;
