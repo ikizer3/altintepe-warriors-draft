@@ -1313,7 +1313,7 @@ function scheduleBackgroundDraftSimulation(){
   if(token!==draftSimToken || S.drafted.length+1!==n)return;
   try{draftSimCache=simulateDraftSurvival(80)}catch(err){console.warn('Background simulation unavailable',err);draftSimCache=null}
   draftSimPending=-1;
-  if(token===draftSimToken && S.drafted.length+1===n)recs();
+  if(token===draftSimToken && S.drafted.length+1===n){recs();renderDraftDecisionSummary(n)}
  },60);
 }
 function simulationDecisionNote(p,dec,n){
@@ -1324,6 +1324,63 @@ function simulationDecisionNote(p,dec,n){
  const label=entry.rate<.4?'BEKLEME RİSKLİ':entry.rate>.8?'BEKLEME DEĞERLENDİRİLEBİLİR':'BEKLEME BELİRSİZ';
  return `<span class="fitpill" title="80 varsayımsal senaryonun ${Math.round(entry.rate*80)} tanesinde oyuncu #${sim.next} seçimine kadar kaldı. Bu gerçek olasılık değildir.">🧪 ${label} · %${Math.round(entry.rate*100)} senaryo</span>`;
 }
+// V1.80 — contextual opponent tendencies and paired-pick guidance. V5 remains unchanged.
+// V1.80: no mandatory player preferences. Percentile blend for pair evaluation.
+const PAIR_WEIGHTS={v5:0.60,avg:0.20,total:0.20};
+function pairPercentileScores(available){
+ const ranked={};
+ for(const [key,field] of [['v5','draft_score'],['avg','favg'],['total','ftot']]){
+   const vals=available.map(p=>p[field]).filter(v=>Number.isFinite(v)).sort((a,b)=>a-b);
+   ranked[key]=new Map();
+   available.forEach(p=>{const v=p[field];if(!Number.isFinite(v)||!vals.length)return;
+     let lo=0,hi=vals.length;while(lo<hi){const mid=(lo+hi)>>1;if(vals[mid]<v)lo=mid+1;else hi=mid}const left=lo;
+     lo=0;hi=vals.length;while(lo<hi){const mid=(lo+hi)>>1;if(vals[mid]<=v)lo=mid+1;else hi=mid}const right=lo;
+     ranked[key].set(p.id,vals.length===1?100:100*((left+right-1)/2)/(vals.length-1));
+   });
+ }
+ return new Map(available.map(p=>[p.id,PAIR_WEIGHTS.v5*(ranked.v5.get(p.id)||0)+PAIR_WEIGHTS.avg*(ranked.avg.get(p.id)||0)+PAIR_WEIGHTS.total*(ranked.total.get(p.id)||0)]));
+}
+function opponentTendency(team){
+ const own=S.drafted.filter(x=>x.owner===team), history=own.map(x=>{const p=P.find(y=>y.id===x.id);return p&&p.adp>0&&p.adp<140?x.pick-p.adp:null}).filter(x=>x!==null);
+ const bias=history.length?history.reduce((a,b)=>a+b,0)/history.length:0;
+ const pos={PG:0,SG:0,SF:0,PF:0,C:0};
+ own.forEach(x=>posList(P.find(p=>p.id===x.id)||x).forEach(z=>{if(z in pos)pos[z]++}));
+ return {count:own.length,bias,positions:pos,known:history.length};
+}
+function opponentBehaviorNote(n){
+ const next=teamAt(n)==="Altıntepe Warriors"?nextOurPickAfter(n):nextOurPickIncludingCurrent(n);
+ if(!next)return '';
+ const teams=[...new Set(Array.from({length:Math.max(0,next-n-1)},(_,i)=>teamAt(n+i+1)).filter(x=>x!=="Altıntepe Warriors"))];
+ const studied=teams.map(team=>({team,...opponentTendency(team)})).filter(x=>x.known>=2);
+ if(!studied.length)return '<span class="fitpill">Rakip eğilimi: yeterli seçim verisi yok</span>';
+ const aggressive=studied.filter(x=>x.bias< -4).length;
+ return `<span class="fitpill" title="ADP farkı geçmiş rakip seçimlerinden hesaplanır; geleceği garanti etmez.">Rakip analizi: ${studied.length} takım · ${aggressive} erken seçim eğilimli</span>`;
+}
+function pairedPickAdvice(n){
+ if(teamAt(n)!=="Altıntepe Warriors")return '';
+ const later=nextOurPickAfter(n);
+ if(!later||later-n>4)return '';
+ const D=dm(),available=P.filter(p=>!D[p.id]&&Number.isFinite(p.draft_score)&&Number.isFinite(p.favg)&&Number.isFinite(p.ftot));
+ if(available.length<2)return '';
+ const pct=pairPercentileScores(available);
+ const candidates=available.map(p=>({p,score:pct.get(p.id)})).sort((a,b)=>b.score-a.score).slice(0,24);
+ const rates=draftSimCache?.n===n?draftSimCache.results:[];
+ const rate=p=>rates.find(x=>x.id===p.id)?.rate;
+ const pairs=[];
+ for(let i=0;i<candidates.length;i++)for(let j=i+1;j<candidates.length;j++){
+   const a=candidates[i],b=candidates[j],ra=rate(a.p),rb=rate(b.p);
+   // Optimize the expected second-pick contribution, not a forced player preference.
+   const optionA=a.score+(rb==null?0.5:rb)*b.score;
+   const optionB=b.score+(ra==null?0.5:ra)*a.score;
+   if(optionA>=optionB)pairs.push({first:a,second:b,score:optionA,remain:rb});
+   else pairs.push({first:b,second:a,score:optionB,remain:ra});
+ }
+ pairs.sort((a,b)=>b.score-a.score);
+ const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const fmt=r=>r==null?'veri bekleniyor':`%${Math.round(r*100)} senaryo`;
+ return `<div class="decisionBlock" style="margin-top:7px"><div class="decisionTitle">🔁 İKİLİ PICK #${n} → #${later} · V5 %60 / AVG %20 / TOTAL %20</div>${pairs.slice(0,3).map((x,i)=>`<div style="margin-top:5px"><b>${i+1}. ${esc(x.first.p.name)} → ${esc(x.second.p.name)}</b> · birleşik beklenti ${x.score.toFixed(1)} · ikinci oyuncu kalma: ${fmt(x.remain)}</div>`).join('')}<div style="opacity:.8;font-size:11px;margin-top:5px">Yüzdelik puanlar mevcut uygun oyuncular arasında hesaplanır. Simülasyon oranı gerçek olasılık değildir. Hiçbir oyuncu zorunlu değildir.</div>${opponentBehaviorNote(n)}</div>`;
+}
+
 function recs(){
  if(draftSimCache && draftSimCache.n!==S.drafted.length+1)draftSimCache=null;
  let n=S.drafted.length+1,D=dm(),avail=P.filter(x=>!D[x.id]&&x.draft_score!=null);
@@ -1339,7 +1396,8 @@ function recs(){
    <div class="mini">Strategy ${p.draft_score.toFixed(1)} • Live Pick ${e.pickScore.toFixed(1)} • FPTS ${p.favg?.toFixed(1)??"-"} • ADP ${p.adp??"-"} • Sonraki seçim #${dec.next??"—"}</div>
    <div class="fitbar"><span class="fitpill">Kadro ${e.fit>=0?"+":""}${e.fit.toFixed(1)}</span><span class="fitpill">Zamanlama ${e.sv.score>=0?"+":""}${e.sv.score}</span><span class="scarcity">Kıtlık ${e.sc.score>=0?"+":""}${e.sc.score.toFixed(1)} (${e.sc.label})</span><span class="fitpill">±5 Rakip +${e.th.score.toFixed(1)}</span>${e.vf.flag?`<span class="fitpill vf">${e.vf.label}</span>`:""}${simulationDecisionNote(p,dec,n)}</div>
    <div class="why"><b>${dec.action.startsWith("TAKE")?"NEDEN TAKE NOW: ":"NEDEN WAIT: "}</b>${dec.reason} • ${e.reason} • ${e.sv.label}${threat}${afterThreat}</div></div>`
- }).join("")
+ }).join("");
+ document.getElementById("recs").insertAdjacentHTML("beforeend",pairedPickAdvice(n));
 }
 const SLOT_ORDER=["PG","SG","SF","PF","C","G","SG/SF","PF/C","UTIL","BE1","BE2","BE3"];
 function eligible(pos,slot){
