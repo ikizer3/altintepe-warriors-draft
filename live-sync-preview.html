@@ -899,7 +899,8 @@ body.intelFull #center-intel .ixFold > summary{padding:12px;cursor:pointer;font-
 body.intelFull #center-intel .ixFold:not([open]) .ixPanel{display:none;}
 body.intelFull #center-intel .ixFold .ixTable{max-height:420px;overflow:auto!important;}
 @media(max-width:950px){body.intelFull .nftrShell{overflow:hidden!important;}body.intelFull .centerRail{min-height:0!important;}}
-</style></head><body class="playersFull">
+</style><style id="liveTradeMobileFix">@media(max-width:680px){body.tradesFull .nftrShell{display:block;height:auto;overflow:visible}body.tradesFull .leftRail,body.tradesFull .rightRail{display:none}body.tradesFull .centerRail{width:100%;min-width:0;overflow:visible}body.tradesFull #center-trades{width:100%;min-width:0;overflow:visible;height:auto}body.tradesFull .tradeReceiveGrid{grid-template-columns:1fr}body.tradesFull .tradeToolbar input{min-width:0;max-width:100%}}</style>
+</head><body class="playersFull">
 <style>
 #liveDraftPanel{margin:9px 12px;padding:12px;border:1px solid #285064;border-radius:12px;background:rgba(15,39,54,.65);font-size:12px}
 #liveDraftPanel summary{cursor:pointer;font-weight:850;color:#65e4d0}
@@ -908,7 +909,7 @@ body.intelFull #center-intel .ixFold .ixTable{max-height:420px;overflow:auto!imp
 #liveDraftPanel button{padding:9px 12px;margin:3px;border-radius:8px;border:1px solid #45818a;background:#163f4b;color:#fff;cursor:pointer}
 #liveDraftStatus{margin:7px 0;color:#a7c6d1;font-size:11px;word-break:break-word}
 </style>
-<details id="liveDraftPanel"><summary>🔗 Canlı Draft — güvenli ortak kayıt</summary><div class="liveFields"><input id="liveWorker" placeholder="Yayın sonrası hizmet adresi" aria-label="HTTPS hizmet adresi"></div><div><button onclick="liveDraftConfigure()">Bağlan</button><button onclick="liveDraftLogin()">Güvenli giriş</button><button onclick="liveDraftRefresh()">Yenile</button><button onclick="liveDraftPublish()">Bekleyen kaydı gönder</button><button onclick="liveAcceptServer()">Ortak kaydı kabul et</button><button onclick="liveDraftCopyReadUrl()">Pick Plan bağlantısını kopyala</button><button onclick="liveDraftDisable()">Yerel moda dön</button></div><div id="liveDraftStatus" aria-live="polite"></div><p class="mini">✓ sunucu onayı olmadan ortak kayıt tamamlanmış sayılmaz. ⏳/⚠ kayıtta bekleyen işlem korunur. Salt-okunur URL yalnız draft verilerini paylaşır; yazma yetkisi vermez.</p><button onclick="runLiveQA()">Canlı testleri çalıştır</button><a id="qaDownload" hidden download="live-qa-results.json">Test raporunu indir</a><pre id="qaResults" style="white-space:pre-wrap"></pre></details><script>
+<details id="liveDraftPanel"><summary>🔗 Canlı Draft — güvenli ortak kayıt</summary><div class="liveFields"><input id="liveWorker" placeholder="Yayın sonrası hizmet adresi" aria-label="HTTPS hizmet adresi"></div><div><button onclick="liveDraftConfigure()">Bağlan</button><button onclick="liveDraftLogin()">Güvenli giriş</button><button onclick="liveDraftRefresh()">Yenile</button><button onclick="liveDraftPublish()">Bekleyen kaydı gönder</button><button onclick="liveAcceptServer()">Ortak kaydı kabul et</button><button onclick="liveDraftCopyReadUrl()">Pick Plan bağlantısını kopyala</button><button onclick="liveDraftDisable()">Yerel moda dön</button></div><div id="liveDraftStatus" aria-live="polite"></div><p class="mini">✓ sunucu onayı olmadan ortak kayıt tamamlanmış sayılmaz. ⏳/⚠ kayıtta bekleyen işlem korunur. Salt-okunur URL yalnız draft verilerini paylaşır; yazma yetkisi vermez.</p></details><script>
 const LIVE_MODEL_SOURCE_SHA256="378df1036c80767a4c030e5b13fa936ed4cfc6663438492e46bb6d7b4cb15477";
 // No administrator key. Login session is short-lived, scoped and kept in memory only.
 const LIVE_DRAFT_CONFIG_KEY='AltintepeLiveSyncV2QA',LIVE_OUTBOX='AltintepeLiveOutboxV2QA';
@@ -923,7 +924,7 @@ function liveStatusReady(){const c=liveDraftConfig();liveDraftStatus(`✓ Ortak 
 async function liveFetch(path,options={}){const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),12000);try{const r=await fetch(liveURL(path),{cache:'no-store',...options,signal:controller.signal});const d=await r.json();if(!r.ok){const e=Error(d.error||'HTTP '+r.status);e.status=r.status;e.payload=d;throw e}return d}finally{clearTimeout(timeout)}}
 function liveValidState(d){return d?.schemaVersion===2&&d.draftId==='altintepe-2026-27'&&Number.isInteger(d.revision)&&Array.isArray(d.draftHistory)&&d.draftHistory.length<=192&&d.modelSourceSHA256===LIVE_MODEL_SOURCE_SHA256&&d.draftHistory.every((x,i)=>x.pick===i+1&&P.some(p=>p.id===x.id)&&x.owner===teamAt(i+1))&&new Set(d.draftHistory.map(x=>x.id)).size===d.draftHistory.length&&(d.draftHistory.length<1||d.draftHistory[0].id!=='lukadoncic')&&(d.draftHistory.length<2||d.draftHistory[1].id==='lukadoncic')}
 function liveApply(d){if(!liveValidState(d))throw Error('Ortak kayıt / model doğrulaması başarısız.');const c=liveDraftConfig();if(!c)return;if(d.revision<c.revision)throw Error('Eski sunucu revizyonu reddedildi.');if(liveReady&&d.revision===liveAppliedRevision&&!liveOutbox().length){liveOffline=false;liveStatusReady();return}liveConnectedWorker=c.worker;liveAppliedRevision=d.revision;c.revision=d.revision;c.updatedAt=d.lastSuccessfulUpdateUTC;localStorage.setItem(LIVE_DRAFT_CONFIG_KEY,JSON.stringify(c));if(!liveOutbox().length){liveApplying=true;S={drafted:d.draftHistory};draftSimToken++;draftSimPending=-1;draftSimCache=null;clearReplacementEvent();localStorage.setItem('AltintepeDraftV1QA',JSON.stringify(S));all();liveApplying=false}liveReady=true;liveOffline=false;liveStatusReady()}
-async function liveDraftRefresh(){if(!liveDraftConfig()||liveBusy||liveConflict)return;if(liveOutbox().length){if(liveSession)await liveDraftPublish();return}try{liveApply(await liveFetch('/state/altintepe-2026-27'))}catch(e){liveOffline=true;liveDraftStatus('⚠ Ortak kayıt okunamadı: '+e.message+'. Yeni seçim kilitli; tekrar dene.')}}
+async function liveDraftRefresh(){if(!liveDraftConfig()||liveBusy||liveConflict)return;if(liveOutbox().length){if(liveSession)await liveDraftPublish();else liveDraftStatus('⏳ Bekleyen işlem tarayıcıda korunuyor. Göndermek için Güvenli giriş yap.');return}try{liveApply(await liveFetch('/state/altintepe-2026-27'))}catch(e){liveOffline=true;liveDraftStatus('⚠ Ortak kayıt okunamadı: '+e.message+'. Yeni seçim kilitli; tekrar dene.')}}
 async function liveDraftConfigure(){const worker=(document.getElementById('liveWorker').value||LIVE_DEPLOYED_SERVICE).trim().replace(/\/+$/,'');if(!/^https:\/\/[a-z0-9.-]+(?::\d+)?$/i.test(worker)){liveDraftStatus('Doğrulanmış HTTPS hizmet adresi gerekli. Yayın henüz yapılmadıysa bağlantı kurulamaz.');return}if(liveOutbox().length){liveDraftStatus('Önce bekleyen kaydı çöz; hizmet değiştirilemez.');return}if(S.drafted.length&&!confirm('Ortak kayıt okunacak. Mevcut yerel draft yedeklenecek; sunucu kaydı esas alınacak.'))return;localStorage.setItem('AltintepePreSyncBackupV2QA',JSON.stringify({at:new Date().toISOString(),drafted:S.drafted}));localStorage.setItem(LIVE_DRAFT_CONFIG_KEY,JSON.stringify({worker,revision:0,updatedAt:null}));liveSession=null;liveReady=false;liveConflict=false;await liveDraftRefresh()}
 let liveLoginPoll=null;
 function liveDraftLogin(){
@@ -2164,6 +2165,7 @@ function renderPickPlan(){
 }
 
 function showShell(name,btn){
+ document.body.classList.toggle("tradesFull",name==="trades");
  document.body.classList.toggle("playersFull",name==="players");
  document.body.classList.toggle("dr41",name==="draftroom");
  document.body.classList.toggle("reportFull",name==="report");
@@ -2481,37 +2483,4 @@ function ixInit(){
 ixInit();
 
 </script>
-<script>
-async function runLiveQA(){
- const log=document.getElementById('qaResults'),results=[];const record=(name,data={})=>{results.push({name,status:'PASS',...data});log.textContent=JSON.stringify(results,null,2)};const check=(v,msg)=>{if(!v)throw Error(msg)};
- if(!liveSession||!liveReady||liveOutbox().length){log.textContent='Önce Güvenli giriş; bekleyen kayıt olmamalı.';return}
- const native=window.fetch.bind(window),session=liveSession;clearInterval(livePollTimer);let seq=0;
- const get=async p=>{let r=await native(liveURL(p),{cache:'no-store',headers:{Authorization:'Bearer '+session.token}});let d=await r.json();check(r.ok,'GET '+p+' '+r.status);return d};
- const command=async(type,rev,rest={})=>{let r=await native(liveURL('/commands'),{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+session.token},body:JSON.stringify({type,expectedRevision:rev,commandId:crypto.randomUUID(),...rest})});return {status:r.status,body:await r.json()}};
- try{
- let s=await get('/state/altintepe-2026-27');check(s.draftHistory.length===2&&s.draftHistory[0].id==='nikolajokic'&&s.draftHistory[1].id==='lukadoncic','Yalnız Jokic/Luka test draftında çalışır');record('Live two picks and Luka lock',{revision:s.revision});
- let q=await command('pick',s.revision,{pick:3,playerId:'nikolajokic'});check(q.status===422&&q.body.error==='DUPLICATE_PLAYER','Duplicate not rejected');record('Live duplicate rejected');
- q=await command('pick',0,{pick:3,playerId:'shaigilgeousalexander'});check(q.status===409,'Stale not rejected');record('Live stale revision rejected');
- q=await command('pick',s.revision,{pick:4,playerId:'shaigilgeousalexander'});check(q.status===422,'Out of order accepted');record('Live out-of-order rejected');
- const restoreRevision=s.revision;
- q=await command('undo',s.revision,{lastPlayerId:'lukadoncic'});check(q.status===200&&q.body.state.draftHistory.length===1,'UNDO failed');s=q.body.state;record('Live UNDO synchronizes');
- q=await command('pick',s.revision,{pick:2,playerId:'shaigilgeousalexander'});check(q.status===422&&q.body.error==='LUKA_LOCK','Luka lock failed');record('Live #2 Luka mandatory');
- q=await command('pick',s.revision,{pick:2,playerId:'lukadoncic'});check(q.status===200,'Luka re-pick failed');s=q.body.state;
- const race=await Promise.all([command('pick',s.revision,{pick:3,playerId:'shaigilgeousalexander'}),command('pick',s.revision,{pick:3,playerId:'giannisantetokounmpo'})]);check(race.map(x=>x.status).sort().join(',')==='200,409','Concurrent overwrite');s=await get('/state/altintepe-2026-27');check(s.draftHistory.length===3,'Race history invalid');record('Live concurrent writers: one 200 one 409');
- q=await command('reset',s.revision,{confirm:true});check(q.status===200&&q.body.state.draftHistory.length===0,'RESET failed');s=q.body.state;record('Live RESET synchronizes');
- let snaps=await get('/snapshots');check(snaps.revisions.includes(restoreRevision),'Backup absent');q=await command('restore',s.revision,{confirm:true,snapshotRevision:restoreRevision});check(q.status===200&&q.body.state.draftHistory.length===2&&q.body.state.myDraftedPlayers[0].id==='lukadoncic','Restore failed');s=q.body.state;record('Live recoverable snapshot RESTORE');
- q=await command('reset',s.revision,{confirm:true});check(q.status===200,'Test reset failed');s=q.body.state;liveApply(s);
- const until=async f=>{for(let i=0;i<100;i++){if(f())return;await new Promise(r=>setTimeout(r,100))}throw Error('Client timeout')};
- window.fetch=async(input,opts)=>{if(String(input).endsWith('/commands'))throw Error('QA simulated offline before request');return native(input,opts)};
- draft('nikolajokic');await until(()=>!liveBusy&&liveOutbox().length===1);check((await get('/state/altintepe-2026-27')).draftHistory.length===0,'Offline pick unexpectedly persisted');check(!liveCanEdit(),'Offline must lock next selection');record('Live client network interruption retains outbox and locks edits');
- window.fetch=native;await liveDraftPublish();check(liveOutbox().length===0,'Retry outbox not cleared');s=await get('/state/altintepe-2026-27');check(s.draftHistory.length===1,'Offline retry failed');record('Live offline retry persists once');
- let lost=true;window.fetch=async(input,opts)=>{let r=await native(input,opts);if(lost&&String(input).endsWith('/commands')){lost=false;throw Error('QA simulated response lost after commit')}return r};
- draft('lukadoncic');await until(()=>!liveBusy&&liveOutbox().length===1);s=await get('/state/altintepe-2026-27');check(s.draftHistory.length===2,'Lost ACK not committed');window.fetch=native;await liveDraftPublish();check(liveOutbox().length===0,'Lost ACK retry failed');check((await get('/state/altintepe-2026-27')).draftHistory.length===2,'Lost ACK duplicate');record('Live lost-ACK replay is idempotent');
- const expired=session.expiresAt;liveSession={token:session.token,expiresAt:0};check(!liveCanEdit(),'Expired client session accepted');liveSession=session;record('Expired write session blocks new pick');
- let unauth=await native(liveURL('/commands'),{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+ '0'.repeat(64)},body:'{}'});check(unauth.status===401,'Invalid auth accepted');record('Live invalid authentication rejected');
- let ro=await native(liveURL('/state/altintepe-2026-27'),{method:'POST'});check(ro.status===405,'Read endpoint mutation accepted');record('Live read endpoint is read-only');
- q=await command('reset',s.revision,{confirm:true});check(q.status===200,'Final test cleanup failed');liveApply(q.body.state);record('Test cleanup: zero selections, revisions preserved',{revision:q.body.state.revision});
- document.getElementById('qaDownload').hidden=false;document.getElementById('qaDownload').href=URL.createObjectURL(new Blob([JSON.stringify({environment:'Actual deployed Cloudflare + real browser client',status:'PASS',tests:results},null,2)],{type:'application/json'}));
- }catch(e){results.push({name:e.message,status:'FAIL'});log.textContent=JSON.stringify(results,null,2)}finally{window.fetch=native;livePollTimer=setInterval(liveDraftRefresh,2000)}
-}
-</script></body></html>
+</body></html>
