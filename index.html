@@ -1573,7 +1573,10 @@ function renderTable(){let D=dm(),q=document.getElementById("q").value.toLowerCa
 a.sort((x,y)=>{let xv=val(x),yv=val(y);xv=xv==null?-Infinity:xv;yv=yv==null?-Infinity:yv;return tableSortDir==="asc"?xv-yv:yv-xv;});body.innerHTML=a.map(p=>{let d=D[p.id],o=p.outlook&&p.outlook!=="Outlook yok"?p.outlook:"—";return `<tr class="${d?"drafted":""}"><td>${p.strategy_rank??"-"}</td><td><b>${p.name}</b></td><td>${p.pos}</td><td>${p.team}</td><td class="num">${p.draft_score?.toFixed(1)??"-"}</td><td class="num">${p.ftot?Math.round(p.ftot):"-"}</td><td class="num">${p.favg?.toFixed(1)??"-"}</td><td class="num">${p.proj_min??"-"}</td><td class="num">${p.proj_gp??"-"}</td><td class="num">${p.adp??"-"}</td><td class="num ${deltaClass(deltaAvg(p))}" title="Geçen sezon ${p.actual_avg!=null?p.actual_avg.toFixed(1):"—"} → Bu sezon proj. ${p.favg!=null?p.favg.toFixed(1):"—"}">${signed(deltaAvg(p),1)}</td><td><span class="tag ${risk(p)}">${p.health||"OK"}</span></td><td class="outlook">${o}</td><td>${d?"✓ #"+d.pick:`<button class="primary" onclick="draft('${p.id}')">DRAFT</button>`}</td></tr>`}).join("")}
 function draft(id){
  let p=P.find(x=>x.id===id),n=S.drafted.length+1;
- if(!p||n>192)return;
+ if(!p||n>192||S.drafted.some(x=>x.id===id))return;
+ // Reserve Luka for Altintepe's locked #2 pick, and enforce that pick.
+ if(n===1 && id==="lukadoncic")return;
+ if(n===2 && id!=="lukadoncic")return;
  const before=liveRecommendationSnapshot(n);
  let owner=teamAt(n);
  draftSimToken++;draftSimPending=-1;draftSimCache=null;
