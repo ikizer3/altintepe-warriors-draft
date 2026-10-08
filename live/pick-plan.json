@@ -1,145 +1,41 @@
 {
   "schemaVersion": 2,
   "draftId": "altintepe-2026-27",
-  "revision": 22,
-  "lastSuccessfulUpdateUTC": "2026-10-08T15:02:35.392Z",
+  "revision": 51,
+  "lastSuccessfulUpdateUTC": "2026-10-08T18:02:16.610Z",
   "modelSourceSHA256": "378df1036c80767a4c030e5b13fa936ed4cfc6663438492e46bb6d7b4cb15477",
   "sourceModelVersion": "V1.92 / Strategy V5 Optimal",
-  "currentPick": 1,
-  "nextOwnPick": 2,
-  "nextSurvivalTarget": 2,
+  "currentPick": 30,
+  "nextOwnPick": 31,
+  "nextSurvivalTarget": 31,
   "topThree": [
     {
-      "id": "nikolajokic",
-      "name": "Nikola Jokic",
-      "pos": "C",
-      "team": "DEN",
-      "v5": 96.96,
-      "livePickScore": 105.1725,
-      "projectedAverage": 50.6,
-      "projectedTotal": 3641.8,
-      "adp": 1.5,
+      "id": "tyresehaliburton",
+      "name": "Tyrese Haliburton",
+      "pos": "PG, SG",
+      "team": "IND",
+      "v5": 66.59,
+      "livePickScore": 81.20750000000001,
+      "projectedAverage": 36.4,
+      "projectedTotal": 2329.7,
+      "adp": 19.3,
       "decision": {
         "action": "TAKE NOW",
         "cls": "takeNow",
         "risk": 6.5,
-        "next": 2,
+        "next": 31,
         "gap": 1,
-        "reason": "ADP 1.5 şu anki markette • 1 yakın rakip pozisyon tehdidi • 80 senaryo: 59/80, #2'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
-        "fallbackAction": "TAKE NOW",
-        "simulationRate": 0.7375,
-        "simulation": {
-          "id": "nikolajokic",
-          "name": "Nikola Jokic",
-          "hits": 59,
-          "rate": 0.7375,
-          "score": 96.96,
-          "adp": 1.5,
-          "next": 2,
-          "samples": 80,
-          "band": "medium"
-        },
-        "simulationInfluenced": false
-      },
-      "confidence": {
-        "level": "ORTA GÜVEN",
-        "cls": "confMed",
-        "completeness": 1,
-        "clarity": 1
-      },
-      "rosterFit": {
-        "score": 3.15,
-        "reason": "boş C slotu • flex PF/C"
-      },
-      "scarcity": {
-        "score": 1.75,
-        "label": "C çok kıt",
-        "count": 1
-      },
-      "vorp": {
-        "pos": "C",
-        "delta": 20.6
-      }
-    },
-    {
-      "id": "shaigilgeousalexander",
-      "name": "Shai Gilgeous-Alexander",
-      "pos": "PG",
-      "team": "OKC",
-      "v5": 87.67,
-      "livePickScore": 95.88250000000001,
-      "projectedAverage": 42.9,
-      "projectedTotal": 3261.1,
-      "adp": 3,
-      "decision": {
-        "action": "TAKE NOW",
-        "cls": "takeNow",
-        "risk": 6.5,
-        "next": 2,
-        "gap": 1,
-        "reason": "ADP 3 şu anki markette • 1 yakın rakip pozisyon tehdidi • 80 senaryo: 59/80, #2'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
-        "fallbackAction": "TAKE NOW",
-        "simulationRate": 0.7375,
-        "simulation": {
-          "id": "shaigilgeousalexander",
-          "name": "Shai Gilgeous-Alexander",
-          "hits": 59,
-          "rate": 0.7375,
-          "score": 87.67,
-          "adp": 3,
-          "next": 2,
-          "samples": 80,
-          "band": "medium"
-        },
-        "simulationInfluenced": false
-      },
-      "confidence": {
-        "level": "ORTA GÜVEN",
-        "cls": "confMed",
-        "completeness": 1,
-        "clarity": 1
-      },
-      "rosterFit": {
-        "score": 3.15,
-        "reason": "boş PG slotu • flex G"
-      },
-      "scarcity": {
-        "score": 1.75,
-        "label": "PG çok kıt",
-        "count": 2
-      },
-      "vorp": {
-        "pos": "PG",
-        "delta": 10.5
-      }
-    },
-    {
-      "id": "lukadoncic",
-      "name": "Luka Doncic",
-      "pos": "PG",
-      "team": "LAL",
-      "v5": 87.36,
-      "livePickScore": 95.4675,
-      "projectedAverage": 46.7,
-      "projectedTotal": 3174.6,
-      "adp": 3.6,
-      "decision": {
-        "action": "TAKE NOW",
-        "cls": "takeNow",
-        "risk": 6.5,
-        "next": 2,
-        "gap": 1,
-        "reason": "ADP 3.6 şu anki markette • 1 yakın rakip pozisyon tehdidi • 80 senaryo: 80/80, #2'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
+        "reason": "ADP 19.3 şu anki markette • 1 yakın rakip pozisyon tehdidi • 80 senaryo: 80/80, #31'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
         "fallbackAction": "TAKE NOW",
         "simulationRate": 1,
         "simulation": {
-          "id": "lukadoncic",
-          "name": "Luka Doncic",
+          "id": "tyresehaliburton",
+          "name": "Tyrese Haliburton",
           "hits": 80,
           "rate": 1,
-          "score": 87.36,
-          "adp": 3.6,
-          "next": 2,
+          "score": 66.59,
+          "adp": 19.3,
+          "next": 31,
           "samples": 80,
           "band": "high"
         },
@@ -148,273 +44,377 @@
       "confidence": {
         "level": "ORTA GÜVEN",
         "cls": "confMed",
+        "completeness": 0.8571428571428571,
+        "clarity": 1
+      },
+      "rosterFit": {
+        "score": 3.15,
+        "reason": "boş SG slotu • flex G/SG/SF"
+      },
+      "scarcity": {
+        "score": 0,
+        "label": "normal havuz",
+        "count": 99
+      },
+      "vorp": {
+        "pos": "SG",
+        "delta": 7.299999999999997
+      }
+    },
+    {
+      "id": "anthonydavis",
+      "name": "Anthony Davis",
+      "pos": "C, PF",
+      "team": "WSH",
+      "v5": 68.08,
+      "livePickScore": 76.6425,
+      "projectedAverage": 35.9,
+      "projectedTotal": 2187.9,
+      "adp": 32.1,
+      "decision": {
+        "action": "TAKE NOW",
+        "cls": "takeNow",
+        "risk": 6.5,
+        "next": 31,
+        "gap": 1,
+        "reason": "ADP 32.1 şu anki markette • 1 yakın rakip pozisyon tehdidi • 80 senaryo: 64/80, #31'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
+        "fallbackAction": "TAKE NOW",
+        "simulationRate": 0.8,
+        "simulation": {
+          "id": "anthonydavis",
+          "name": "Anthony Davis",
+          "hits": 64,
+          "rate": 0.8,
+          "score": 68.08,
+          "adp": 32.1,
+          "next": 31,
+          "samples": 80,
+          "band": "medium"
+        },
+        "simulationInfluenced": false
+      },
+      "confidence": {
+        "level": "ORTA GÜVEN",
+        "cls": "confMed",
         "completeness": 1,
         "clarity": 1
       },
       "rosterFit": {
         "score": 3.15,
-        "reason": "boş PG slotu • flex G"
+        "reason": "boş PF/C slotu • flex PF/C"
       },
       "scarcity": {
         "score": 1.75,
-        "label": "PG çok kıt",
+        "label": "C çok kıt",
         "count": 2
       },
       "vorp": {
+        "pos": "C",
+        "delta": 10.299999999999997
+      }
+    },
+    {
+      "id": "stephencurry",
+      "name": "Stephen Curry",
+      "pos": "PG",
+      "team": "GS",
+      "v5": 68.6,
+      "livePickScore": 76.49499999999999,
+      "projectedAverage": 33.7,
+      "projectedTotal": 2223.9,
+      "adp": 28.2,
+      "decision": {
+        "action": "WAIT",
+        "cls": "wait",
+        "risk": 5,
+        "next": 31,
+        "gap": 1,
+        "reason": "ADP 28.2 şu anki markette • 80 senaryo: 56/80, #31'e kalma. Rakip sırası: simülasyon bilgilendirir, önceki karar kuralı korunur. Bu model sıklığıdır; gerçek olasılık veya garanti değildir.",
+        "fallbackAction": "WAIT",
+        "simulationRate": 0.7,
+        "simulation": {
+          "id": "stephencurry",
+          "name": "Stephen Curry",
+          "hits": 56,
+          "rate": 0.7,
+          "score": 68.6,
+          "adp": 28.2,
+          "next": 31,
+          "samples": 80,
+          "band": "medium"
+        },
+        "simulationInfluenced": false
+      },
+      "confidence": {
+        "level": "YÜKSEK GÜVEN",
+        "cls": "confHigh",
+        "completeness": 1,
+        "clarity": 3
+      },
+      "rosterFit": {
+        "score": 0.9,
+        "reason": "flex G"
+      },
+      "scarcity": {
+        "score": 1.0499999999999998,
+        "label": "PG kıt",
+        "count": 6
+      },
+      "vorp": {
         "pos": "PG",
-        "delta": 14.300000000000004
+        "delta": 2.900000000000002
       }
     }
   ],
-  "pairAdviceHtml": "",
+  "pairAdviceHtml": "<div class=\"decisionBlock pairAdviceBlock\"><div class=\"decisionTitle\">🔁 İKİLİ PICK</div><div class=\"mini\" style=\"margin:4px 0 7px\">Sıradaki seçimlerimiz: <b>#31 ve #34</b> · V5 %60 / AVG %20 / TOTAL %20</div><div style=\"margin-top:6px\"><b>1. Lauri Markkanen → Stephen Curry</b><div class=\"mini\">Model kombinasyon skoru: 147.8</div></div><div style=\"margin-top:6px\"><b>2. Lauri Markkanen → Anthony Davis</b><div class=\"mini\">Model kombinasyon skoru: 147.6</div></div><div style=\"margin-top:6px\"><b>3. Tyrese Haliburton → Stephen Curry</b><div class=\"mini\">Model kombinasyon skoru: 147.4</div></div><div class=\"mini\" style=\"opacity:.8;margin-top:7px\">İkinci oyuncunun #34'e kalma olasılığı henüz ölçülmüyor; skor yaklaşık karşılaştırmadır. Zorunlu oyuncu yoktur.</div><span class=\"fitpill\">Rakip eğilimi: yeterli seçim verisi yok</span></div>",
   "simulation": {
     "engine": "next-pick-survival",
     "samples": 80,
-    "next": 2,
+    "next": 31,
     "results": [
-      {
-        "id": "nikolajokic",
-        "name": "Nikola Jokic",
-        "hits": 59,
-        "rate": 0.7375,
-        "score": 96.96,
-        "adp": 1.5
-      },
-      {
-        "id": "shaigilgeousalexander",
-        "name": "Shai Gilgeous-Alexander",
-        "hits": 59,
-        "rate": 0.7375,
-        "score": 87.67,
-        "adp": 3
-      },
-      {
-        "id": "lukadoncic",
-        "name": "Luka Doncic",
-        "hits": 80,
-        "rate": 1,
-        "score": 87.36,
-        "adp": 3.6
-      },
-      {
-        "id": "giannisantetokounmpo",
-        "name": "Giannis Antetokounmpo",
-        "hits": 72,
-        "rate": 0.9,
-        "score": 82.49,
-        "adp": 5.7
-      },
-      {
-        "id": "victorwembanyama",
-        "name": "Victor Wembanyama",
-        "hits": 67,
-        "rate": 0.8375,
-        "score": 81.15,
-        "adp": 3.1
-      },
-      {
-        "id": "jalenjohnson",
-        "name": "Jalen Johnson",
-        "hits": 75,
-        "rate": 0.9375,
-        "score": 80.98,
-        "adp": 8.7
-      },
-      {
-        "id": "cadecunningham",
-        "name": "Cade Cunningham",
-        "hits": 77,
-        "rate": 0.9625,
-        "score": 78.59,
-        "adp": 8.1
-      },
-      {
-        "id": "anthonyedwards",
-        "name": "Anthony Edwards",
-        "hits": 74,
-        "rate": 0.925,
-        "score": 78.45,
-        "adp": 7.2
-      },
-      {
-        "id": "jaysontatum",
-        "name": "Jayson Tatum",
-        "hits": 77,
-        "rate": 0.9625,
-        "score": 77.38,
-        "adp": 9.2
-      },
-      {
-        "id": "donovanmitchell",
-        "name": "Donovan Mitchell",
-        "hits": 80,
-        "rate": 1,
-        "score": 76.74,
-        "adp": 11.2
-      },
-      {
-        "id": "jalenbrunson",
-        "name": "Jalen Brunson",
-        "hits": 80,
-        "rate": 1,
-        "score": 75.94,
-        "adp": 13.1
-      },
-      {
-        "id": "devinbooker",
-        "name": "Devin Booker",
-        "hits": 80,
-        "rate": 1,
-        "score": 74.81,
-        "adp": 21.2
-      },
-      {
-        "id": "jamesharden",
-        "name": "James Harden",
-        "hits": 80,
-        "rate": 1,
-        "score": 74.08,
-        "adp": 28.2
-      },
-      {
-        "id": "joshgiddey",
-        "name": "Josh Giddey",
-        "hits": 80,
-        "rate": 1,
-        "score": 73.9,
-        "adp": 23.2
-      },
-      {
-        "id": "domantassabonis",
-        "name": "Domantas Sabonis",
-        "hits": 80,
-        "rate": 1,
-        "score": 73.26,
-        "adp": 16.9
-      },
-      {
-        "id": "karlanthonytowns",
-        "name": "Karl-Anthony Towns",
-        "hits": 80,
-        "rate": 1,
-        "score": 73.25,
-        "adp": 21
-      },
-      {
-        "id": "kevindurant",
-        "name": "Kevin Durant",
-        "hits": 80,
-        "rate": 1,
-        "score": 73.18,
-        "adp": 19.5
-      },
-      {
-        "id": "traeyoung",
-        "name": "Trae Young",
-        "hits": 80,
-        "rate": 1,
-        "score": 73.07,
-        "adp": 22.8
-      },
-      {
-        "id": "tyresemaxey",
-        "name": "Tyrese Maxey",
-        "hits": 80,
-        "rate": 1,
-        "score": 72.92,
-        "adp": 12.8
-      },
-      {
-        "id": "scottiebarnes",
-        "name": "Scottie Barnes",
-        "hits": 80,
-        "rate": 1,
-        "score": 72.11,
-        "adp": 16.1
-      },
-      {
-        "id": "pascalsiakam",
-        "name": "Pascal Siakam",
-        "hits": 80,
-        "rate": 1,
-        "score": 71.82,
-        "adp": 30.4
-      },
-      {
-        "id": "alperensengun",
-        "name": "Alperen Sengun",
-        "hits": 80,
-        "rate": 1,
-        "score": 71.76,
-        "adp": 24.2
-      },
-      {
-        "id": "amenthompson",
-        "name": "Amen Thompson",
-        "hits": 80,
-        "rate": 1,
-        "score": 71.61,
-        "adp": 20.2
-      },
-      {
-        "id": "deniavdija",
-        "name": "Deni Avdija",
-        "hits": 80,
-        "rate": 1,
-        "score": 71.35,
-        "adp": 35.1
-      },
-      {
-        "id": "cooperflagg",
-        "name": "Cooper Flagg",
-        "hits": 80,
-        "rate": 1,
-        "score": 71.14,
-        "adp": 17.3
-      },
-      {
-        "id": "lameloball",
-        "name": "LaMelo Ball",
-        "hits": 80,
-        "rate": 1,
-        "score": 71.01,
-        "adp": 25.7
-      },
-      {
-        "id": "jamalmurray",
-        "name": "Jamal Murray",
-        "hits": 80,
-        "rate": 1,
-        "score": 70.58,
-        "adp": 32.6
-      },
-      {
-        "id": "bamadebayo",
-        "name": "Bam Adebayo",
-        "hits": 80,
-        "rate": 1,
-        "score": 70.13,
-        "adp": 28.9
-      },
-      {
-        "id": "jalenduren",
-        "name": "Jalen Duren",
-        "hits": 80,
-        "rate": 1,
-        "score": 68.97,
-        "adp": 33.6
-      },
       {
         "id": "stephencurry",
         "name": "Stephen Curry",
-        "hits": 80,
-        "rate": 1,
+        "hits": 56,
+        "rate": 0.7,
         "score": 68.6,
         "adp": 28.2
+      },
+      {
+        "id": "jaylenbrown",
+        "name": "Jaylen Brown",
+        "hits": 66,
+        "rate": 0.825,
+        "score": 68.28,
+        "adp": 32.9
+      },
+      {
+        "id": "laurimarkkanen",
+        "name": "Lauri Markkanen",
+        "hits": 80,
+        "rate": 1,
+        "score": 68.23,
+        "adp": 55.3
+      },
+      {
+        "id": "anthonydavis",
+        "name": "Anthony Davis",
+        "hits": 64,
+        "rate": 0.8,
+        "score": 68.08,
+        "adp": 32.1
+      },
+      {
+        "id": "juliusrandle",
+        "name": "Julius Randle",
+        "hits": 80,
+        "rate": 1,
+        "score": 67.98,
+        "adp": 60.4
+      },
+      {
+        "id": "derrickwhite",
+        "name": "Derrick White",
+        "hits": 78,
+        "rate": 0.975,
+        "score": 67.97,
+        "adp": 40.3
+      },
+      {
+        "id": "austinreaves",
+        "name": "Austin Reaves",
+        "hits": 78,
+        "rate": 0.975,
+        "score": 67.92,
+        "adp": 39.4
+      },
+      {
+        "id": "paolobanchero",
+        "name": "Paolo Banchero",
+        "hits": 79,
+        "rate": 0.9875,
+        "score": 67.68,
+        "adp": 42.2
+      },
+      {
+        "id": "dariusgarland",
+        "name": "Darius Garland",
+        "hits": 80,
+        "rate": 1,
+        "score": 67.56,
+        "adp": 49.8
+      },
+      {
+        "id": "desmondbane",
+        "name": "Desmond Bane",
+        "hits": 80,
+        "rate": 1,
+        "score": 67.54,
+        "adp": 49.7
+      },
+      {
+        "id": "evanmobley",
+        "name": "Evan Mobley",
+        "hits": 76,
+        "rate": 0.95,
+        "score": 67.04,
+        "adp": 36.5
+      },
+      {
+        "id": "michaelporterjr",
+        "name": "Michael Porter Jr.",
+        "hits": 80,
+        "rate": 1,
+        "score": 66.86,
+        "adp": 52.9
+      },
+      {
+        "id": "kawhileonard",
+        "name": "Kawhi Leonard",
+        "hits": 67,
+        "rate": 0.8375,
+        "score": 66.78,
+        "adp": 30.2
+      },
+      {
+        "id": "tyresehaliburton",
+        "name": "Tyrese Haliburton",
+        "hits": 80,
+        "rate": 1,
+        "score": 66.59,
+        "adp": 19.3
+      },
+      {
+        "id": "konknueppel",
+        "name": "Kon Knueppel",
+        "hits": 80,
+        "rate": 1,
+        "score": 66.42,
+        "adp": 43.1
+      },
+      {
+        "id": "nickeilalexanderwalker",
+        "name": "Nickeil Alexander-Walker",
+        "hits": 80,
+        "rate": 1,
+        "score": 66.11,
+        "adp": 55.6
+      },
+      {
+        "id": "tylerherro",
+        "name": "Tyler Herro",
+        "hits": 80,
+        "rate": 1,
+        "score": 65.82,
+        "adp": 67.5
+      },
+      {
+        "id": "stephoncastle",
+        "name": "Stephon Castle",
+        "hits": 80,
+        "rate": 1,
+        "score": 65.8,
+        "adp": 49.8
+      },
+      {
+        "id": "deaaronfox",
+        "name": "De'Aaron Fox",
+        "hits": 80,
+        "rate": 1,
+        "score": 65.72,
+        "adp": 53
+      },
+      {
+        "id": "keyontegeorge",
+        "name": "Keyonte George",
+        "hits": 80,
+        "rate": 1,
+        "score": 65.11,
+        "adp": 75.6
+      },
+      {
+        "id": "lebronjames",
+        "name": "LeBron James",
+        "hits": 77,
+        "rate": 0.9625,
+        "score": 64.47,
+        "adp": 36.4
+      },
+      {
+        "id": "joelembiid",
+        "name": "Joel Embiid",
+        "hits": 80,
+        "rate": 1,
+        "score": 64.41,
+        "adp": 64.9
+      },
+      {
+        "id": "jalenwilliams",
+        "name": "Jalen Williams",
+        "hits": 79,
+        "rate": 0.9875,
+        "score": 64.35,
+        "adp": 37.5
+      },
+      {
+        "id": "dysondaniels",
+        "name": "Dyson Daniels",
+        "hits": 80,
+        "rate": 1,
+        "score": 64.19,
+        "adp": 60.2
+      },
+      {
+        "id": "mikalbridges",
+        "name": "Mikal Bridges",
+        "hits": 80,
+        "rate": 1,
+        "score": 63.82,
+        "adp": 51.8
+      },
+      {
+        "id": "treymurphyiii",
+        "name": "Trey Murphy III",
+        "hits": 80,
+        "rate": 1,
+        "score": 63.82,
+        "adp": 75
+      },
+      {
+        "id": "dejountemurray",
+        "name": "Dejounte Murray",
+        "hits": 80,
+        "rate": 1,
+        "score": 63.44,
+        "adp": 68.5
+      },
+      {
+        "id": "normanpowell",
+        "name": "Norman Powell",
+        "hits": 80,
+        "rate": 1,
+        "score": 63.43,
+        "adp": 82.7
+      },
+      {
+        "id": "kyrieirving",
+        "name": "Kyrie Irving",
+        "hits": 80,
+        "rate": 1,
+        "score": 63.2,
+        "adp": 60.3
+      },
+      {
+        "id": "franzwagner",
+        "name": "Franz Wagner",
+        "hits": 80,
+        "rate": 1,
+        "score": 62.77,
+        "adp": 71.1
       }
     ]
   },
   "missingScores": 276,
   "assumption": "Model frequencies, not calibrated probabilities; existing V5 unchanged.",
-  "calculatedAtUTC": "2026-10-08T17:52:54.635Z"
+  "calculatedAtUTC": "2026-10-08T18:04:50.489Z"
 }
