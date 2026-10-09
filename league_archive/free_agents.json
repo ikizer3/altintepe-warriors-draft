@@ -1,0 +1,6326 @@
+{
+  "players": [
+    {
+      "id": 4351851,
+      "injury": "DAY_TO_DAY",
+      "name": "Anfernee Simons",
+      "ownership": 31.53,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277956,
+      "injury": "ACTIVE",
+      "name": "Jordan Poole",
+      "ownership": 30.93,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4914336,
+      "injury": "OUT",
+      "name": "Shaedon Sharpe",
+      "ownership": 26.47,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2530530,
+      "injury": "DAY_TO_DAY",
+      "name": "T.J. McConnell",
+      "ownership": 24.34,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4701232,
+      "injury": "OUT",
+      "name": "Mark Williams",
+      "ownership": 23.5,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136776,
+      "injury": "ACTIVE",
+      "name": "D'Angelo Russell",
+      "ownership": 18.59,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432174,
+      "injury": "ACTIVE",
+      "name": "Cam Thomas",
+      "ownership": 18.51,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6475,
+      "injury": "ACTIVE",
+      "name": "Klay Thompson",
+      "ownership": 16.17,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683778,
+      "injury": "ACTIVE",
+      "name": "Jared McCain",
+      "ownership": 13.87,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433192,
+      "injury": "ACTIVE",
+      "name": "Tari Eason",
+      "ownership": 11.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991350,
+      "injury": "ACTIVE",
+      "name": "Alex Caruso",
+      "ownership": 7.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5174983,
+      "injury": "ACTIVE",
+      "name": "Aday Mara",
+      "ownership": 6.68,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5101761,
+      "injury": "DAY_TO_DAY",
+      "name": "Mikel Brown Jr.",
+      "ownership": 5.99,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395626,
+      "injury": "DAY_TO_DAY",
+      "name": "Tre Jones",
+      "ownership": 5.55,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3468,
+      "injury": "ACTIVE",
+      "name": "Russell Westbrook",
+      "ownership": 5.48,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592691,
+      "injury": "ACTIVE",
+      "name": "Jake LaRavia",
+      "ownership": 5.44,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3934673,
+      "injury": "OUT",
+      "name": "Donte DiVincenzo",
+      "ownership": 5.23,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2779,
+      "injury": "ACTIVE",
+      "name": "Chris Paul",
+      "ownership": 4.98,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683774,
+      "injury": "ACTIVE",
+      "name": "Bronny James",
+      "ownership": 4.75,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4873153,
+      "injury": "ACTIVE",
+      "name": "Morez Johnson Jr.",
+      "ownership": 4.43,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278355,
+      "injury": "ACTIVE",
+      "name": "Obi Toppin",
+      "ownership": 3.58,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432810,
+      "injury": "DAY_TO_DAY",
+      "name": "Isaiah Stewart",
+      "ownership": 3.35,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5149077,
+      "injury": "ACTIVE",
+      "name": "Kingston Flemings",
+      "ownership": 3.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5082206,
+      "injury": "ACTIVE",
+      "name": "Brayden Burries",
+      "ownership": 3.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105839,
+      "injury": "DAY_TO_DAY",
+      "name": "Brice Sensabaugh",
+      "ownership": 2.94,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6580,
+      "injury": "DAY_TO_DAY",
+      "name": "Bradley Beal",
+      "ownership": 2.86,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397020,
+      "injury": "DAY_TO_DAY",
+      "name": "Luguentz Dort",
+      "ownership": 2.7,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5104155,
+      "injury": "ACTIVE",
+      "name": "Bilal Coulibaly",
+      "ownership": 2.57,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4845374,
+      "injury": "ACTIVE",
+      "name": "Bub Carrington",
+      "ownership": 2.56,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5211175,
+      "injury": "ACTIVE",
+      "name": "Zaccharie Risacher",
+      "ownership": 2.47,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277813,
+      "injury": "ACTIVE",
+      "name": "Herbert Jones",
+      "ownership": 2.24,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105592,
+      "injury": "ACTIVE",
+      "name": "Cam Whitmore",
+      "ownership": 2.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432823,
+      "injury": "DAY_TO_DAY",
+      "name": "Jaylin Williams",
+      "ownership": 2.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432582,
+      "injury": "ACTIVE",
+      "name": "Max Christie",
+      "ownership": 2.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397183,
+      "injury": "ACTIVE",
+      "name": "Aaron Wiggins",
+      "ownership": 1.91,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5106258,
+      "injury": "ACTIVE",
+      "name": "Gradey Dick",
+      "ownership": 1.9,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277869,
+      "injury": "ACTIVE",
+      "name": "Jose Alvarado",
+      "ownership": 1.89,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065804,
+      "injury": "DAY_TO_DAY",
+      "name": "Sam Hauser",
+      "ownership": 1.88,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997528,
+      "injury": "ACTIVE",
+      "name": "Nikola Jovic",
+      "ownership": 1.8,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4576060,
+      "injury": "ACTIVE",
+      "name": "Ryan Kalkbrenner",
+      "ownership": 1.77,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2583632,
+      "injury": "ACTIVE",
+      "name": "Royce O'Neale",
+      "ownership": 1.76,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4873090,
+      "injury": "ACTIVE",
+      "name": "Labaron Philon Jr.",
+      "ownership": 1.74,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5238230,
+      "injury": "ACTIVE",
+      "name": "Tre Johnson",
+      "ownership": 1.73,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5113969,
+      "injury": "DAY_TO_DAY",
+      "name": "Cameron Carr",
+      "ownership": 1.73,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5041951,
+      "injury": "ACTIVE",
+      "name": "Meleek Thomas",
+      "ownership": 1.69,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278580,
+      "injury": "ACTIVE",
+      "name": "Sandro Mamukelashvili",
+      "ownership": 1.69,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4898371,
+      "injury": "ACTIVE",
+      "name": "Maxime Raynaud",
+      "ownership": 1.67,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3213,
+      "injury": "ACTIVE",
+      "name": "Al Horford",
+      "ownership": 1.65,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066211,
+      "injury": "ACTIVE",
+      "name": "Robert Williams III",
+      "ownership": 1.64,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5061568,
+      "injury": "ACTIVE",
+      "name": "Carter Bryant",
+      "ownership": 1.52,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6585,
+      "injury": "ACTIVE",
+      "name": "Andre Drummond",
+      "ownership": 1.46,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066436,
+      "injury": "DAY_TO_DAY",
+      "name": "De'Anthony Melton",
+      "ownership": 1.43,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433083,
+      "injury": "ACTIVE",
+      "name": "Cam Spencer",
+      "ownership": 1.42,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3904625,
+      "injury": "DAY_TO_DAY",
+      "name": "Tacko Fall",
+      "ownership": 1.41,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2990992,
+      "injury": "ACTIVE",
+      "name": "Marcus Smart",
+      "ownership": 1.37,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066372,
+      "injury": "ACTIVE",
+      "name": "Kevin Huerter",
+      "ownership": 1.37,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5281370,
+      "injury": "ACTIVE",
+      "name": "Hannes Steinbach",
+      "ownership": 1.35,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395702,
+      "injury": "ACTIVE",
+      "name": "Isaiah Joe",
+      "ownership": 1.3,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3064560,
+      "injury": "ACTIVE",
+      "name": "Luke Kornet",
+      "ownership": 1.28,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5107173,
+      "injury": "ACTIVE",
+      "name": "Danny Wolf",
+      "ownership": 1.27,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997536,
+      "injury": "DAY_TO_DAY",
+      "name": "Gui Santos",
+      "ownership": 1.24,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431823,
+      "injury": "ACTIVE",
+      "name": "Miles McBride",
+      "ownership": 1.23,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432170,
+      "injury": "ACTIVE",
+      "name": "Isaiah Jackson",
+      "ownership": 1.23,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3913174,
+      "injury": "ACTIVE",
+      "name": "Luke Kennard",
+      "ownership": 1.2,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4896372,
+      "injury": "ACTIVE",
+      "name": "Walter Clayton Jr.",
+      "ownership": 1.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5164559,
+      "injury": "DAY_TO_DAY",
+      "name": "Nate Ament",
+      "ownership": 1.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5112087,
+      "injury": "ACTIVE",
+      "name": "Jaylen Wells",
+      "ownership": 1.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278562,
+      "injury": "ACTIVE",
+      "name": "Paul Reed",
+      "ownership": 1.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2581018,
+      "injury": "ACTIVE",
+      "name": "Kentavious Caldwell-Pope",
+      "ownership": 1.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2990984,
+      "injury": "ACTIVE",
+      "name": "Buddy Hield",
+      "ownership": 1.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6578,
+      "injury": "ACTIVE",
+      "name": "Harrison Barnes",
+      "ownership": 1.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065778,
+      "injury": "OUT",
+      "name": "Max Strus",
+      "ownership": 1.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528426,
+      "injury": "ACTIVE",
+      "name": "Jordan Clarkson",
+      "ownership": 0.99,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3135046,
+      "injury": "ACTIVE",
+      "name": "Tyus Jones",
+      "ownership": 0.89,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702177,
+      "injury": "ACTIVE",
+      "name": "Keon Ellis",
+      "ownership": 0.87,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066421,
+      "injury": "ACTIVE",
+      "name": "Lonzo Ball",
+      "ownership": 0.87,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991139,
+      "injury": "ACTIVE",
+      "name": "Kris Dunn",
+      "ownership": 0.86,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5175647,
+      "injury": "ACTIVE",
+      "name": "Hugo Gonzalez",
+      "ownership": 0.85,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4593841,
+      "injury": "ACTIVE",
+      "name": "Baylor Scheierman",
+      "ownership": 0.84,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5214640,
+      "injury": "ACTIVE",
+      "name": "Kasparas Jakucionis",
+      "ownership": 0.79,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683771,
+      "injury": "ACTIVE",
+      "name": "Ronald Holland II",
+      "ownership": 0.78,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991043,
+      "injury": "ACTIVE",
+      "name": "Caris LeVert",
+      "ownership": 0.76,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277848,
+      "injury": "ACTIVE",
+      "name": "Marvin Bagley III",
+      "ownership": 0.75,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6609,
+      "injury": "DAY_TO_DAY",
+      "name": "Khris Middleton",
+      "ownership": 0.75,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5279133,
+      "injury": "ACTIVE",
+      "name": "Joan Beringer",
+      "ownership": 0.74,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3912848,
+      "injury": "ACTIVE",
+      "name": "Dean Wade",
+      "ownership": 0.69,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5217746,
+      "injury": "ACTIVE",
+      "name": "Yang Hansen",
+      "ownership": 0.68,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5101845,
+      "injury": "OUT",
+      "name": "Jayden Quaintance",
+      "ownership": 0.68,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4684275,
+      "injury": "DAY_TO_DAY",
+      "name": "Rob Dillingham",
+      "ownership": 0.68,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683689,
+      "injury": "ACTIVE",
+      "name": "Jordan Walsh",
+      "ownership": 0.66,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2326307,
+      "injury": "ACTIVE",
+      "name": "Seth Curry",
+      "ownership": 0.64,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5106060,
+      "injury": "ACTIVE",
+      "name": "Jarace Walker",
+      "ownership": 0.64,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702382,
+      "injury": "ACTIVE",
+      "name": "Tristan da Silva",
+      "ownership": 0.63,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066757,
+      "injury": "ACTIVE",
+      "name": "Sam Merrill",
+      "ownership": 0.61,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3914044,
+      "injury": "ACTIVE",
+      "name": "Landry Shamet",
+      "ownership": 0.6,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4684272,
+      "injury": "ACTIVE",
+      "name": "Ja'Kobe Walter",
+      "ownership": 0.6,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5279130,
+      "injury": "ACTIVE",
+      "name": "Nolan Traore",
+      "ownership": 0.58,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4610139,
+      "injury": "ACTIVE",
+      "name": "Jeremy Sochan",
+      "ownership": 0.58,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4888725,
+      "injury": "ACTIVE",
+      "name": "Ryan Dunn",
+      "ownership": 0.58,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065731,
+      "injury": "ACTIVE",
+      "name": "Jay Huff",
+      "ownership": 0.57,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592492,
+      "injury": "ACTIVE",
+      "name": "Bones Hyland",
+      "ownership": 0.57,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3102529,
+      "injury": "ACTIVE",
+      "name": "Clint Capela",
+      "ownership": 0.56,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105637,
+      "injury": "DAY_TO_DAY",
+      "name": "Adem Bona",
+      "ownership": 0.56,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432171,
+      "injury": "OUT",
+      "name": "Moses Moody",
+      "ownership": 0.54,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432847,
+      "injury": "ACTIVE",
+      "name": "Terrence Shannon Jr.",
+      "ownership": 0.54,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5258459,
+      "injury": "ACTIVE",
+      "name": "Ebuka Okorie",
+      "ownership": 0.54,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5041953,
+      "injury": "ACTIVE",
+      "name": "Koa Peat",
+      "ownership": 0.53,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433137,
+      "injury": "DAY_TO_DAY",
+      "name": "Ziaire Williams",
+      "ownership": 0.52,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3195,
+      "injury": "ACTIVE",
+      "name": "Mike Conley",
+      "ownership": 0.5,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4578893,
+      "injury": "ACTIVE",
+      "name": "Vit Krejci",
+      "ownership": 0.49,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991235,
+      "injury": "ACTIVE",
+      "name": "Steven Adams",
+      "ownership": 0.48,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907498,
+      "injury": "ACTIVE",
+      "name": "Matisse Thybulle",
+      "ownership": 0.45,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5142621,
+      "injury": "ACTIVE",
+      "name": "Chris Cenac Jr.",
+      "ownership": 0.45,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4897943,
+      "injury": "DAY_TO_DAY",
+      "name": "Dalton Knecht",
+      "ownership": 0.44,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5279129,
+      "injury": "ACTIVE",
+      "name": "Sergio de Larrea",
+      "ownership": 0.42,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4870562,
+      "injury": "DAY_TO_DAY",
+      "name": "Dominick Barlow",
+      "ownership": 0.42,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4712896,
+      "injury": "ACTIVE",
+      "name": "Noah Clowney",
+      "ownership": 0.42,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5061585,
+      "injury": "ACTIVE",
+      "name": "Isaiah Evans",
+      "ownership": 0.42,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433218,
+      "injury": "DAY_TO_DAY",
+      "name": "Jaden Ivey",
+      "ownership": 0.42,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3037789,
+      "injury": "ACTIVE",
+      "name": "Bogdan Bogdanovic",
+      "ownership": 0.41,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907823,
+      "injury": "ACTIVE",
+      "name": "Terance Mann",
+      "ownership": 0.39,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397077,
+      "injury": "ACTIVE",
+      "name": "Jaxson Hayes",
+      "ownership": 0.38,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105809,
+      "injury": "ACTIVE",
+      "name": "Tarris Reed Jr.",
+      "ownership": 0.38,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6477,
+      "injury": "ACTIVE",
+      "name": "Jonas Valanciunas",
+      "ownership": 0.38,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5108024,
+      "injury": "OUT",
+      "name": "Yanic Konan Niederhauser",
+      "ownership": 0.38,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5149115,
+      "injury": "DAY_TO_DAY",
+      "name": "Allen Graves",
+      "ownership": 0.38,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277843,
+      "injury": "ACTIVE",
+      "name": "Gary Trent Jr.",
+      "ownership": 0.37,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3134903,
+      "injury": "DAY_TO_DAY",
+      "name": "Gary Payton II",
+      "ownership": 0.36,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5107199,
+      "injury": "ACTIVE",
+      "name": "Daniss Jenkins",
+      "ownership": 0.36,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5241364,
+      "injury": "ACTIVE",
+      "name": "Bennett Stirtz",
+      "ownership": 0.36,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4848625,
+      "injury": "ACTIVE",
+      "name": "Dailyn Swain",
+      "ownership": 0.36,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5144126,
+      "injury": "ACTIVE",
+      "name": "Will Riley",
+      "ownership": 0.34,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3155535,
+      "injury": "ACTIVE",
+      "name": "Kevon Looney",
+      "ownership": 0.33,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3102533,
+      "injury": "ACTIVE",
+      "name": "Thanasis Antetokounmpo",
+      "ownership": 0.33,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5060701,
+      "injury": "DAY_TO_DAY",
+      "name": "Christian Anderson",
+      "ownership": 0.33,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4348700,
+      "injury": "ACTIVE",
+      "name": "Goga Bitadze",
+      "ownership": 0.33,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5231919,
+      "injury": "ACTIVE",
+      "name": "Karim Lopez",
+      "ownership": 0.33,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3150844,
+      "injury": "ACTIVE",
+      "name": "Moritz Wagner",
+      "ownership": 0.31,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2580782,
+      "injury": "ACTIVE",
+      "name": "Spencer Dinwiddie",
+      "ownership": 0.3,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4873201,
+      "injury": "ACTIVE",
+      "name": "Asa Newell",
+      "ownership": 0.3,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4895758,
+      "injury": "ACTIVE",
+      "name": "Cody Williams",
+      "ownership": 0.3,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431684,
+      "injury": "DAY_TO_DAY",
+      "name": "Trayce Jackson-Davis",
+      "ownership": 0.29,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2993874,
+      "injury": "ACTIVE",
+      "name": "Kyle Anderson",
+      "ownership": 0.28,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4280151,
+      "injury": "ACTIVE",
+      "name": "Corey Kispert",
+      "ownership": 0.27,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397040,
+      "injury": "ACTIVE",
+      "name": "Brandon Williams",
+      "ownership": 0.27,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5242496,
+      "injury": "ACTIVE",
+      "name": "Noa Essengue",
+      "ownership": 0.26,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3948153,
+      "injury": "ACTIVE",
+      "name": "Chris Boucher",
+      "ownership": 0.26,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397102,
+      "injury": "ACTIVE",
+      "name": "Bol Bol",
+      "ownership": 0.26,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4698719,
+      "injury": "ACTIVE",
+      "name": "Trevon Brazile",
+      "ownership": 0.26,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066218,
+      "injury": "DAY_TO_DAY",
+      "name": "Grant Williams",
+      "ownership": 0.26,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278077,
+      "injury": "ACTIVE",
+      "name": "Jarred Vanderbilt",
+      "ownership": 0.25,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431687,
+      "injury": "ACTIVE",
+      "name": "Patrick Williams",
+      "ownership": 0.25,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5289900,
+      "injury": "ACTIVE",
+      "name": "Mohamed Diawara",
+      "ownership": 0.25,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997526,
+      "injury": "ACTIVE",
+      "name": "Ousmane Dieng",
+      "ownership": 0.25,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432809,
+      "injury": "ACTIVE",
+      "name": "Cole Anthony",
+      "ownership": 0.25,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433225,
+      "injury": "ACTIVE",
+      "name": "Tyler Kolek",
+      "ownership": 0.25,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432247,
+      "injury": "ACTIVE",
+      "name": "Jaylen Clark",
+      "ownership": 0.24,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065670,
+      "injury": "ACTIVE",
+      "name": "Bruce Brown",
+      "ownership": 0.23,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432181,
+      "injury": "ACTIVE",
+      "name": "Julian Strawther",
+      "ownership": 0.23,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5106262,
+      "injury": "ACTIVE",
+      "name": "Zuby Ejiofor",
+      "ownership": 0.23,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5159925,
+      "injury": "DAY_TO_DAY",
+      "name": "Nikola Topic",
+      "ownership": 0.23,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3899664,
+      "injury": "ACTIVE",
+      "name": "Simone Fontecchio",
+      "ownership": 0.22,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3012,
+      "injury": "ACTIVE",
+      "name": "Kyle Lowry",
+      "ownership": 0.22,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432819,
+      "injury": "ACTIVE",
+      "name": "Tre Mann",
+      "ownership": 0.22,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4017844,
+      "injury": "ACTIVE",
+      "name": "Guerschon Yabusele",
+      "ownership": 0.21,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4711297,
+      "injury": "ACTIVE",
+      "name": "Justin Edwards",
+      "ownership": 0.21,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2990962,
+      "injury": "ACTIVE",
+      "name": "Taurean Prince",
+      "ownership": 0.21,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683024,
+      "injury": "ACTIVE",
+      "name": "Killian Hayes",
+      "ownership": 0.21,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5107157,
+      "injury": "ACTIVE",
+      "name": "Ryan Conwell",
+      "ownership": 0.2,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431752,
+      "injury": "ACTIVE",
+      "name": "Kobe Brown",
+      "ownership": 0.2,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5157066,
+      "injury": "OUT",
+      "name": "Johnny Furphy",
+      "ownership": 0.2,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5159895,
+      "injury": "ACTIVE",
+      "name": "Yuki Kawamura",
+      "ownership": 0.2,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432822,
+      "injury": "ACTIVE",
+      "name": "Isaac Okoro",
+      "ownership": 0.2,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4595400,
+      "injury": "ACTIVE",
+      "name": "Olivier-Maxence Prosper",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278076,
+      "injury": "ACTIVE",
+      "name": "Nick Richards",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2580365,
+      "injury": "DAY_TO_DAY",
+      "name": "Larry Nance Jr.",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5044385,
+      "injury": "ACTIVE",
+      "name": "Leonard Miller",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3934723,
+      "injury": "ACTIVE",
+      "name": "Thomas Bryant",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2566769,
+      "injury": null,
+      "name": "Malcolm Brogdon",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136196,
+      "injury": "ACTIVE",
+      "name": "Trey Lyles",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5239590,
+      "injury": "ACTIVE",
+      "name": "Liam McNeeley",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433144,
+      "injury": "ACTIVE",
+      "name": "Caleb Love",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433174,
+      "injury": "ACTIVE",
+      "name": "Dylan Cardwell",
+      "ownership": 0.19,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277919,
+      "injury": "ACTIVE",
+      "name": "Mo Bamba",
+      "ownership": 0.18,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5211983,
+      "injury": "ACTIVE",
+      "name": "Pacome Dadiet",
+      "ownership": 0.18,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5239561,
+      "injury": "ACTIVE",
+      "name": "Jase Richardson",
+      "ownership": 0.18,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2990969,
+      "injury": "DAY_TO_DAY",
+      "name": "Georges Niang",
+      "ownership": 0.18,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5061603,
+      "injury": "DAY_TO_DAY",
+      "name": "Thomas Sorber",
+      "ownership": 0.18,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432907,
+      "injury": "ACTIVE",
+      "name": "Justin Champagnie",
+      "ownership": 0.18,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3449,
+      "injury": "ACTIVE",
+      "name": "Kevin Love",
+      "ownership": 0.18,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277951,
+      "injury": "ACTIVE",
+      "name": "Luka Garza",
+      "ownership": 0.17,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3133626,
+      "injury": "ACTIVE",
+      "name": "Kenrich Williams",
+      "ownership": 0.17,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3146557,
+      "injury": "ACTIVE",
+      "name": "Jock Landale",
+      "ownership": 0.17,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4684806,
+      "injury": "ACTIVE",
+      "name": "Taylor Hendricks",
+      "ownership": 0.17,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105837,
+      "injury": "ACTIVE",
+      "name": "Bruce Thornton",
+      "ownership": 0.16,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4870564,
+      "injury": "DAY_TO_DAY",
+      "name": "Joshua Jefferson",
+      "ownership": 0.16,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997537,
+      "injury": "OUT",
+      "name": "Tristan Vukcevic",
+      "ownership": 0.16,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3138160,
+      "injury": "DAY_TO_DAY",
+      "name": "Caleb Martin",
+      "ownership": 0.16,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397886,
+      "injury": "ACTIVE",
+      "name": "Charles Bassey",
+      "ownership": 0.16,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433076,
+      "injury": "ACTIVE",
+      "name": "Ben Sheppard",
+      "ownership": 0.16,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277922,
+      "injury": "ACTIVE",
+      "name": "Jericho Sims",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431714,
+      "injury": "ACTIVE",
+      "name": "Jalen Wilson",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397018,
+      "injury": "DAY_TO_DAY",
+      "name": "Ochai Agbaji",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278402,
+      "injury": "ACTIVE",
+      "name": "Jordan Goodwin",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5099752,
+      "injury": "ACTIVE",
+      "name": "Rayan Rupert",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4706557,
+      "injury": "ACTIVE",
+      "name": "Chris Youngblood",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4712863,
+      "injury": "DAY_TO_DAY",
+      "name": "Mouhamed Gueye",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432452,
+      "injury": "ACTIVE",
+      "name": "Alex Antetokounmpo",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432811,
+      "injury": "ACTIVE",
+      "name": "Josh Green",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2489663,
+      "injury": "ACTIVE",
+      "name": "Kelly Olynyk",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066650,
+      "injury": "DAY_TO_DAY",
+      "name": "Zach Collins",
+      "ownership": 0.15,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3134916,
+      "injury": "ACTIVE",
+      "name": "Jordan McLaughlin",
+      "ownership": 0.14,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2578185,
+      "injury": "ACTIVE",
+      "name": "Dorian Finney-Smith",
+      "ownership": 0.14,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105854,
+      "injury": "ACTIVE",
+      "name": "Braden Smith",
+      "ownership": 0.14,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4868423,
+      "injury": "ACTIVE",
+      "name": "Jaden Hardy",
+      "ownership": 0.14,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4897262,
+      "injury": "ACTIVE",
+      "name": "Will Richard",
+      "ownership": 0.14,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3074752,
+      "injury": "ACTIVE",
+      "name": "Terry Rozier",
+      "ownership": 0.14,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3893023,
+      "injury": null,
+      "name": "Paul Zipser",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4396818,
+      "injury": "OUT",
+      "name": "Jordan Miller",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4917149,
+      "injury": "ACTIVE",
+      "name": "Alex Karaban",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5107897,
+      "injury": "ACTIVE",
+      "name": "Jonathan Mogbo",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065654,
+      "injury": "DAY_TO_DAY",
+      "name": "Jonathan Isaac",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278572,
+      "injury": "ACTIVE",
+      "name": "Jamal Cain",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5157587,
+      "injury": "ACTIVE",
+      "name": "Rocco Zikarsky",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592714,
+      "injury": "ACTIVE",
+      "name": "Pat Spencer",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592829,
+      "injury": "ACTIVE",
+      "name": "Quenton Jackson",
+      "ownership": 0.13,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5242502,
+      "injury": "ACTIVE",
+      "name": "Ben Saraf",
+      "ownership": 0.12,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433629,
+      "injury": "ACTIVE",
+      "name": "Ryan Nembhard",
+      "ownership": 0.12,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683750,
+      "injury": "ACTIVE",
+      "name": "Jordan Hawkins",
+      "ownership": 0.12,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432107,
+      "injury": "DAY_TO_DAY",
+      "name": "Marcus Sasser",
+      "ownership": 0.12,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432173,
+      "injury": "ACTIVE",
+      "name": "Sharife Cooper",
+      "ownership": 0.12,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5106270,
+      "injury": "ACTIVE",
+      "name": "Otega Oweh",
+      "ownership": 0.12,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5081727,
+      "injury": "ACTIVE",
+      "name": "Sidy Cissoko",
+      "ownership": 0.12,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4593016,
+      "injury": "ACTIVE",
+      "name": "Quinten Post",
+      "ownership": 0.12,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4017850,
+      "injury": null,
+      "name": "Wang Zhelin",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433569,
+      "injury": "ACTIVE",
+      "name": "Johni Broome",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5023693,
+      "injury": "ACTIVE",
+      "name": "Tyrese Proctor",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4602025,
+      "injury": "ACTIVE",
+      "name": "Sion James",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397227,
+      "injury": "OUT",
+      "name": "Vince Williams Jr.",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105977,
+      "injury": "ACTIVE",
+      "name": "Rasheer Fleming",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4594326,
+      "injury": "ACTIVE",
+      "name": "Kris Murray",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5075626,
+      "injury": "ACTIVE",
+      "name": "Baba Miller",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2999547,
+      "injury": "ACTIVE",
+      "name": "Gary Harris",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4398390,
+      "injury": "ACTIVE",
+      "name": "Jalen Pickett",
+      "ownership": 0.11,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3137259,
+      "injury": "ACTIVE",
+      "name": "Gabe Vincent",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4591259,
+      "injury": "ACTIVE",
+      "name": "Koby Brea",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105462,
+      "injury": "OUT",
+      "name": "Richie Saunders",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5037873,
+      "injury": "ACTIVE",
+      "name": "Drake Powell",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105571,
+      "injury": "OUT",
+      "name": "Henri Veesaar",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3133635,
+      "injury": "ACTIVE",
+      "name": "Jevon Carter",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3074213,
+      "injury": "ACTIVE",
+      "name": "Omer Yurtseven",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397251,
+      "injury": "DAY_TO_DAY",
+      "name": "Ron Harper Jr.",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395650,
+      "injury": "DAY_TO_DAY",
+      "name": "Leaky Black",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433188,
+      "injury": "ACTIVE",
+      "name": "Devin Carter",
+      "ownership": 0.1,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105553,
+      "injury": "ACTIVE",
+      "name": "Julian Phillips",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5060631,
+      "injury": "ACTIVE",
+      "name": "Adou Thiero",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702352,
+      "injury": "DAY_TO_DAY",
+      "name": "Kobe Sanders",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278541,
+      "injury": null,
+      "name": "Jaylen Nowell",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2488653,
+      "injury": "ACTIVE",
+      "name": "Mason Plumlee",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432446,
+      "injury": "ACTIVE",
+      "name": "Jabari Walker",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2968436,
+      "injury": "ACTIVE",
+      "name": "Joe Ingles",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4871141,
+      "injury": "OUT",
+      "name": "Ariel Hukporti",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432808,
+      "injury": "ACTIVE",
+      "name": "James Wiseman",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528386,
+      "injury": null,
+      "name": "Joe Young",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4701233,
+      "injury": "ACTIVE",
+      "name": "Craig Porter Jr.",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528355,
+      "injury": null,
+      "name": "Alex Kirk",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136777,
+      "injury": "ACTIVE",
+      "name": "Jae'Sean Tate",
+      "ownership": 0.09,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066731,
+      "injury": "ACTIVE",
+      "name": "Jalen McDaniels",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066993,
+      "injury": "DAY_TO_DAY",
+      "name": "Dru Smith",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4781746,
+      "injury": "ACTIVE",
+      "name": "Javon Small",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3893060,
+      "injury": null,
+      "name": "Rade Zagorac",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2578239,
+      "injury": "ACTIVE",
+      "name": "Pat Connaughton",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683686,
+      "injury": "ACTIVE",
+      "name": "Nick Smith Jr.",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5107968,
+      "injury": "ACTIVE",
+      "name": "Ja'Kobi Gillespie",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105806,
+      "injury": "ACTIVE",
+      "name": "Jett Howard",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2527926,
+      "injury": null,
+      "name": "Patric Young",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5211176,
+      "injury": "ACTIVE",
+      "name": "Tidjane Salaun",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433133,
+      "injury": "ACTIVE",
+      "name": "Jahmir Young",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4838721,
+      "injury": "ACTIVE",
+      "name": "Tyler Nickel",
+      "ownership": 0.08,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3134932,
+      "injury": "ACTIVE",
+      "name": "John Konchar",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277871,
+      "injury": null,
+      "name": "Moses Wright",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059409,
+      "injury": "ACTIVE",
+      "name": "Nigel Hayes-Davis",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433607,
+      "injury": "ACTIVE",
+      "name": "DaRon Holmes II",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4687718,
+      "injury": "ACTIVE",
+      "name": "Josh Minott",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431828,
+      "injury": "ACTIVE",
+      "name": "KJ Martin",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3058254,
+      "injury": null,
+      "name": "Christian Wood",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592427,
+      "injury": "DAY_TO_DAY",
+      "name": "Spencer Jones",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432813,
+      "injury": null,
+      "name": "Jeremiah Robinson-Earl",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3416,
+      "injury": "ACTIVE",
+      "name": "Nicolas Batum",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3442,
+      "injury": "ACTIVE",
+      "name": "DeAndre Jordan",
+      "ownership": 0.07,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3892894,
+      "injury": null,
+      "name": "Zhou Qi",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5170947,
+      "injury": "ACTIVE",
+      "name": "AJ Johnson",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105337,
+      "injury": "DAY_TO_DAY",
+      "name": "Maliq Brown",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683736,
+      "injury": "ACTIVE",
+      "name": "Kobe Bufkin",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683742,
+      "injury": "ACTIVE",
+      "name": "Julian Reese",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3032978,
+      "injury": null,
+      "name": "Dario Saric",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531367,
+      "injury": "ACTIVE",
+      "name": "Dwight Powell",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397071,
+      "injury": "ACTIVE",
+      "name": "Mac McClung",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4376,
+      "injury": null,
+      "name": "Boban Marjanovic",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5214637,
+      "injury": "DAY_TO_DAY",
+      "name": "Noah Penda",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5106268,
+      "injury": "DAY_TO_DAY",
+      "name": "Nae'Qwan Tomlin",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432737,
+      "injury": "ACTIVE",
+      "name": "Jaden Bradley",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432735,
+      "injury": "ACTIVE",
+      "name": "Dariq Whitehead",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3033,
+      "injury": "ACTIVE",
+      "name": "P.J. Tucker",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433159,
+      "injury": "ACTIVE",
+      "name": "Dalen Terry",
+      "ownership": 0.06,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528693,
+      "injury": "ACTIVE",
+      "name": "Torrey Craig",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277964,
+      "injury": "ACTIVE",
+      "name": "Xavier Tillman",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431727,
+      "injury": "ACTIVE",
+      "name": "Isaiah Wong",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431690,
+      "injury": "ACTIVE",
+      "name": "Zeke Nnaji",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3986,
+      "injury": "ACTIVE",
+      "name": "Taj Gibson",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4023,
+      "injury": "ACTIVE",
+      "name": "Garrett Temple",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531362,
+      "injury": "ACTIVE",
+      "name": "Anthony Brown",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2184,
+      "injury": null,
+      "name": "Udonis Haslem",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278507,
+      "injury": null,
+      "name": "McKinley Wright IV",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3133602,
+      "injury": "ACTIVE",
+      "name": "Svi Mykhailiuk",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5106058,
+      "injury": "ACTIVE",
+      "name": "Emanuel Sharp",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432190,
+      "injury": "ACTIVE",
+      "name": "Andre Jackson Jr.",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3064230,
+      "injury": "DAY_TO_DAY",
+      "name": "Cameron Payne",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5106283,
+      "injury": "ACTIVE",
+      "name": "Dillon Mitchell",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702745,
+      "injury": "ACTIVE",
+      "name": "Amari Williams",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2488977,
+      "injury": null,
+      "name": "Jamil Wilson",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397821,
+      "injury": "ACTIVE",
+      "name": "Nate Williams",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2960236,
+      "injury": "ACTIVE",
+      "name": "Maxi Kleber",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397885,
+      "injury": "ACTIVE",
+      "name": "Dalano Banton",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2325499,
+      "injury": null,
+      "name": "C.J. Williams",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066399,
+      "injury": "ACTIVE",
+      "name": "Micah Potter",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2596112,
+      "injury": "ACTIVE",
+      "name": "Javonte Green",
+      "ownership": 0.05,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3915195,
+      "injury": null,
+      "name": "Shake Milton",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3913180,
+      "injury": "ACTIVE",
+      "name": "Garrison Mathews",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433623,
+      "injury": "ACTIVE",
+      "name": "Caleb Houstan",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3102532,
+      "injury": "ACTIVE",
+      "name": "Vasilije Micic",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3102528,
+      "injury": "DAY_TO_DAY",
+      "name": "Dante Exum",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5148538,
+      "injury": "ACTIVE",
+      "name": "Tarik Biberovic",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431675,
+      "injury": "ACTIVE",
+      "name": "Trendon Watford",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3999,
+      "injury": "ACTIVE",
+      "name": "James Johnson",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4004,
+      "injury": null,
+      "name": "Patty Mills",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2594818,
+      "injury": null,
+      "name": "James Michael McAdoo",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431893,
+      "injury": "DAY_TO_DAY",
+      "name": "Jamison Battle",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2594920,
+      "injury": null,
+      "name": "Greg Whittington",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4565201,
+      "injury": "ACTIVE",
+      "name": "Malaki Branham",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3078286,
+      "injury": null,
+      "name": "Troy Williams",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907822,
+      "injury": "ACTIVE",
+      "name": "Malik Beasley",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6427,
+      "injury": "ACTIVE",
+      "name": "Bismack Biyombo",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3922230,
+      "injury": "ACTIVE",
+      "name": "Aaron Holiday",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065663,
+      "injury": "ACTIVE",
+      "name": "Josh Okogie",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997538,
+      "injury": "ACTIVE",
+      "name": "Karlo Matkovic",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4684208,
+      "injury": "ACTIVE",
+      "name": "Brooks Barnhizer",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3914285,
+      "injury": "DAY_TO_DAY",
+      "name": "Drew Eubanks",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3064447,
+      "injury": "ACTIVE",
+      "name": "Delon Wright",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2491063,
+      "injury": null,
+      "name": "Shayne Whittington",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2491079,
+      "injury": null,
+      "name": "Nate Wolters",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2751,
+      "injury": null,
+      "name": "Monta Ellis",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432646,
+      "injury": "ACTIVE",
+      "name": "Kennedy Chandler",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4700818,
+      "injury": "ACTIVE",
+      "name": "Vladislav Goldin",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4700852,
+      "injury": "ACTIVE",
+      "name": "Chaz Lanier",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3079021,
+      "injury": null,
+      "name": "James Webb III",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528096,
+      "injury": null,
+      "name": "Mike James",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3055,
+      "injury": null,
+      "name": "J.J. Barea",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432827,
+      "injury": "ACTIVE",
+      "name": "Oscar Tshiebwe",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4279318,
+      "injury": "ACTIVE",
+      "name": "Daeqwon Plowden",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4701208,
+      "injury": "ACTIVE",
+      "name": "Moussa Cisse",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592712,
+      "injury": "ACTIVE",
+      "name": "Boo Buie",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3209,
+      "injury": "ACTIVE",
+      "name": "Jeff Green",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5108969,
+      "injury": "ACTIVE",
+      "name": "Lajae Jones",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2993370,
+      "injury": "ACTIVE",
+      "name": "Richaun Holmes",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3431,
+      "injury": "ACTIVE",
+      "name": "Eric Gordon",
+      "ownership": 0.04,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2489785,
+      "injury": "ACTIVE",
+      "name": "Ian Clark",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2530751,
+      "injury": null,
+      "name": "Michael Cobbins",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4593043,
+      "injury": "ACTIVE",
+      "name": "John Tonje",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059266,
+      "injury": null,
+      "name": "Cat Barber",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277880,
+      "injury": "DAY_TO_DAY",
+      "name": "Malik Williams",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277890,
+      "injury": "ACTIVE",
+      "name": "Lonnie Walker IV",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2489897,
+      "injury": null,
+      "name": "Will Cherry",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2993875,
+      "injury": null,
+      "name": "Shabazz Muhammad",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4411057,
+      "injury": "DAY_TO_DAY",
+      "name": "Kevin McCullar Jr.",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431734,
+      "injury": "ACTIVE",
+      "name": "Tristan Enaruna",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105626,
+      "injury": "ACTIVE",
+      "name": "Tyler Bilodeau",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702159,
+      "injury": "ACTIVE",
+      "name": "Dillon Jones",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683749,
+      "injury": "ACTIVE",
+      "name": "TyTy Washington Jr.",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4032,
+      "injury": null,
+      "name": "Wesley Matthews",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431772,
+      "injury": "ACTIVE",
+      "name": "Myron Gardner",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4396963,
+      "injury": "ACTIVE",
+      "name": "Blake Hinson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431786,
+      "injury": "OUT",
+      "name": "Keshad Johnson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4280245,
+      "injury": "ACTIVE",
+      "name": "Jamaree Bouyea",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397179,
+      "injury": "ACTIVE",
+      "name": "Tyrese Martin",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702233,
+      "injury": "ACTIVE",
+      "name": "JT Thor",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105841,
+      "injury": "ACTIVE",
+      "name": "Felix Okpara",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6429,
+      "injury": "ACTIVE",
+      "name": "Alec Burks",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6443,
+      "injury": null,
+      "name": "Reggie Jackson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6474,
+      "injury": "ACTIVE",
+      "name": "Tristan Thompson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3058030,
+      "injury": null,
+      "name": "Paul Watson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065653,
+      "injury": "ACTIVE",
+      "name": "Jack White",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6503,
+      "injury": null,
+      "name": "Dwight Buycks",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6507,
+      "injury": null,
+      "name": "Brad Wanamaker",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432180,
+      "injury": "ACTIVE",
+      "name": "Hunter Dickinson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2595175,
+      "injury": null,
+      "name": "Aaron White",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982330,
+      "injury": null,
+      "name": "Brice Johnson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997530,
+      "injury": "DAY_TO_DAY",
+      "name": "Khalifa Diop",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592216,
+      "injury": null,
+      "name": "Alondes Williams",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3138120,
+      "injury": null,
+      "name": "Mindaugas Kuzminskas",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395620,
+      "injury": "ACTIVE",
+      "name": "Hunter Tyson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397689,
+      "injury": "ACTIVE",
+      "name": "Drew Peterson",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2488945,
+      "injury": null,
+      "name": "Tim Frazier",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3113587,
+      "injury": null,
+      "name": "Cristiano Felicio",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3902067,
+      "injury": null,
+      "name": "Satnam Singh Bhamara",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5159486,
+      "injury": null,
+      "name": "Yongxi Cui",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3138256,
+      "injury": null,
+      "name": "DeVaughn Akoon-Purcell",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3064528,
+      "injury": null,
+      "name": "Johnathan Williams",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4576086,
+      "injury": "ACTIVE",
+      "name": "Bryce McGowens",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4606840,
+      "injury": "OUT",
+      "name": "Jamir Watkins",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5214989,
+      "injury": "ACTIVE",
+      "name": "Bogoljub Markovic",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2995079,
+      "injury": null,
+      "name": "Jacob Wiley",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2579326,
+      "injury": null,
+      "name": "Alan Williams",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2990972,
+      "injury": null,
+      "name": "Andrew White III",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432815,
+      "injury": null,
+      "name": "Isaiah Mobley",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991178,
+      "injury": null,
+      "name": "AJ Hammons",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2579492,
+      "injury": null,
+      "name": "Julian Washburn",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432946,
+      "injury": "ACTIVE",
+      "name": "Jalen Bridges",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592699,
+      "injury": "ACTIVE",
+      "name": "Enrique Freeman",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3276,
+      "injury": null,
+      "name": "Anthony Tolliver",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528473,
+      "injury": null,
+      "name": "Okaro White",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2489563,
+      "injury": null,
+      "name": "DJ Stephens",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528586,
+      "injury": null,
+      "name": "Walt Lemon Jr.",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2489716,
+      "injury": null,
+      "name": "Matthew Dellavedova",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2489693,
+      "injury": null,
+      "name": "Ryan Broekhoff",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066636,
+      "injury": null,
+      "name": "Markelle Fultz",
+      "ownership": 0.03,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3065284,
+      "injury": null,
+      "name": "Eric Mika",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2583962,
+      "injury": null,
+      "name": "Kevin Pangos",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3913220,
+      "injury": null,
+      "name": "DaQuan Jeffries",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2326015,
+      "injury": null,
+      "name": "Willie Reed",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066790,
+      "injury": null,
+      "name": "Anthony Lamb",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066786,
+      "injury": "ACTIVE",
+      "name": "Jeff Dowtin Jr.",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2325975,
+      "injury": null,
+      "name": "Chris Johnson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4064730,
+      "injury": null,
+      "name": "Tim Quarterman",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3057198,
+      "injury": null,
+      "name": "Brandon Goodwin",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3135048,
+      "injury": null,
+      "name": "Jahlil Okafor",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528787,
+      "injury": null,
+      "name": "Lorenzo Brown",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277882,
+      "injury": null,
+      "name": "Brian Bowen II",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059316,
+      "injury": null,
+      "name": "Wayne Selden",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059311,
+      "injury": null,
+      "name": "Matt Thomas",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2983551,
+      "injury": null,
+      "name": "Joel Bolomboy",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2608716,
+      "injury": null,
+      "name": "Cady Lalanne",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059280,
+      "injury": null,
+      "name": "BJ Johnson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059276,
+      "injury": null,
+      "name": "Jamel Artis",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2983526,
+      "injury": null,
+      "name": "Semaj Christon",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4898369,
+      "injury": "ACTIVE",
+      "name": "Curtis Jones",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433618,
+      "injury": "ACTIVE",
+      "name": "Harrison Ingram",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4017857,
+      "injury": null,
+      "name": "Ognjen Jaramaz",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4017846,
+      "injury": null,
+      "name": "Georgios Papagiannis",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3057304,
+      "injury": null,
+      "name": "Vince Shamar Hunter",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3892893,
+      "injury": null,
+      "name": "Nikola Milutinov",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531039,
+      "injury": null,
+      "name": "Vander Blue",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531045,
+      "injury": null,
+      "name": "Eric Atkins",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431695,
+      "injury": "ACTIVE",
+      "name": "Drew Timme",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2578240,
+      "injury": null,
+      "name": "Khem Birch",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278046,
+      "injury": "ACTIVE",
+      "name": "Olivier Sarr",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2580349,
+      "injury": null,
+      "name": "Ron Baker",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4845363,
+      "injury": "ACTIVE",
+      "name": "Cam Christie",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5037878,
+      "injury": "ACTIVE",
+      "name": "Ugonna Onyenso",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2328418,
+      "injury": null,
+      "name": "Scotty Hopson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3033031,
+      "injury": null,
+      "name": "Edy Tavares",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105638,
+      "injury": null,
+      "name": "Amari Bailey",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2326411,
+      "injury": null,
+      "name": "James Nunnally",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3032980,
+      "injury": null,
+      "name": "Lucas Nogueira",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4237215,
+      "injury": null,
+      "name": "Vincent Poirier",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5107818,
+      "injury": "ACTIVE",
+      "name": "Isaac Jones",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4585610,
+      "injury": null,
+      "name": "Kenneth Lofton Jr.",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2328615,
+      "injury": null,
+      "name": "Mitchell Watt",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4423887,
+      "injury": null,
+      "name": "Jalen Lecque",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3133600,
+      "injury": null,
+      "name": "Cliff Alexander",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4401416,
+      "injury": null,
+      "name": "Juan Toscano-Anderson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4305,
+      "injury": null,
+      "name": "Ish Smith",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397204,
+      "injury": "ACTIVE",
+      "name": "Colin Castleton",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105832,
+      "injury": "ACTIVE",
+      "name": "Nick Martinelli",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683935,
+      "injury": "ACTIVE",
+      "name": "Blake Wesley",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683934,
+      "injury": "ACTIVE",
+      "name": "Jahmai Mashack",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683933,
+      "injury": "ACTIVE",
+      "name": "Tamar Bates",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2490620,
+      "injury": null,
+      "name": "Robert Covington",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397233,
+      "injury": "ACTIVE",
+      "name": "Pete Nance",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4341,
+      "injury": null,
+      "name": "Nicolo Melli",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2488689,
+      "injury": null,
+      "name": "Sean Kilpatrick",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6485,
+      "injury": null,
+      "name": "Lance Thomas",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432179,
+      "injury": "ACTIVE",
+      "name": "MarJon Beauchamp",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432185,
+      "injury": "DAY_TO_DAY",
+      "name": "Micah Peavy",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2988387,
+      "injury": null,
+      "name": "Charles Cooke",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2580913,
+      "injury": null,
+      "name": "Dewayne Dedmon",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3133874,
+      "injury": null,
+      "name": "Jaylen Adams",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432356,
+      "injury": null,
+      "name": "Johnny Davis",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982331,
+      "injury": null,
+      "name": "J.P. Tokoto",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2488721,
+      "injury": null,
+      "name": "Lamar Patterson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6581,
+      "injury": "ACTIVE",
+      "name": "Jae Crowder",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2595229,
+      "injury": null,
+      "name": "Briante Weber",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6634,
+      "injury": null,
+      "name": "Hollis Thompson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6637,
+      "injury": null,
+      "name": "Kent Bazemore",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982349,
+      "injury": null,
+      "name": "Tyler Cavanaugh",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702656,
+      "injury": "ACTIVE",
+      "name": "Alijah Martin",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397511,
+      "injury": null,
+      "name": "Javon Freeman-Liberty",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3947078,
+      "injury": null,
+      "name": "Tyler Davis",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395623,
+      "injury": "ACTIVE",
+      "name": "Trey Jemison III",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065805,
+      "injury": null,
+      "name": "Markus Howard",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3138155,
+      "injury": null,
+      "name": "Joel Berry II",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3902065,
+      "injury": null,
+      "name": "Nikola Radicevic",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4713010,
+      "injury": "ACTIVE",
+      "name": "David Jones Garcia",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3058269,
+      "injury": null,
+      "name": "Joe Chealey",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2581184,
+      "injury": "ACTIVE",
+      "name": "Anthony Gill",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2581180,
+      "injury": "ACTIVE",
+      "name": "Shawn Long",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3074748,
+      "injury": null,
+      "name": "Amida Brimah",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3056273,
+      "injury": null,
+      "name": "Derrick Walton Jr.",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4897438,
+      "injury": "ACTIVE",
+      "name": "Trey Kaufman-Renn",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395688,
+      "injury": null,
+      "name": "Jaylen Hoard",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4565698,
+      "injury": "ACTIVE",
+      "name": "Bryce Hopkins",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395714,
+      "injury": null,
+      "name": "Keyontae Johnson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4576085,
+      "injury": "ACTIVE",
+      "name": "JD Davison",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2968334,
+      "injury": null,
+      "name": "Facundo Campazzo",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2990968,
+      "injury": null,
+      "name": "Naz Mitrou-Long",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2968439,
+      "injury": null,
+      "name": "Aron Baynes",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4590360,
+      "injury": "ACTIVE",
+      "name": "Chucky Hepburn",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2327449,
+      "injury": null,
+      "name": "Jorge Gutierrez",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2327465,
+      "injury": null,
+      "name": "Drew Gordon",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3924880,
+      "injury": null,
+      "name": "Diamond Stone",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4703115,
+      "injury": "ACTIVE",
+      "name": "Jaron Pierre Jr.",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066303,
+      "injury": null,
+      "name": "Xavier Sneed",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2325495,
+      "injury": null,
+      "name": "Larry Drew II",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2579458,
+      "injury": null,
+      "name": "Marcus Thornton",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136469,
+      "injury": null,
+      "name": "Ben Bentil",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066268,
+      "injury": "ACTIVE",
+      "name": "Duop Reath",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136479,
+      "injury": null,
+      "name": "Angel Delgado",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3001308,
+      "injury": null,
+      "name": "Josh Gray",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2530276,
+      "injury": null,
+      "name": "Tyler Johnson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4291678,
+      "injury": "ACTIVE",
+      "name": "Haywood Highsmith",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2327577,
+      "injury": null,
+      "name": "JaMychal Green",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4398207,
+      "injury": "ACTIVE",
+      "name": "Jalen Slawson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066317,
+      "injury": "ACTIVE",
+      "name": "Lindy Waters III",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4701225,
+      "injury": "ACTIVE",
+      "name": "PJ Hall",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991227,
+      "injury": null,
+      "name": "Cleanthony Early",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2327630,
+      "injury": null,
+      "name": "Dee Bost",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066405,
+      "injury": "ACTIVE",
+      "name": "Lamar Stevens",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592686,
+      "injury": "ACTIVE",
+      "name": "Antonio Reeves",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2489530,
+      "injury": null,
+      "name": "Troy Daniels",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066486,
+      "injury": "ACTIVE",
+      "name": "Jarron Cumberland",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991295,
+      "injury": null,
+      "name": "Matt Williams Jr.",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991274,
+      "injury": null,
+      "name": "Shaquille Harrison",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5358755,
+      "injury": "ACTIVE",
+      "name": "Vsevolod Ishchenko",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4697268,
+      "injury": "ACTIVE",
+      "name": "Kam Jones",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2489664,
+      "injury": null,
+      "name": "David Stockton",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2596158,
+      "injury": null,
+      "name": "Shane Larkin",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2596110,
+      "injury": null,
+      "name": "Rakeem Christmas",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2596107,
+      "injury": "ACTIVE",
+      "name": "Alex Len",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433268,
+      "injury": "ACTIVE",
+      "name": "Trey Alexander",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2327832,
+      "injury": null,
+      "name": "Trey McKinney-Jones",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5174655,
+      "injury": "ACTIVE",
+      "name": "Chaney Johnson",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528646,
+      "injury": null,
+      "name": "Eric Griffin",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066668,
+      "injury": null,
+      "name": "Malachi Flynn",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528588,
+      "injury": "ACTIVE",
+      "name": "Doug McDermott",
+      "ownership": 0.02,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433378,
+      "injury": "ACTIVE",
+      "name": "Colby Jones",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2596247,
+      "injury": null,
+      "name": "Keifer Sykes",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3906977,
+      "injury": null,
+      "name": "Devin Cannady",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2530722,
+      "injury": null,
+      "name": "Phil Pressey",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5144071,
+      "injury": "DAY_TO_DAY",
+      "name": "Eli John Ndiaye",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5144070,
+      "injury": null,
+      "name": "Juan Nunez",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5144067,
+      "injury": "ACTIVE",
+      "name": "Nikola Durisic",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4279815,
+      "injury": "ACTIVE",
+      "name": "Terry Taylor",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5144059,
+      "injury": null,
+      "name": "James Nnaji",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4593041,
+      "injury": "ACTIVE",
+      "name": "David Roddy",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4593049,
+      "injury": "ACTIVE",
+      "name": "Orlando Robinson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4230554,
+      "injury": null,
+      "name": "Marko Guduric",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4230557,
+      "injury": "ACTIVE",
+      "name": "Vlatko Cancar",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066808,
+      "injury": null,
+      "name": "Taze Moore",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066796,
+      "injury": null,
+      "name": "DeJon Jarreau",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4064727,
+      "injury": null,
+      "name": "Josh Magette",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136991,
+      "injury": null,
+      "name": "Dakota Mathias",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2596402,
+      "injury": null,
+      "name": "Sim Bhullar",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066889,
+      "injury": "ACTIVE",
+      "name": "Jackson Rowe",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277842,
+      "injury": null,
+      "name": "Trevon Duval",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059247,
+      "injury": null,
+      "name": "Xavier Rathan-Mayes",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277854,
+      "injury": "ACTIVE",
+      "name": "MJ Walker",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277886,
+      "injury": null,
+      "name": "Freddie Gillespie",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3057189,
+      "injury": null,
+      "name": "Ben Moore",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277892,
+      "injury": "ACTIVE",
+      "name": "Marcus Garrett",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4396682,
+      "injury": null,
+      "name": "Jaime Echenique",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2530923,
+      "injury": null,
+      "name": "Alfonzo McKinnie",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059310,
+      "injury": "ACTIVE",
+      "name": "Monte Morris",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059307,
+      "injury": null,
+      "name": "Ish Wainright",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059336,
+      "injury": null,
+      "name": "Isaiah Taylor",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2983512,
+      "injury": null,
+      "name": "Xavier Munford",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3057240,
+      "injury": null,
+      "name": "Cameron Reynolds",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059286,
+      "injury": null,
+      "name": "London Perrantes",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5107251,
+      "injury": "OUT",
+      "name": "Izaiyah Nelson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059281,
+      "injury": null,
+      "name": "Tyler Ennis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3919454,
+      "injury": "ACTIVE",
+      "name": "Terence Davis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3147366,
+      "injury": null,
+      "name": "Chinanu Onuaku",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059306,
+      "injury": null,
+      "name": "Johnathan Motley",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2451037,
+      "injury": null,
+      "name": "Daniel Theis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2614962,
+      "injury": null,
+      "name": "Jarnell Stokes",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4067017,
+      "injury": "ACTIVE",
+      "name": "A.J. Lawson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433622,
+      "injury": "ACTIVE",
+      "name": "Chris Livingston",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433620,
+      "injury": "DAY_TO_DAY",
+      "name": "Emoni Bates",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4017845,
+      "injury": null,
+      "name": "Isaia Cordinier",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5170949,
+      "injury": "ACTIVE",
+      "name": "Alex Toohey",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059358,
+      "injury": null,
+      "name": "Deonte Burton",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059356,
+      "injury": null,
+      "name": "Billy Garrett Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531054,
+      "injury": null,
+      "name": "Bryce Cotton",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4067069,
+      "injury": null,
+      "name": "Nate Darling",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2608891,
+      "injury": null,
+      "name": "JaKarr Sampson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2993873,
+      "injury": null,
+      "name": "Jordan Adams",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3952343,
+      "injury": null,
+      "name": "Jaylen Morris",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277952,
+      "injury": null,
+      "name": "Bruno Fernando",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531038,
+      "injury": null,
+      "name": "Russ Smith",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3059430,
+      "injury": null,
+      "name": "Zach Lofton",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4017875,
+      "injury": null,
+      "name": "David Michineau",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4277957,
+      "injury": "ACTIVE",
+      "name": "Isaiah Livers",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2578232,
+      "injury": null,
+      "name": "DeAndre Daniels",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4280150,
+      "injury": null,
+      "name": "Joel Ayayi",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5211984,
+      "injury": "ACTIVE",
+      "name": "Ulrich Chomche",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431699,
+      "injury": "ACTIVE",
+      "name": "Kai Jones",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431705,
+      "injury": "ACTIVE",
+      "name": "Anton Watson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5211981,
+      "injury": null,
+      "name": "Melvin Ajinca",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3102534,
+      "injury": null,
+      "name": "Damien Inglis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907386,
+      "injury": null,
+      "name": "Antonio Blakeney",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278116,
+      "injury": null,
+      "name": "Yves Pons",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431720,
+      "injury": "ACTIVE",
+      "name": "Lester Quinones",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531097,
+      "injury": null,
+      "name": "Keith Appling",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3893020,
+      "injury": null,
+      "name": "Alpha Kaba",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907359,
+      "injury": null,
+      "name": "Malik Newman",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2578204,
+      "injury": null,
+      "name": "Pierre Deshawn Jackson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531100,
+      "injury": null,
+      "name": "Adreian Payne",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3893015,
+      "injury": null,
+      "name": "Arturas Gudaitis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278031,
+      "injury": "ACTIVE",
+      "name": "Oshae Brissett",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278045,
+      "injury": null,
+      "name": "Chaundee Brown Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278052,
+      "injury": "ACTIVE",
+      "name": "Chuma Okeke",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4701992,
+      "injury": "ACTIVE",
+      "name": "Max Shulga",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2578259,
+      "injury": null,
+      "name": "Darrun Hilliard",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278075,
+      "injury": "ACTIVE",
+      "name": "Kevin Knox II",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2578269,
+      "injury": null,
+      "name": "Tyler Harvey",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702023,
+      "injury": null,
+      "name": "Adama Sanogo",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431689,
+      "injury": "ACTIVE",
+      "name": "Keion Brooks Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907408,
+      "injury": null,
+      "name": "Donta Hall",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907526,
+      "injury": null,
+      "name": "Chance Comanche",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907525,
+      "injury": null,
+      "name": "Allonzo Trier",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4407254,
+      "injury": null,
+      "name": "Brodric Thomas",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397016,
+      "injury": null,
+      "name": "Devon Dotson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531214,
+      "injury": null,
+      "name": "Richard Solomon",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2994165,
+      "injury": null,
+      "name": "Erik McCree",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431766,
+      "injury": "ACTIVE",
+      "name": "Damion Baugh",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4067325,
+      "injury": null,
+      "name": "Nathan Knight",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2594816,
+      "injury": null,
+      "name": "P.J. Hairston",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431778,
+      "injury": "ACTIVE",
+      "name": "Christian Koloko",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431775,
+      "injury": "ACTIVE",
+      "name": "Seth Lundy",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3911666,
+      "injury": null,
+      "name": "Luis Montero",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3033042,
+      "injury": null,
+      "name": "Daniel Diez",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4906923,
+      "injury": "ACTIVE",
+      "name": "Bobi Klintman",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702134,
+      "injury": "ACTIVE",
+      "name": "Norchad Omier",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4396991,
+      "injury": "ACTIVE",
+      "name": "Talen Horton-Tucker",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431811,
+      "injury": null,
+      "name": "Dereon Seabron",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397134,
+      "injury": "ACTIVE",
+      "name": "Cole Swider",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4597865,
+      "injury": "ACTIVE",
+      "name": "Tosan Evbuomwan",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2594885,
+      "injury": null,
+      "name": "Sheldon Mac",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278378,
+      "injury": null,
+      "name": "Jacob Gilyard",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3936296,
+      "injury": "ACTIVE",
+      "name": "Skal Labissiere",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3936298,
+      "injury": null,
+      "name": "Mychal Mulder",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3936294,
+      "injury": null,
+      "name": "Isaiah Briscoe",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531352,
+      "injury": null,
+      "name": "Eric Moreland",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5105797,
+      "injury": null,
+      "name": "Jalen Hood-Schifino",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2531364,
+      "injury": null,
+      "name": "Josh Huestis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5177362,
+      "injury": "ACTIVE",
+      "name": "Riley Minix",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2992257,
+      "injury": null,
+      "name": "Tahjere McCall",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397103,
+      "injury": null,
+      "name": "Louis King",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4683834,
+      "injury": "ACTIVE",
+      "name": "KJ Simpson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397107,
+      "injury": "ACTIVE",
+      "name": "David Duke Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397119,
+      "injury": "ACTIVE",
+      "name": "Jared Rhoden",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397126,
+      "injury": "DAY_TO_DAY",
+      "name": "Moses Brown",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431941,
+      "injury": "ACTIVE",
+      "name": "RayJ Dennis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3137713,
+      "injury": null,
+      "name": "Zylan Cheatham",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3063982,
+      "injury": null,
+      "name": "Maurice Ndour",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3137733,
+      "injury": null,
+      "name": "Rashad Vaughn",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3133629,
+      "injury": null,
+      "name": "Keenan Evans",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3950760,
+      "injury": "DAY_TO_DAY",
+      "name": "Kylor Kelley",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278516,
+      "injury": "ACTIVE",
+      "name": "Ethan Thompson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432117,
+      "injury": "ACTIVE",
+      "name": "Isaiah Stevens",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4696317,
+      "injury": "ACTIVE",
+      "name": "Miles Kelly",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3137694,
+      "injury": null,
+      "name": "Gian Clavell",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4067469,
+      "injury": null,
+      "name": "Jemerrio Jones",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3133596,
+      "injury": null,
+      "name": "Kelan Martin",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2994416,
+      "injury": null,
+      "name": "Cody Demps",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397209,
+      "injury": null,
+      "name": "Aaron Henry",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3137798,
+      "injury": null,
+      "name": "Devin Robinson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3137795,
+      "injury": null,
+      "name": "Chris Chiozza",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397235,
+      "injury": null,
+      "name": "Duane Washington Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5234862,
+      "injury": "ACTIVE",
+      "name": "Jack Kayil",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5165257,
+      "injury": null,
+      "name": "Trentyn Flowers",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3911893,
+      "injury": null,
+      "name": "Jack McVeigh",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3928275,
+      "injury": null,
+      "name": "Cameron Oliver",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432070,
+      "injury": null,
+      "name": "Quincy Olivari",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5363895,
+      "injury": "ACTIVE",
+      "name": "Narcisse Ngoy",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2580784,
+      "injury": null,
+      "name": "Jabari Brown",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982192,
+      "injury": null,
+      "name": "Olivier Hanlan",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3129674,
+      "injury": null,
+      "name": "Donte Grantham",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6428,
+      "injury": null,
+      "name": "MarShon Brooks",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5106040,
+      "injury": "ACTIVE",
+      "name": "Tobi Lawal",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6446,
+      "injury": "ACTIVE",
+      "name": "Cory Joseph",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 6461,
+      "injury": "ACTIVE",
+      "name": "Markieff Morris",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982185,
+      "injury": null,
+      "name": "Jameel Warney",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3899662,
+      "injury": null,
+      "name": "Luka Mitrovic",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397449,
+      "injury": "ACTIVE",
+      "name": "Elijah Harkless",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3899663,
+      "injury": null,
+      "name": "Dimitrios Agravanis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5091709,
+      "injury": null,
+      "name": "Lachlan Olbrich",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065673,
+      "injury": "DAY_TO_DAY",
+      "name": "Tony Bradley",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982261,
+      "injury": null,
+      "name": "Marcus Georges-Hunt",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278555,
+      "injury": null,
+      "name": "Ty-Shon Alexander",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2959753,
+      "injury": null,
+      "name": "Joffrey Lauvergne",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065656,
+      "injury": null,
+      "name": "Trent Forrest",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432162,
+      "injury": "ACTIVE",
+      "name": "Brandon Boston Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065652,
+      "injury": "ACTIVE",
+      "name": "Marques Bolden",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2595209,
+      "injury": "ACTIVE",
+      "name": "Damion Lee",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065650,
+      "injury": null,
+      "name": "Javin DeLaurier",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278566,
+      "injury": null,
+      "name": "Jamorko Pickett",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432164,
+      "injury": "ACTIVE",
+      "name": "Jaden Springer",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2959745,
+      "injury": null,
+      "name": "Sergey Karasev",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397347,
+      "injury": null,
+      "name": "Liam Robbins",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432168,
+      "injury": null,
+      "name": "Josh Christopher",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4065635,
+      "injury": null,
+      "name": "Ky Bowman",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432176,
+      "injury": null,
+      "name": "Daishen Nix",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3914075,
+      "injury": null,
+      "name": "Xavier Moon",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982249,
+      "injury": null,
+      "name": "Amile Jefferson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397371,
+      "injury": null,
+      "name": "Nate Mensah",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432187,
+      "injury": "ACTIVE",
+      "name": "Reece Beekman",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432192,
+      "injury": "ACTIVE",
+      "name": "Keon Johnson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2994526,
+      "injury": null,
+      "name": "Bryn Forbes",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982329,
+      "injury": null,
+      "name": "Marcus Paige",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2992564,
+      "injury": "ACTIVE",
+      "name": "Milton Doyle",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3064237,
+      "injury": null,
+      "name": "Antonius Cleveland",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982337,
+      "injury": null,
+      "name": "Mike Tobey",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2982332,
+      "injury": null,
+      "name": "Rodney Purvis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2595211,
+      "injury": null,
+      "name": "Branden Dawson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3133843,
+      "injury": null,
+      "name": "Jared Terrell",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2580898,
+      "injury": null,
+      "name": "Chasson Randle",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4067735,
+      "injury": null,
+      "name": "Carlik Jones",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2595231,
+      "injury": null,
+      "name": "Treveon Graham",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4684286,
+      "injury": null,
+      "name": "Maxwell Lewis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997529,
+      "injury": null,
+      "name": "Ismael Kamagate",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2488826,
+      "injury": null,
+      "name": "Rodney McGruder",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3934721,
+      "injury": null,
+      "name": "Juwan Morgan",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2580980,
+      "injury": null,
+      "name": "Malcolm Miller",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997539,
+      "injury": "ACTIVE",
+      "name": "Luke Travers",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997531,
+      "injury": null,
+      "name": "Yannick Nzosa",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4997532,
+      "injury": null,
+      "name": "Matteo Spagnolo",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3926491,
+      "injury": null,
+      "name": "Isaac Humphries",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3946974,
+      "injury": null,
+      "name": "Devontae Cacok",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3152335,
+      "injury": null,
+      "name": "Keljin Blevins",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3934670,
+      "injury": null,
+      "name": "Marcus Derrickson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397654,
+      "injury": "ACTIVE",
+      "name": "Adam Flagler",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2284101,
+      "injury": null,
+      "name": "Justin Holiday",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395627,
+      "injury": null,
+      "name": "Cam Reddish",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4708972,
+      "injury": "ACTIVE",
+      "name": "Jazian Gortman",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397693,
+      "injury": "ACTIVE",
+      "name": "Kessler Edwards",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4067858,
+      "injury": null,
+      "name": "Kevon Harris",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3904015,
+      "injury": null,
+      "name": "Marcus Eriksson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3056247,
+      "injury": null,
+      "name": "Kendrick Nunn",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3138161,
+      "injury": null,
+      "name": "Cody Martin",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5184016,
+      "injury": "ACTIVE",
+      "name": "Malique Lewis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3037805,
+      "injury": null,
+      "name": "Axel Toupane",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4438552,
+      "injury": null,
+      "name": "Onuralp Bitim",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3132042,
+      "injury": null,
+      "name": "Gary Clark",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5104156,
+      "injury": null,
+      "name": "Armel Traore",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2566745,
+      "injury": null,
+      "name": "Quinn Cook",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2566741,
+      "injury": null,
+      "name": "KJ McDaniels",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3138154,
+      "injury": null,
+      "name": "Theo Pinson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702785,
+      "injury": "ACTIVE",
+      "name": "Jahmyl Telfort",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2566748,
+      "injury": null,
+      "name": "Marshall Plumlee",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592187,
+      "injury": "ACTIVE",
+      "name": "Wendell Moore Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2566747,
+      "injury": null,
+      "name": "Michael Gbinije",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3037792,
+      "injury": null,
+      "name": "Louis Labeyrie",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3074743,
+      "injury": null,
+      "name": "Troy Caupain",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136183,
+      "injury": null,
+      "name": "Yante Maten",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3064520,
+      "injury": null,
+      "name": "Jordan Mickey",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3064516,
+      "injury": null,
+      "name": "Dakari Johnson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2581190,
+      "injury": null,
+      "name": "Josh Richardson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3064510,
+      "injury": null,
+      "name": "Aaron Harrison",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3138192,
+      "injury": null,
+      "name": "Bonzie Colson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3947156,
+      "injury": null,
+      "name": "Mamadi Diakite",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702972,
+      "injury": "ACTIVE",
+      "name": "Chris Manon",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5167876,
+      "injury": "ACTIVE",
+      "name": "Tyler Smith",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432645,
+      "injury": "ACTIVE",
+      "name": "Trevor Keels",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432528,
+      "injury": null,
+      "name": "Karim Mane",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2595592,
+      "injury": null,
+      "name": "Jordan Loyd",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3908336,
+      "injury": "ACTIVE",
+      "name": "Matt Ryan",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395695,
+      "injury": "ACTIVE",
+      "name": "Jared Butler",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3074765,
+      "injury": null,
+      "name": "Isaiah Hicks",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395704,
+      "injury": "ACTIVE",
+      "name": "Mason Jones",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2282205,
+      "injury": null,
+      "name": "Malcolm Delaney",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4395722,
+      "injury": null,
+      "name": "Ashton Hagans",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432585,
+      "injury": null,
+      "name": "AJ Griffin",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4279118,
+      "injury": "ACTIVE",
+      "name": "Keaton Wallace",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592461,
+      "injury": "DAY_TO_DAY",
+      "name": "Jacob Toppin",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2560823,
+      "injury": null,
+      "name": "Zoran Dragic",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2968363,
+      "injury": null,
+      "name": "Marcelo Huertas",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2579251,
+      "injury": null,
+      "name": "Myke Henry",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2968338,
+      "injury": null,
+      "name": "Nicolas Laprovittola",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592401,
+      "injury": "OUT",
+      "name": "N'Faly Dante",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592402,
+      "injury": null,
+      "name": "Chris Duarte",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4348701,
+      "injury": null,
+      "name": "Issuf Sanon",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2990983,
+      "injury": null,
+      "name": "Isaiah Cousins",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2968458,
+      "injury": null,
+      "name": "Salah Mejri",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4895528,
+      "injury": null,
+      "name": "Jordan Schakel",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2579279,
+      "injury": null,
+      "name": "Jordan Sibert",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4596528,
+      "injury": "ACTIVE",
+      "name": "Lawson Lovering",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4397882,
+      "injury": "ACTIVE",
+      "name": "Tolu Smith",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592435,
+      "injury": "ACTIVE",
+      "name": "Branden Carlson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2579293,
+      "injury": null,
+      "name": "Jarrod Uthoff",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066248,
+      "injury": null,
+      "name": "Jared Harper",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066243,
+      "injury": null,
+      "name": "Daryl Macon",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991047,
+      "injury": null,
+      "name": "Ryan Arcidiacono",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991050,
+      "injury": null,
+      "name": "Daniel Ochefu",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4871139,
+      "injury": null,
+      "name": "Gabriele Procida",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4871140,
+      "injury": "DAY_TO_DAY",
+      "name": "Ibou Badji",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991041,
+      "injury": null,
+      "name": "Mitch McGary",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066221,
+      "injury": null,
+      "name": "Hassani Gravett",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4871138,
+      "injury": null,
+      "name": "Hugo Besson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432872,
+      "injury": "ACTIVE",
+      "name": "Emanuel Miller",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991018,
+      "injury": null,
+      "name": "Yogi Ferrell",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991009,
+      "injury": null,
+      "name": "Grant Jerrett",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528244,
+      "injury": null,
+      "name": "Duje Dukan",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2579466,
+      "injury": null,
+      "name": "Jonathon Simmons",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3062744,
+      "injury": null,
+      "name": "David Nwaba",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432817,
+      "injury": "ACTIVE",
+      "name": "Johnny Juzang",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432821,
+      "injury": "ACTIVE",
+      "name": "E.J. Liddell",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432820,
+      "injury": "ACTIVE",
+      "name": "D.J. Carton",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991054,
+      "injury": null,
+      "name": "Mangok Mathiang",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066264,
+      "injury": null,
+      "name": "Wenyen Gabriel",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136483,
+      "injury": null,
+      "name": "J.P. Macura",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3136481,
+      "injury": null,
+      "name": "Trevon Bluiett",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528231,
+      "injury": null,
+      "name": "Aaron Craft",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2309097,
+      "injury": null,
+      "name": "Damjan Rudez",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3001309,
+      "injury": null,
+      "name": "Dusty Hannahs",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066377,
+      "injury": null,
+      "name": "Zavier Simpson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066378,
+      "injury": null,
+      "name": "Jon Teske",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432971,
+      "injury": "ACTIVE",
+      "name": "Alex Ducas",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066373,
+      "injury": null,
+      "name": "Justin Jackson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991155,
+      "injury": null,
+      "name": "Danuel House Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066367,
+      "injury": null,
+      "name": "Tyler Cook",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528327,
+      "injury": null,
+      "name": "Kyle Collinsworth",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3906603,
+      "injury": null,
+      "name": "Chris Clemons",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066335,
+      "injury": null,
+      "name": "Kobi Simmons",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066334,
+      "injury": null,
+      "name": "Rawle Alkins",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2579476,
+      "injury": null,
+      "name": "Jalen Jones",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991134,
+      "injury": null,
+      "name": "Coty Clarke",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066315,
+      "injury": "ACTIVE",
+      "name": "Cam McGriff",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4236300,
+      "injury": null,
+      "name": "Mitchell Creek",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3062897,
+      "injury": null,
+      "name": "Alec Peters",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5149711,
+      "injury": null,
+      "name": "Jaylen Martin",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528374,
+      "injury": null,
+      "name": "J.J. O'Brien",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3062892,
+      "injury": null,
+      "name": "Kay Felder",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4701234,
+      "injury": "DAY_TO_DAY",
+      "name": "Ricky Council IV",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066410,
+      "injury": "ACTIVE",
+      "name": "Eugene Omoruyi",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4701231,
+      "injury": null,
+      "name": "DJ Steward",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2583639,
+      "injury": "ACTIVE",
+      "name": "Elfrid Payton",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3945566,
+      "injury": null,
+      "name": "Justin Robinson",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528354,
+      "injury": null,
+      "name": "Cameron Bairstow",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066387,
+      "injury": "ACTIVE",
+      "name": "Amir Coffey",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991283,
+      "injury": null,
+      "name": "Alex Poythress",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3908807,
+      "injury": null,
+      "name": "Deng Adel",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592857,
+      "injury": "ACTIVE",
+      "name": "Isaiah Crawford",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991281,
+      "injury": null,
+      "name": "Archie Goodwin",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066496,
+      "injury": null,
+      "name": "JaQuori McLaughlin",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4279532,
+      "injury": "ACTIVE",
+      "name": "Stanley Umude",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2991255,
+      "injury": null,
+      "name": "Michael Frazier",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066450,
+      "injury": null,
+      "name": "Armoni Brooks",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433157,
+      "injury": null,
+      "name": "Josh Hall",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2999546,
+      "injury": null,
+      "name": "Matt Costello",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3149036,
+      "injury": null,
+      "name": "Matt Mooney",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3929321,
+      "injury": null,
+      "name": "Gabriel Deck",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3929314,
+      "injury": null,
+      "name": "Nicolas Brussino",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2528479,
+      "injury": null,
+      "name": "Alec Brown",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3908819,
+      "injury": null,
+      "name": "Rayjon Tucker",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4703421,
+      "injury": "ACTIVE",
+      "name": "Taelon Peter",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433246,
+      "injury": "ACTIVE",
+      "name": "Patrick Baldwin Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3923253,
+      "injury": null,
+      "name": "Chris Silva",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433254,
+      "injury": "ACTIVE",
+      "name": "Kendall Brown",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3923250,
+      "injury": null,
+      "name": "PJ Dozier",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 2530572,
+      "injury": null,
+      "name": "Langston Galloway",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3908903,
+      "injury": null,
+      "name": "Sean McDermott",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3153165,
+      "injury": null,
+      "name": "Chris McCullough",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4433281,
+      "injury": "ACTIVE",
+      "name": "Hunter Sallis",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5281137,
+      "injury": "ACTIVE",
+      "name": "Saliou Niang",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4703530,
+      "injury": "ACTIVE",
+      "name": "Mark Sears",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4349241,
+      "injury": null,
+      "name": "Adam Mokoka",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066651,
+      "injury": null,
+      "name": "Killian Tillie",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4066649,
+      "injury": null,
+      "name": "Zach Norvell Jr.",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4355392,
+      "injury": null,
+      "name": "Emanuel Terry",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4592965,
+      "injury": "ACTIVE",
+      "name": "Tristen Newton",
+      "ownership": 0.01,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4396629,
+      "injury": "DAY_TO_DAY",
+      "name": "Nate Hinton",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4396638,
+      "injury": "ACTIVE",
+      "name": "Feron Hunt",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4597259,
+      "injury": "ACTIVE",
+      "name": "Javonte Cooke",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 3907385,
+      "injury": null,
+      "name": "Brandon Sampson",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278111,
+      "injury": null,
+      "name": "Justin Minaya",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4409222,
+      "injury": "ACTIVE",
+      "name": "Trevelin Queen",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4431816,
+      "injury": "ACTIVE",
+      "name": "Jesse Edwards",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432068,
+      "injury": "ACTIVE",
+      "name": "Josh Oduro",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 5091677,
+      "injury": null,
+      "name": "Mojave King",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4702602,
+      "injury": "ACTIVE",
+      "name": "CJ Huntley",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4278783,
+      "injury": null,
+      "name": "Will Magnay",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4871137,
+      "injury": null,
+      "name": "Malcolm Cazalon",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    },
+    {
+      "id": 4432887,
+      "injury": "ACTIVE",
+      "name": "Tyson Etienne",
+      "ownership": 0.0,
+      "status": "WAIVERS"
+    }
+  ],
+  "updatedAt": "2026-10-09T12:37:18.706024+00:00"
+}
