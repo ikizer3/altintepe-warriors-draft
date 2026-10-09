@@ -10194,7 +10194,7 @@
                   "injured": false,
                   "injuryStatus": "ACTIVE",
                   "lastName": "Marshall",
-                  "lastNewsDate": 1790622875000,
+                  "lastNewsDate": 1791578738000,
                   "proTeamId": 6,
                   "universeId": 2
                 },
@@ -80580,5 +80580,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-09T19:50:02.480971+00:00"
+  "updatedAt": "2026-10-09T22:15:23.932489+00:00"
 }
