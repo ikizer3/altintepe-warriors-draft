@@ -2,8 +2,7 @@ name: Sync Live V5 Pick Plan
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/5 * * * *'
+  # Draft completed; manual runs remain available for historical troubleshooting.
 
 permissions:
   contents: write
