@@ -71,7 +71,10 @@ def main():
             p=x.get("player") or {}
             free.append({"id":p.get("id"),"name":p.get("fullName"),"status":x.get("status"),"injury":p.get("injuryStatus"),"ownership":(p.get("ownership") or {}).get("percentOwned")})
         if not free:raise ValueError("Empty FA result; previous data retained")
-        dump(fa_path,{"updatedAt":NOW,"players":free})
+        roster_ids={str(p["id"]) for team in current.values() for p in team["players"]}
+        free=[p for p in free if str(p.get("id")) not in roster_ids]
+        if not free:raise ValueError("No unrostered players after roster exclusion")
+        dump(fa_path,{"updatedAt":NOW,"players":free,"rosteredExcluded":len(roster_ids)})
     except Exception as exc:fa_error=str(exc)[:350]
     # Preserve a snapshot and change history; this is separate from the master file.
     latest={"updatedAt":NOW,"leagueId":88948640,"teams":current,"status":data.get("status"),"schedule":data.get("schedule")}
@@ -98,6 +101,8 @@ def main():
     sheet(wb,"ESPN_ISLEMLERI",["İşlem ID","Tür","Durum","Tarih","Oyuncu İşlemleri","Ham ESPN Kaydı"],txrows)
     if fa_path.exists():
         fa=json.loads(fa_path.read_text(encoding="utf-8"))
+        roster_ids={str(p["id"]) for team in current.values() for p in team["players"]}
+        fa["players"]=[p for p in fa.get("players",[]) if str(p.get("id")) not in roster_ids]
         sheet(wb,"FA_WAIVER",["Son başarılı FA kontrolü","Oyuncu ID","Oyuncu","ESPN Durumu","Sakatlık","Sahiplik %"],[
             [fa.get("updatedAt"),p.get("id"),p.get("name"),p.get("status"),p.get("injury"),p.get("ownership")] for p in fa.get("players",[])])
     schedule=data.get("schedule") or []
