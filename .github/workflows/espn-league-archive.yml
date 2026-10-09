@@ -1,0 +1,29 @@
+name: Hourly ESPN League Archive
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: espn-league-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install openpyxl
+      - run: python scripts/sync_espn_league.py
+      - name: Save separate archive
+        run: |
+          git config user.name "espn-league-bot"
+          git config user.email "espn-league-bot@users.noreply.github.com"
+          git add league_archive/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update ESPN league archive"
+            git push
+          fi
