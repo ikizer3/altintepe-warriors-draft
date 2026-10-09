@@ -1,6 +1,11 @@
 name: Hourly ESPN League Archive
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync_espn_league.py'
+      - '.github/workflows/espn-league-archive.yml'
   schedule:
     # Two opportunities per hour; sync script is idempotent.
     - cron: '17,47 * * * *'
@@ -12,6 +17,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
