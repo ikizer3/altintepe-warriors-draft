@@ -1342,7 +1342,7 @@
                   "injured": false,
                   "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Lively II",
-                  "lastNewsDate": 1790350481000,
+                  "lastNewsDate": 1791547413000,
                   "proTeamId": 6,
                   "universeId": 2
                 },
@@ -10785,7 +10785,7 @@
                   "injured": false,
                   "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Washington",
-                  "lastNewsDate": 1790903667000,
+                  "lastNewsDate": 1791547690000,
                   "proTeamId": 6,
                   "universeId": 2
                 },
@@ -80580,5 +80580,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-09T12:37:18.706024+00:00"
+  "updatedAt": "2026-10-09T12:47:56.240321+00:00"
 }
