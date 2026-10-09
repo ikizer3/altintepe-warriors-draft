@@ -62,19 +62,37 @@ def main():
     fa_path=DIR/"free_agents.json"
     fa_error=""
     try:
-        filt={"players":{"filterStatus":{"value":["FREEAGENT","WAIVERS"]},"limit":1500,"sortPercOwned":{"sortPriority":1,"sortAsc":False}}}
-        response=fetch(["kona_player_info"],filt)
-        players=response.get("players") or []
-        if not isinstance(players,list):raise ValueError("Unexpected player payload")
-        free=[]
-        for x in players:
-            p=x.get("player") or {}
-            free.append({"id":p.get("id"),"name":p.get("fullName"),"status":x.get("status"),"injury":p.get("injuryStatus"),"ownership":(p.get("ownership") or {}).get("percentOwned")})
-        if not free:raise ValueError("Empty FA result; previous data retained")
         roster_ids={str(p["id"]) for team in current.values() for p in team["players"]}
-        free=[p for p in free if str(p.get("id")) not in roster_ids]
-        if not free:raise ValueError("No unrostered players after roster exclusion")
-        dump(fa_path,{"updatedAt":NOW,"players":free,"rosteredExcluded":len(roster_ids)})
+        by_id={}
+        counts={}
+        # Query each ESPN availability category independently, rather than
+        # trusting a single combined query or treating all unrostered as waivers.
+        for requested_status in ("FREEAGENT","WAIVERS"):
+            filt={"players":{"filterStatus":{"value":[requested_status]},"limit":2500,"sortPercOwned":{"sortPriority":1,"sortAsc":False}}}
+            response=fetch(["kona_player_info"],filt)
+            players=response.get("players")
+            if not isinstance(players,list):raise ValueError("Invalid "+requested_status+" payload")
+            counts[requested_status]=len(players)
+            for x in players:
+                p=x.get("player") or {}
+                pid=p.get("id") or x.get("id")
+                if pid is None or str(pid) in roster_ids:continue
+                raw_status=x.get("status")
+                # onTeamId is a second independent check; exclude all rostered.
+                on_team=x.get("onTeamId") or 0
+                if on_team:continue
+                entry=by_id.setdefault(str(pid),{"id":pid,"name":p.get("fullName"),"status":None,"injury":p.get("injuryStatus"),"ownership":(p.get("ownership") or {}).get("percentOwned"),"waiverProcessDate":x.get("waiverProcessDate"),"rawStatus":raw_status,"matchedFilters":[]})
+                entry["matchedFilters"].append(requested_status)
+                if raw_status in ("FREEAGENT","WAIVERS"):
+                    entry["status"]=raw_status
+        free=list(by_id.values())
+        if not free:raise ValueError("Empty available player pool; previous data retained")
+        # Conflicting filters / labels must be surfaced, never silently guessed.
+        for p in free:
+            matched=set(p["matchedFilters"])
+            if len(matched)>1 or p["status"] not in ("FREEAGENT","WAIVERS") or p["status"] not in matched:
+                p["status"]="UNVERIFIED"
+        dump(fa_path,{"updatedAt":NOW,"players":free,"rosteredExcluded":len(roster_ids),"filterCounts":counts,"unverifiedCount":sum(p["status"]=="UNVERIFIED" for p in free)})
     except Exception as exc:fa_error=str(exc)[:350]
     # Preserve a snapshot and change history; this is separate from the master file.
     latest={"updatedAt":NOW,"leagueId":88948640,"teams":current,"status":data.get("status"),"schedule":data.get("schedule")}
@@ -103,8 +121,8 @@ def main():
         fa=json.loads(fa_path.read_text(encoding="utf-8"))
         roster_ids={str(p["id"]) for team in current.values() for p in team["players"]}
         fa["players"]=[p for p in fa.get("players",[]) if str(p.get("id")) not in roster_ids]
-        sheet(wb,"FA_WAIVER",["Son başarılı FA kontrolü","Oyuncu ID","Oyuncu","ESPN Durumu","Sakatlık","Sahiplik %"],[
-            [fa.get("updatedAt"),p.get("id"),p.get("name"),p.get("status"),p.get("injury"),p.get("ownership")] for p in fa.get("players",[])])
+        sheet(wb,"FA_WAIVER",["Son başarılı FA kontrolü","Oyuncu ID","Oyuncu","Doğrulanan durum","Sakatlık","Sahiplik %","Waiver bitiş tarihi","Ham ESPN durumu"],[
+            [fa.get("updatedAt"),p.get("id"),p.get("name"),p.get("status"),p.get("injury"),p.get("ownership"),p.get("waiverProcessDate"),p.get("rawStatus")] for p in fa.get("players",[])])
     schedule=data.get("schedule") or []
     sheet(wb,"ESLESMELER",["Matchup ID","Periyot","Ev Sahibi ID","Deplasman ID","Ev Sahibi Puan","Deplasman Puan"],[
         [s.get("id"),s.get("matchupPeriodId"),(s.get("home") or {}).get("teamId"),(s.get("away") or {}).get("teamId"),(s.get("home") or {}).get("totalPoints"),(s.get("away") or {}).get("totalPoints")] for s in schedule if isinstance(s,dict)])
@@ -120,7 +138,7 @@ def main():
         ["Son başarılı kadro kontrolü (UTC)",NOW],["Lig ID",88948640],["Takım sayısı",len(teams)],
         ["Kadro değişikliği",len(changes)],["ESPN işlem sayısı",len(txmap)],
         ["FA son başarılı kontrol",json.loads(fa_path.read_text()).get("updatedAt") if fa_path.exists() else "YOK"],
-        ["FA hatası",fa_error or "YOK"],["Not","İşlem geçmişi ESPN API'nin sunduğu kapsamla sınırlıdır."]])
+        ["FA hatası",fa_error or "YOK"],["FA/WAIVER filtre sonuçları",json.dumps(json.loads(fa_path.read_text()).get("filterCounts",{})) if fa_path.exists() else "YOK"],["Belirsiz oyuncu",json.loads(fa_path.read_text()).get("unverifiedCount") if fa_path.exists() else "YOK"],["Not","İşlem geçmişi ESPN API'nin sunduğu kapsamla sınırlıdır."]])
     wb.save(BOOK)
     print("OK teams=",len(teams),"roster changes=",len(changes),"transactions=",len(txmap),"FA error=",fa_error)
 if __name__=="__main__":main()
