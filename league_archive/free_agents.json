@@ -11,7 +11,7 @@
         "WAIVERS"
       ],
       "name": "Anfernee Simons",
-      "ownership": 31.08,
+      "ownership": 30.88,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -23,7 +23,7 @@
         "WAIVERS"
       ],
       "name": "Jordan Poole",
-      "ownership": 30.57,
+      "ownership": 30.38,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -35,7 +35,7 @@
         "WAIVERS"
       ],
       "name": "Shaedon Sharpe",
-      "ownership": 26.07,
+      "ownership": 25.89,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -47,7 +47,7 @@
         "WAIVERS"
       ],
       "name": "T.J. McConnell",
-      "ownership": 24.03,
+      "ownership": 23.88,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -59,7 +59,7 @@
         "WAIVERS"
       ],
       "name": "Mark Williams",
-      "ownership": 23.17,
+      "ownership": 23.0,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -71,7 +71,7 @@
         "WAIVERS"
       ],
       "name": "D'Angelo Russell",
-      "ownership": 18.3,
+      "ownership": 18.16,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -83,7 +83,7 @@
         "WAIVERS"
       ],
       "name": "Cam Thomas",
-      "ownership": 18.23,
+      "ownership": 18.1,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -95,7 +95,7 @@
         "WAIVERS"
       ],
       "name": "Klay Thompson",
-      "ownership": 16.02,
+      "ownership": 15.95,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -107,7 +107,7 @@
         "WAIVERS"
       ],
       "name": "Jared McCain",
-      "ownership": 13.81,
+      "ownership": 13.77,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -119,19 +119,7 @@
         "WAIVERS"
       ],
       "name": "Tari Eason",
-      "ownership": 10.96,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 2991350,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Alex Caruso",
-      "ownership": 7.25,
+      "ownership": 10.92,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -143,7 +131,19 @@
         "WAIVERS"
       ],
       "name": "Aday Mara",
-      "ownership": 7.16,
+      "ownership": 7.33,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 2991350,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Alex Caruso",
+      "ownership": 7.3,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -155,7 +155,7 @@
         "WAIVERS"
       ],
       "name": "Mikel Brown Jr.",
-      "ownership": 6.01,
+      "ownership": 6.02,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -167,7 +167,7 @@
         "WAIVERS"
       ],
       "name": "Tre Jones",
-      "ownership": 5.58,
+      "ownership": 5.57,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -179,7 +179,7 @@
         "WAIVERS"
       ],
       "name": "Jake LaRavia",
-      "ownership": 5.53,
+      "ownership": 5.56,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -191,7 +191,7 @@
         "WAIVERS"
       ],
       "name": "Russell Westbrook",
-      "ownership": 5.47,
+      "ownership": 5.46,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -203,7 +203,7 @@
         "WAIVERS"
       ],
       "name": "Donte DiVincenzo",
-      "ownership": 5.18,
+      "ownership": 5.14,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -215,7 +215,7 @@
         "WAIVERS"
       ],
       "name": "Chris Paul",
-      "ownership": 4.91,
+      "ownership": 4.87,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -239,7 +239,7 @@
         "WAIVERS"
       ],
       "name": "Morez Johnson Jr.",
-      "ownership": 4.45,
+      "ownership": 4.46,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -251,19 +251,19 @@
         "WAIVERS"
       ],
       "name": "Obi Toppin",
-      "ownership": 3.55,
+      "ownership": 3.53,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
     },
     {
       "id": 4432810,
-      "injury": "DAY_TO_DAY",
+      "injury": "OUT",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Isaiah Stewart",
-      "ownership": 3.37,
+      "ownership": 3.38,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -275,7 +275,7 @@
         "WAIVERS"
       ],
       "name": "Kingston Flemings",
-      "ownership": 3.13,
+      "ownership": 3.14,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -299,7 +299,7 @@
         "WAIVERS"
       ],
       "name": "Brice Sensabaugh",
-      "ownership": 2.91,
+      "ownership": 2.9,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -311,7 +311,7 @@
         "WAIVERS"
       ],
       "name": "Bradley Beal",
-      "ownership": 2.84,
+      "ownership": 2.82,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -359,7 +359,7 @@
         "WAIVERS"
       ],
       "name": "Zaccharie Risacher",
-      "ownership": 2.48,
+      "ownership": 2.47,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -371,7 +371,7 @@
         "WAIVERS"
       ],
       "name": "Herbert Jones",
-      "ownership": 2.25,
+      "ownership": 2.24,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -383,7 +383,7 @@
         "WAIVERS"
       ],
       "name": "Jaylin Williams",
-      "ownership": 2.05,
+      "ownership": 2.03,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -395,7 +395,7 @@
         "WAIVERS"
       ],
       "name": "Cam Whitmore",
-      "ownership": 2.04,
+      "ownership": 2.02,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -419,7 +419,7 @@
         "WAIVERS"
       ],
       "name": "Aaron Wiggins",
-      "ownership": 1.91,
+      "ownership": 1.9,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -491,7 +491,7 @@
         "WAIVERS"
       ],
       "name": "Royce O'Neale",
-      "ownership": 1.76,
+      "ownership": 1.75,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -539,7 +539,7 @@
         "WAIVERS"
       ],
       "name": "Cameron Carr",
-      "ownership": 1.73,
+      "ownership": 1.72,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -563,7 +563,7 @@
         "WAIVERS"
       ],
       "name": "Meleek Thomas",
-      "ownership": 1.68,
+      "ownership": 1.67,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -575,7 +575,7 @@
         "WAIVERS"
       ],
       "name": "Robert Williams III",
-      "ownership": 1.65,
+      "ownership": 1.66,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -587,7 +587,7 @@
         "WAIVERS"
       ],
       "name": "Al Horford",
-      "ownership": 1.65,
+      "ownership": 1.64,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -599,7 +599,7 @@
         "WAIVERS"
       ],
       "name": "Carter Bryant",
-      "ownership": 1.53,
+      "ownership": 1.52,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -611,19 +611,7 @@
         "WAIVERS"
       ],
       "name": "Andre Drummond",
-      "ownership": 1.46,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4433083,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Cam Spencer",
-      "ownership": 1.44,
+      "ownership": 1.45,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -641,13 +629,37 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 4433083,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Cam Spencer",
+      "ownership": 1.43,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 3904625,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Tacko Fall",
-      "ownership": 1.4,
+      "ownership": 1.39,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5107173,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Danny Wolf",
+      "ownership": 1.37,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -665,18 +677,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 5281370,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Hannes Steinbach",
-      "ownership": 1.35,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 2990992,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -689,12 +689,12 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 5107173,
+      "id": 5281370,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
-      "name": "Danny Wolf",
+      "name": "Hannes Steinbach",
       "ownership": 1.34,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -707,7 +707,7 @@
         "WAIVERS"
       ],
       "name": "Isaiah Joe",
-      "ownership": 1.3,
+      "ownership": 1.29,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -767,7 +767,7 @@
         "WAIVERS"
       ],
       "name": "Luke Kennard",
-      "ownership": 1.2,
+      "ownership": 1.19,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -779,31 +779,7 @@
         "WAIVERS"
       ],
       "name": "Walter Clayton Jr.",
-      "ownership": 1.14,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 5164559,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Nate Ament",
-      "ownership": 1.05,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 5112087,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Jaylen Wells",
-      "ownership": 1.04,
+      "ownership": 1.15,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -815,6 +791,30 @@
         "WAIVERS"
       ],
       "name": "Paul Reed",
+      "ownership": 1.05,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5164559,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Nate Ament",
+      "ownership": 1.04,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5112087,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Jaylen Wells",
       "ownership": 1.04,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -851,7 +851,7 @@
         "WAIVERS"
       ],
       "name": "Buddy Hield",
-      "ownership": 1.01,
+      "ownership": 1.0,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -863,7 +863,7 @@
         "WAIVERS"
       ],
       "name": "Harrison Barnes",
-      "ownership": 1.0,
+      "ownership": 0.99,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -875,7 +875,7 @@
         "WAIVERS"
       ],
       "name": "Jordan Clarkson",
-      "ownership": 0.98,
+      "ownership": 0.97,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -887,18 +887,6 @@
         "WAIVERS"
       ],
       "name": "Tyus Jones",
-      "ownership": 0.88,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4702177,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Keon Ellis",
       "ownership": 0.87,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -917,13 +905,13 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4066421,
+      "id": 4702177,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
-      "name": "Lonzo Ball",
-      "ownership": 0.87,
+      "name": "Keon Ellis",
+      "ownership": 0.86,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -935,7 +923,7 @@
         "WAIVERS"
       ],
       "name": "Baylor Scheierman",
-      "ownership": 0.85,
+      "ownership": 0.86,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -947,7 +935,19 @@
         "WAIVERS"
       ],
       "name": "Hugo Gonzalez",
-      "ownership": 0.85,
+      "ownership": 0.86,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4066421,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Lonzo Ball",
+      "ownership": 0.86,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -977,6 +977,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 5279133,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Joan Beringer",
+      "ownership": 0.75,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 4277848,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -989,36 +1001,24 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 2991043,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Caris LeVert",
-      "ownership": 0.75,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 5279133,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Joan Beringer",
-      "ownership": 0.74,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 6609,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Khris Middleton",
+      "ownership": 0.74,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 2991043,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Caris LeVert",
       "ownership": 0.74,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1049,18 +1049,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4684275,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Rob Dillingham",
-      "ownership": 0.68,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 5217746,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1079,6 +1067,18 @@
         "WAIVERS"
       ],
       "name": "Jordan Walsh",
+      "ownership": 0.67,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4684275,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Rob Dillingham",
       "ownership": 0.67,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1133,6 +1133,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 5279130,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Nolan Traore",
+      "ownership": 0.6,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 3914044,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1152,18 +1164,6 @@
       ],
       "name": "Ja'Kobe Walter",
       "ownership": 0.6,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 5279130,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Nolan Traore",
-      "ownership": 0.59,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -1205,6 +1205,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 4592492,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Bones Hyland",
+      "ownership": 0.57,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 3102529,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1223,18 +1235,6 @@
         "WAIVERS"
       ],
       "name": "Adem Bona",
-      "ownership": 0.56,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4592492,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Bones Hyland",
       "ownership": 0.56,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1265,24 +1265,24 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 5258459,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Ebuka Okorie",
-      "ownership": 0.54,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 5041953,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Koa Peat",
+      "ownership": 0.53,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5258459,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Ebuka Okorie",
       "ownership": 0.53,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1355,7 +1355,7 @@
         "WAIVERS"
       ],
       "name": "Chris Cenac Jr.",
-      "ownership": 0.45,
+      "ownership": 0.44,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -1421,24 +1421,24 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4433218,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Jaden Ivey",
-      "ownership": 0.42,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 3037789,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Bogdan Bogdanovic",
+      "ownership": 0.41,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4433218,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Jaden Ivey",
       "ownership": 0.41,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1529,36 +1529,12 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4848625,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Dailyn Swain",
-      "ownership": 0.37,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 3134903,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Gary Payton II",
-      "ownership": 0.36,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 5107199,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Daniss Jenkins",
       "ownership": 0.36,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1572,6 +1548,30 @@
       ],
       "name": "Bennett Stirtz",
       "ownership": 0.36,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4848625,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Dailyn Swain",
+      "ownership": 0.36,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5107199,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Daniss Jenkins",
+      "ownership": 0.35,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -1613,24 +1613,24 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 5231919,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Karim Lopez",
-      "ownership": 0.34,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 4348700,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Goga Bitadze",
+      "ownership": 0.33,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5231919,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Karim Lopez",
       "ownership": 0.33,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1745,24 +1745,24 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 5242496,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Noa Essengue",
-      "ownership": 0.26,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 4397102,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Bol Bol",
+      "ownership": 0.27,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5242496,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Noa Essengue",
       "ownership": 0.26,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1829,30 +1829,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4997526,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Ousmane Dieng",
-      "ownership": 0.25,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4432809,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Cole Anthony",
-      "ownership": 0.25,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 4433225,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1883,6 +1859,42 @@
         "WAIVERS"
       ],
       "name": "Jaylen Clark",
+      "ownership": 0.24,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4997526,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Ousmane Dieng",
+      "ownership": 0.24,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5106262,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Zuby Ejiofor",
+      "ownership": 0.24,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4432809,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Cole Anthony",
       "ownership": 0.24,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -1925,25 +1937,13 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 5106262,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Zuby Ejiofor",
-      "ownership": 0.23,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 5159925,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Nikola Topic",
-      "ownership": 0.23,
+      "ownership": 0.22,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -1956,30 +1956,6 @@
       ],
       "name": "Kyle Lowry",
       "ownership": 0.22,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4432819,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Tre Mann",
-      "ownership": 0.22,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4017844,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Guerschon Yabusele",
-      "ownership": 0.21,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -2009,6 +1985,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 4432819,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Tre Mann",
+      "ownership": 0.21,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 4683024,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2027,6 +2015,18 @@
         "WAIVERS"
       ],
       "name": "Ryan Conwell",
+      "ownership": 0.2,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4017844,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Guerschon Yabusele",
       "ownership": 0.2,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -2081,24 +2081,24 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4595400,
+      "id": 4277919,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
-      "name": "Olivier-Maxence Prosper",
+      "name": "Mo Bamba",
       "ownership": 0.19,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4278076,
+      "id": 4595400,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
-      "name": "Nick Richards",
+      "name": "Olivier-Maxence Prosper",
       "ownership": 0.19,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -2153,18 +2153,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 3136196,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Trey Lyles",
-      "ownership": 0.19,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 5239590,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2201,18 +2189,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4277919,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Mo Bamba",
-      "ownership": 0.18,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 4277951,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2231,6 +2207,30 @@
         "WAIVERS"
       ],
       "name": "Pacome Dadiet",
+      "ownership": 0.18,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4278076,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Nick Richards",
+      "ownership": 0.18,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 3136196,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Trey Lyles",
       "ownership": 0.18,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -2309,6 +2309,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 4870564,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Joshua Jefferson",
+      "ownership": 0.17,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 3146557,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2363,18 +2375,6 @@
         "WAIVERS"
       ],
       "name": "Mouhamed Gueye",
-      "ownership": 0.16,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4870564,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Joshua Jefferson",
       "ownership": 0.16,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -2441,18 +2441,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4397018,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Ochai Agbaji",
-      "ownership": 0.15,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 4278402,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2483,6 +2471,18 @@
         "WAIVERS"
       ],
       "name": "Chris Youngblood",
+      "ownership": 0.15,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5105854,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Braden Smith",
       "ownership": 0.15,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -2525,18 +2525,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4066650,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Zach Collins",
-      "ownership": 0.15,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 3134916,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2549,24 +2537,12 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 5107897,
-      "injury": "ACTIVE",
+      "id": 4397018,
+      "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "WAIVERS"
       ],
-      "name": "Jonathan Mogbo",
-      "ownership": 0.14,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 5105854,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Braden Smith",
+      "name": "Ochai Agbaji",
       "ownership": 0.14,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -2597,36 +2573,12 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 5157587,
-      "injury": "ACTIVE",
+      "id": 4066650,
+      "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "WAIVERS"
       ],
-      "name": "Rocco Zikarsky",
-      "ownership": 0.14,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 3074752,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Terry Rozier",
-      "ownership": 0.14,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4592829,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Quenton Jackson",
+      "name": "Zach Collins",
       "ownership": 0.14,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -2681,6 +2633,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 5107897,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Jonathan Mogbo",
+      "ownership": 0.13,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 4065654,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
@@ -2705,12 +2669,48 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 5157587,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Rocco Zikarsky",
+      "ownership": 0.13,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 3074752,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Terry Rozier",
+      "ownership": 0.13,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 4592714,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Pat Spencer",
+      "ownership": 0.13,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4592829,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Quenton Jackson",
       "ownership": 0.13,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -2813,6 +2813,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 5075626,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Baba Miller",
+      "ownership": 0.12,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 4017850,
       "injury": null,
       "matchedFilters": [
@@ -2903,18 +2915,6 @@
         "WAIVERS"
       ],
       "name": "Kris Murray",
-      "ownership": 0.11,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 5075626,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Baba Miller",
       "ownership": 0.11,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -3281,48 +3281,12 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4683686,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Nick Smith Jr.",
-      "ownership": 0.08,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 5107968,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Ja'Kobi Gillespie",
-      "ownership": 0.08,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 5105806,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Jett Howard",
-      "ownership": 0.08,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 2527926,
-      "injury": null,
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Patric Young",
       "ownership": 0.08,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -3425,12 +3389,48 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 4683686,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Nick Smith Jr.",
+      "ownership": 0.07,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 5107968,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Ja'Kobi Gillespie",
+      "ownership": 0.07,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 3058254,
       "injury": null,
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Christian Wood",
+      "ownership": 0.07,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 2527926,
+      "injury": null,
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Patric Young",
       "ownership": 0.07,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -3480,18 +3480,6 @@
       ],
       "name": "DeAndre Jordan",
       "ownership": 0.07,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 3892894,
-      "injury": null,
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Zhou Qi",
-      "ownership": 0.06,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791615600000
@@ -3593,30 +3581,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 2184,
-      "injury": null,
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Udonis Haslem",
-      "ownership": 0.06,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 3133602,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Svi Mykhailiuk",
-      "ownership": 0.06,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 4376,
       "injury": null,
       "matchedFilters": [
@@ -3659,18 +3623,6 @@
         "WAIVERS"
       ],
       "name": "Nae'Qwan Tomlin",
-      "ownership": 0.06,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 2488977,
-      "injury": null,
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Jamil Wilson",
       "ownership": 0.06,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -3749,6 +3701,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 3892894,
+      "injury": null,
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Zhou Qi",
+      "ownership": 0.05,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 3102528,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
@@ -3773,18 +3737,6 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4431690,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Zeke Nnaji",
-      "ownership": 0.05,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 3986,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -3797,12 +3749,12 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 2531362,
-      "injury": "ACTIVE",
+      "id": 2184,
+      "injury": null,
       "matchedFilters": [
         "WAIVERS"
       ],
-      "name": "Anthony Brown",
+      "name": "Udonis Haslem",
       "ownership": 0.05,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -3821,6 +3773,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 3133602,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Svi Mykhailiuk",
+      "ownership": 0.05,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 5106058,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -3833,36 +3797,12 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4065663,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Josh Okogie",
-      "ownership": 0.05,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
       "id": 4432190,
       "injury": "ACTIVE",
       "matchedFilters": [
         "WAIVERS"
       ],
       "name": "Andre Jackson Jr.",
-      "ownership": 0.05,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4997538,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Karlo Matkovic",
       "ownership": 0.05,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -3893,12 +3833,12 @@
       "waiverProcessDate": 1791615600000
     },
     {
-      "id": 4397821,
-      "injury": "ACTIVE",
+      "id": 2488977,
+      "injury": null,
       "matchedFilters": [
         "WAIVERS"
       ],
-      "name": "Nate Williams",
+      "name": "Jamil Wilson",
       "ownership": 0.05,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -3947,18 +3887,6 @@
         "WAIVERS"
       ],
       "name": "Micah Potter",
-      "ownership": 0.05,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4592712,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Boo Buie",
       "ownership": 0.05,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -4061,6 +3989,18 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 4431690,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Zeke Nnaji",
+      "ownership": 0.04,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 3999,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -4091,6 +4031,18 @@
         "WAIVERS"
       ],
       "name": "James Michael McAdoo",
+      "ownership": 0.04,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 2531362,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Anthony Brown",
       "ownership": 0.04,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -4169,6 +4121,42 @@
       "waiverProcessDate": 1791615600000
     },
     {
+      "id": 4065663,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Josh Okogie",
+      "ownership": 0.04,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4432180,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Hunter Dickinson",
+      "ownership": 0.04,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4997538,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Karlo Matkovic",
+      "ownership": 0.04,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
       "id": 4684208,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -4223,6 +4211,18 @@
         "WAIVERS"
       ],
       "name": "Nate Wolters",
+      "ownership": 0.04,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4397821,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Nate Williams",
       "ownership": 0.04,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -4355,6 +4355,18 @@
         "WAIVERS"
       ],
       "name": "Moussa Cisse",
+      "ownership": 0.04,
+      "rawStatus": "WAIVERS",
+      "status": "WAIVERS",
+      "waiverProcessDate": 1791615600000
+    },
+    {
+      "id": 4592712,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "WAIVERS"
+      ],
+      "name": "Boo Buie",
       "ownership": 0.04,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -4703,18 +4715,6 @@
         "WAIVERS"
       ],
       "name": "Brad Wanamaker",
-      "ownership": 0.03,
-      "rawStatus": "WAIVERS",
-      "status": "WAIVERS",
-      "waiverProcessDate": 1791615600000
-    },
-    {
-      "id": 4432180,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "WAIVERS"
-      ],
-      "name": "Hunter Dickinson",
       "ownership": 0.03,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
@@ -10843,5 +10843,5 @@
   ],
   "rosteredExcluded": 192,
   "unverifiedCount": 0,
-  "updatedAt": "2026-10-09T22:15:23.932489+00:00"
+  "updatedAt": "2026-10-10T00:04:01.691425+00:00"
 }
