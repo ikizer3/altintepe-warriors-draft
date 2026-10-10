@@ -440,7 +440,7 @@
                   "injured": false,
                   "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Podziemski",
-                  "lastNewsDate": 1791384225000,
+                  "lastNewsDate": 1791644822000,
                   "proTeamId": 9,
                   "universeId": 2
                 },
@@ -1210,9 +1210,9 @@
                   "fullName": "Cason Wallace",
                   "id": 4683692,
                   "injured": false,
-                  "injuryStatus": "ACTIVE",
+                  "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Wallace",
-                  "lastNewsDate": 1791412721000,
+                  "lastNewsDate": 1791660358000,
                   "proTeamId": 25,
                   "universeId": 2
                 },
@@ -3179,7 +3179,7 @@
                   "injured": false,
                   "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Sexton",
-                  "lastNewsDate": 1791507514000,
+                  "lastNewsDate": 1791661822000,
                   "proTeamId": 13,
                   "universeId": 2
                 },
@@ -4290,9 +4290,9 @@
                   "fullName": "Shai Gilgeous-Alexander",
                   "id": 4278073,
                   "injured": false,
-                  "injuryStatus": "ACTIVE",
+                  "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Gilgeous-Alexander",
-                  "lastNewsDate": 1791467009000,
+                  "lastNewsDate": 1791659849000,
                   "proTeamId": 25,
                   "universeId": 2
                 },
@@ -6610,7 +6610,7 @@
                   "injured": false,
                   "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Suggs",
-                  "lastNewsDate": 1791416200000,
+                  "lastNewsDate": 1791658389000,
                   "proTeamId": 19,
                   "universeId": 1
                 },
@@ -6862,9 +6862,9 @@
                   "fullName": "Jared McCain",
                   "id": 4683778,
                   "injured": false,
-                  "injuryStatus": "ACTIVE",
+                  "injuryStatus": "DAY_TO_DAY",
                   "lastName": "McCain",
-                  "lastNewsDate": 1791416768000,
+                  "lastNewsDate": 1791660770000,
                   "proTeamId": 25,
                   "universeId": 2
                 },
@@ -7195,7 +7195,7 @@
                   "injured": false,
                   "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Kessler",
-                  "lastNewsDate": 1791507514000,
+                  "lastNewsDate": 1791661930000,
                   "proTeamId": 13,
                   "universeId": 2
                 },
@@ -8055,9 +8055,9 @@
                   "fullName": "Ajay Mitchell",
                   "id": 4900671,
                   "injured": false,
-                  "injuryStatus": "ACTIVE",
+                  "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Mitchell",
-                  "lastNewsDate": 1791416789000,
+                  "lastNewsDate": 1791660646000,
                   "proTeamId": 25,
                   "universeId": 2
                 },
@@ -8516,7 +8516,7 @@
                   "fullName": "Jalen Williams",
                   "id": 4593803,
                   "injured": false,
-                  "injuryStatus": "ACTIVE",
+                  "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Williams",
                   "lastNewsDate": 1791467107000,
                   "proTeamId": 25,
@@ -10100,7 +10100,7 @@
                   "injured": false,
                   "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Hartenstein",
-                  "lastNewsDate": 1791411781000,
+                  "lastNewsDate": 1791660516000,
                   "proTeamId": 25,
                   "universeId": 2
                 },
@@ -15955,7 +15955,7 @@
         },
         {
           "id": 4683692,
-          "injury": "ACTIVE",
+          "injury": "DAY_TO_DAY",
           "name": "Cason Wallace",
           "slot": 11,
           "stats": [
@@ -24207,7 +24207,7 @@
         },
         {
           "id": 4900671,
-          "injury": "ACTIVE",
+          "injury": "DAY_TO_DAY",
           "name": "Ajay Mitchell",
           "slot": 5,
           "stats": [
@@ -30420,7 +30420,7 @@
         },
         {
           "id": 4593803,
-          "injury": "ACTIVE",
+          "injury": "DAY_TO_DAY",
           "name": "Jalen Williams",
           "slot": 3,
           "stats": [
@@ -51443,7 +51443,7 @@
         },
         {
           "id": 4683778,
-          "injury": "ACTIVE",
+          "injury": "DAY_TO_DAY",
           "name": "Jared McCain",
           "slot": 12,
           "stats": [
@@ -64426,7 +64426,7 @@
       "players": [
         {
           "id": 4278073,
-          "injury": "ACTIVE",
+          "injury": "DAY_TO_DAY",
           "name": "Shai Gilgeous-Alexander",
           "slot": 0,
           "stats": [
@@ -80989,5 +80989,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-10T17:28:49.192129+00:00"
+  "updatedAt": "2026-10-10T20:42:43.103681+00:00"
 }
