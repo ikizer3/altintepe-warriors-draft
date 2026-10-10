@@ -106,6 +106,37 @@
     "teamId": 21,
     "type": "FUTURE_ROSTER"
   },
+  "03a30437-9e71-4e74-b34b-bacde398dbd4": {
+    "bidAmount": 0,
+    "executionType": "PROCESS",
+    "id": "03a30437-9e71-4e74-b34b-bacde398dbd4",
+    "isActingAsTeamOwner": false,
+    "isLeagueManager": false,
+    "isPending": false,
+    "items": [
+      {
+        "fromLineupSlotId": -1,
+        "fromTeamId": 0,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4683778,
+        "toLineupSlotId": 12,
+        "toTeamId": 2,
+        "type": "ADD"
+      }
+    ],
+    "memberId": "NightlyLeagueUpdateTaskProcessor",
+    "processDate": 1791618383396,
+    "proposedDate": 1791618383369,
+    "rating": 0,
+    "relatedTransactionId": "62e1f15e-7dcb-480a-b5e8-8a0da879d2fb",
+    "scoringPeriodId": 1,
+    "skipTransactionCounters": false,
+    "status": "EXECUTED",
+    "subOrder": 1,
+    "teamId": 2,
+    "type": "WAIVER"
+  },
   "05dc163e-e58c-42f9-9f4c-8934dd53cd38": {
     "bidAmount": 0,
     "executionType": "EXECUTE",
