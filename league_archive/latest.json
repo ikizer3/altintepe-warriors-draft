@@ -1587,7 +1587,7 @@
                   "injured": false,
                   "injuryStatus": "ACTIVE",
                   "lastName": "Thompson",
-                  "lastNewsDate": 1790700231000,
+                  "lastNewsDate": 1791644475000,
                   "proTeamId": 10,
                   "universeId": 2
                 },
@@ -80989,5 +80989,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-10T12:37:05.986575+00:00"
+  "updatedAt": "2026-10-10T17:28:49.192129+00:00"
 }
