@@ -2358,7 +2358,7 @@
                   "injured": false,
                   "injuryStatus": "ACTIVE",
                   "lastName": "Powell",
-                  "lastNewsDate": 1791479786000,
+                  "lastNewsDate": 1791606279000,
                   "proTeamId": 4,
                   "universeId": 1
                 },
@@ -3777,9 +3777,9 @@
                   "fullName": "Matas Buzelis",
                   "id": 4711294,
                   "injured": false,
-                  "injuryStatus": "ACTIVE",
+                  "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Buzelis",
-                  "lastNewsDate": 1791468383000,
+                  "lastNewsDate": 1791595126000,
                   "proTeamId": 4,
                   "universeId": 1
                 },
@@ -7195,7 +7195,7 @@
                   "injured": false,
                   "injuryStatus": "ACTIVE",
                   "lastName": "Jerome",
-                  "lastNewsDate": 1791427117000,
+                  "lastNewsDate": 1791607940000,
                   "proTeamId": 29,
                   "universeId": 2
                 },
@@ -7793,7 +7793,7 @@
                   "injured": false,
                   "injuryStatus": "DAY_TO_DAY",
                   "lastName": "Leonard",
-                  "lastNewsDate": 1791224369000,
+                  "lastNewsDate": 1791588730000,
                   "proTeamId": 28,
                   "universeId": 1
                 },
@@ -8562,7 +8562,7 @@
                   "injured": false,
                   "injuryStatus": "ACTIVE",
                   "lastName": "Wilson",
-                  "lastNewsDate": 1791468161000,
+                  "lastNewsDate": 1791600454000,
                   "proTeamId": 4,
                   "universeId": 1
                 },
@@ -57255,7 +57255,7 @@
         },
         {
           "id": 4711294,
-          "injury": "ACTIVE",
+          "injury": "DAY_TO_DAY",
           "name": "Matas Buzelis",
           "slot": 7,
           "stats": [
@@ -80580,5 +80580,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-10T00:04:01.691425+00:00"
+  "updatedAt": "2026-10-10T05:57:19.946259+00:00"
 }
