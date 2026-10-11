@@ -35,6 +35,13 @@ jobs:
             sleep 30
           done
           exit 1
+      - name: Alert on sync failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "::error::ESPN league sync failed; inspect workflow run ${{ github.run_id }}"
+          gh api "repos/${{ github.repository }}/issues" -f title="ESPN sync failure — run ${{ github.run_id }}" -f body="The ESPN league archive workflow failed. Inspect https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}. Previous committed archive remains available." || true
       - name: Save separate archive
         run: |
           git config user.name "espn-league-bot"
