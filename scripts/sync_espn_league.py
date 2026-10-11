@@ -133,6 +133,10 @@ def main():
         audit.update({"generalActiveCount":len(general_ids),"leagueUnionCount":len(union),"rosteredCount":len(roster_ids),"availableCount":len(available_ids),"generalNotInLeagueCount":len(general_ids-union),"leagueNotInGeneralActiveCount":len(union-general_ids),"generalNotInLeagueExamples":sorted(general_ids-union)[:30],"leagueNotInGeneralActiveExamples":sorted(union-general_ids)[:30],"status":"COMPARED"})
     except Exception as exc:
         audit["error"]=str(exc)[:350]
+    if audit.get("status")!="COMPARED":
+        raise RuntimeError("Independent ESPN player pool comparison unavailable: "+str(audit.get("error")))
+    if audit["generalNotInLeagueCount"] or audit["leagueNotInGeneralActiveCount"]:
+        raise RuntimeError("ESPN player pool mismatch: "+json.dumps(audit,ensure_ascii=False))
     dump(DIR/"player_pool_audit.json",audit)
     # Fail closed on inconsistent ESPN roster/FA/transaction data.
     roster_ids=[str(p["id"]) for t in current.values() for p in t["players"]]
@@ -160,6 +164,21 @@ def main():
             raise RuntimeError("ADD missing from destination roster")
         if action=="DROP" and str(player_id) in now_ids:
             raise RuntimeError("DROP still in original roster")
+    # Injury status changes are independently tracked across successive snapshots.
+    injury_changes=[]
+    for tid,team in current.items():
+        prior={str(p["id"]):p for p in old.get("teams",{}).get(tid,{}).get("players",[])}
+        for player in team["players"]:
+            pid=str(player["id"])
+            if pid in prior and prior[pid].get("injury")!=player.get("injury"):
+                injury_changes.append({"checkedAt":NOW,"teamId":tid,"team":team["name"],"playerId":pid,"player":player["name"],"previous":prior[pid].get("injury"),"current":player.get("injury")})
+    injury_path=DIR/"injury_changes.json"
+    injury_history=json.loads(injury_path.read_text(encoding="utf-8")) if injury_path.exists() else []
+    if not isinstance(injury_history,list):raise RuntimeError("Invalid injury change history")
+    if injury_changes:dump(injury_path,injury_history+injury_changes)
+    # Transactions are retained by unique ESPN ID; trade details remain in raw ESPN records.
+    trade_records=[{"id":key,"type":v.get("type"),"status":v.get("status"),"processDate":v.get("processDate"),"items":v.get("items",[])} for key,v in txmap.items() if "TRADE" in str(v.get("type","")).upper()]
+    dump(DIR/"trade_audit.json",{"checkedAt":NOW,"status":"OBSERVATION_ONLY","count":len(trade_records),"trades":trade_records})
     dump(DIR/"integrity_audit.json",{"checkedAt":NOW,"status":"PASS","teams":len(teams),"rostered":len(roster_ids),"available":len(available_ids),"transactions":len(txmap),"rosterChanges":len(changes),"overlap":0,"unverified":0})
     # Preserve a snapshot and change history; this is separate from the master file.
     latest={"updatedAt":NOW,"leagueId":88948640,"teams":current,"status":data.get("status"),"schedule":data.get("schedule")}
