@@ -134,6 +134,33 @@ def main():
     except Exception as exc:
         audit["error"]=str(exc)[:350]
     dump(DIR/"player_pool_audit.json",audit)
+    # Fail closed on inconsistent ESPN roster/FA/transaction data.
+    roster_ids=[str(p["id"]) for t in current.values() for p in t["players"]]
+    if len(roster_ids)!=len(set(roster_ids)):
+        raise RuntimeError("Duplicate player across ESPN fantasy rosters")
+    if fa_error:
+        raise RuntimeError("FA/waiver refresh failed; refusing inconsistent snapshot: "+fa_error)
+    available=json.loads(fa_path.read_text(encoding="utf-8"))
+    available_ids=[str(p["id"]) for p in available.get("players",[])]
+    if len(available_ids)!=len(set(available_ids)):
+        raise RuntimeError("Duplicate player in FA/waiver pool")
+    if set(roster_ids)&set(available_ids):
+        raise RuntimeError("Rostered player appears in FA/waiver pool")
+    if available.get("unverifiedCount"):
+        raise RuntimeError("Unverified FA/waiver statuses; refusing snapshot")
+    if len(txmap)<len(previous):
+        raise RuntimeError("Transaction history shrank unexpectedly")
+    # Validate roster movements against the resulting current roster.
+    for change in changes:
+        _,team_name,action,_,player_id=change
+        matching=[t for t in current.values() if t["name"]==team_name]
+        if len(matching)!=1:raise RuntimeError("Ambiguous team in roster change")
+        now_ids={str(p["id"]) for p in matching[0]["players"]}
+        if action=="ADD" and str(player_id) not in now_ids:
+            raise RuntimeError("ADD missing from destination roster")
+        if action=="DROP" and str(player_id) in now_ids:
+            raise RuntimeError("DROP still in original roster")
+    dump(DIR/"integrity_audit.json",{"checkedAt":NOW,"status":"PASS","teams":len(teams),"rostered":len(roster_ids),"available":len(available_ids),"transactions":len(txmap),"rosterChanges":len(changes),"overlap":0,"unverified":0})
     # Preserve a snapshot and change history; this is separate from the master file.
     latest={"updatedAt":NOW,"leagueId":88948640,"teams":current,"status":data.get("status"),"schedule":data.get("schedule")}
     dump(oldfile,latest)
