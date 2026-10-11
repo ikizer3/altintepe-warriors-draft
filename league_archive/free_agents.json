@@ -2106,7 +2106,7 @@
     },
     {
       "id": 4277951,
-      "injury": "ACTIVE",
+      "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "FREEAGENT"
       ],
@@ -10831,5 +10831,5 @@
   ],
   "rosteredExcluded": 193,
   "unverifiedCount": 0,
-  "updatedAt": "2026-10-11T02:20:14.345716+00:00"
+  "updatedAt": "2026-10-11T02:22:26.164624+00:00"
 }
