@@ -114,6 +114,26 @@ def main():
                 p["status"]="UNVERIFIED"
         dump(fa_path,{"updatedAt":NOW,"players":free,"rosteredExcluded":len(roster_ids),"filterCounts":counts,"unverifiedCount":sum(p["status"]=="UNVERIFIED" for p in free)})
     except Exception as exc:fa_error=str(exc)[:350]
+    # Independent ESPN season-wide player list audit. Never infer completeness
+    # from the league's available-player endpoint alone.
+    audit={"checkedAt":NOW,"status":"UNVERIFIED","leagueRosterCount":sum(len(t["players"]) for t in current.values())}
+    try:
+        general_url="https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/2027/players?view=players_wl"
+        general_filter=json.dumps({"filterActive":{"value":True}},separators=(",",":"))
+        req=urllib.request.Request(general_url,headers={"User-Agent":"Mozilla/5.0","Accept":"application/json","x-fantasy-filter":general_filter})
+        with urllib.request.urlopen(req,timeout=45) as resp:general=json.load(resp)
+        if not isinstance(general,list) or not general:raise ValueError("Season-wide ESPN players list is empty or invalid")
+        general_ids={str(p.get("id")) for p in general if isinstance(p,dict) and p.get("id") is not None}
+        if not general_ids:raise ValueError("No player IDs in season-wide response")
+        roster_ids={str(p["id"]) for t in current.values() for p in t["players"]}
+        available=json.loads(fa_path.read_text(encoding="utf-8")) if fa_path.exists() else {}
+        if available.get("updatedAt")!=NOW:raise ValueError("FA snapshot not refreshed this run")
+        available_ids={str(p["id"]) for p in available.get("players",[]) if p.get("id") is not None}
+        union=roster_ids|available_ids
+        audit.update({"generalActiveCount":len(general_ids),"leagueUnionCount":len(union),"rosteredCount":len(roster_ids),"availableCount":len(available_ids),"generalNotInLeagueCount":len(general_ids-union),"leagueNotInGeneralActiveCount":len(union-general_ids),"generalNotInLeagueExamples":sorted(general_ids-union)[:30],"leagueNotInGeneralActiveExamples":sorted(union-general_ids)[:30],"status":"COMPARED"})
+    except Exception as exc:
+        audit["error"]=str(exc)[:350]
+    dump(DIR/"player_pool_audit.json",audit)
     # Preserve a snapshot and change history; this is separate from the master file.
     latest={"updatedAt":NOW,"leagueId":88948640,"teams":current,"status":data.get("status"),"schedule":data.get("schedule")}
     dump(oldfile,latest)
