@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/sync_espn_league.py'
+      - 'scripts/test_espn_sync.py'
       - '.github/workflows/espn-league-archive.yml'
   schedule:
     # Two opportunities per hour; sync script is idempotent.
