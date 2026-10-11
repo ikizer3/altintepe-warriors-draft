@@ -21,9 +21,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -100,9 +98,7 @@
     "proposedDate": 1791493514435,
     "rating": 0,
     "scoringPeriodId": 3,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "FUTURE_ROSTER"
   },
@@ -131,9 +127,7 @@
     "rating": 0,
     "relatedTransactionId": "62e1f15e-7dcb-480a-b5e8-8a0da879d2fb",
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 1,
     "teamId": 2,
     "type": "WAIVER"
   },
@@ -159,9 +153,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -187,9 +179,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -215,9 +205,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -243,9 +231,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -271,9 +257,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -299,9 +283,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -327,9 +309,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -355,9 +335,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -383,9 +361,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -411,9 +387,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -439,9 +413,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -467,9 +439,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -495,9 +465,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -523,9 +491,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -551,9 +517,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -579,9 +543,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -607,9 +569,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -635,9 +595,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -663,9 +621,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -691,9 +647,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -719,9 +673,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -747,9 +699,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -775,9 +725,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -803,9 +751,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -912,9 +858,7 @@
     "proposedDate": 1791493882659,
     "rating": 0,
     "scoringPeriodId": 5,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "FUTURE_ROSTER"
   },
@@ -940,9 +884,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -968,9 +910,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -996,9 +936,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -1035,9 +973,7 @@
     "proposedDate": 1791578385666,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "ROSTER"
   },
@@ -1063,9 +999,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -1091,9 +1025,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -1119,9 +1051,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -1147,9 +1077,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -1175,9 +1103,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -1203,9 +1129,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -1231,9 +1155,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -1259,9 +1181,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -1287,9 +1207,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -1315,9 +1233,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -1343,9 +1259,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -1371,9 +1285,7 @@
     "proposedDate": 1791493483746,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -1399,9 +1311,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -1428,9 +1338,7 @@
     "proposedDate": 1791501246966,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "ROSTER"
   },
@@ -1456,9 +1364,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -1484,9 +1390,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -1512,9 +1416,7 @@
     "proposedDate": 1791493483746,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -1641,9 +1543,7 @@
     "proposedDate": 1791493882659,
     "rating": 0,
     "scoringPeriodId": 4,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "FUTURE_ROSTER"
   },
@@ -1669,9 +1569,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -1697,9 +1595,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -1725,9 +1621,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -1753,9 +1647,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -1781,9 +1673,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -1809,9 +1699,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -1848,9 +1736,7 @@
     "proposedDate": 1791578378909,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "ROSTER"
   },
@@ -1876,9 +1762,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -1904,9 +1788,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -1932,9 +1814,7 @@
     "proposedDate": 1791493483746,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -1960,9 +1840,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -1988,9 +1866,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -2016,9 +1892,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -2044,9 +1918,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -2072,9 +1944,7 @@
     "proposedDate": 1791493483746,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -2100,9 +1970,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -2159,9 +2027,7 @@
     "proposedDate": 1791493514435,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "ROSTER"
   },
@@ -2187,9 +2053,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -2215,9 +2079,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -2243,9 +2105,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -2271,9 +2131,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -2299,9 +2157,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -2327,9 +2183,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -2355,9 +2209,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -2383,9 +2235,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -2411,9 +2261,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -2439,9 +2287,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -2467,9 +2313,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -2495,9 +2339,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -2523,9 +2365,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -2551,9 +2391,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -2579,9 +2417,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -2708,9 +2544,7 @@
     "proposedDate": 1791493882659,
     "rating": 0,
     "scoringPeriodId": 2,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "FUTURE_ROSTER"
   },
@@ -2837,9 +2671,7 @@
     "proposedDate": 1791493882659,
     "rating": 0,
     "scoringPeriodId": 6,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "FUTURE_ROSTER"
   },
@@ -2865,9 +2697,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -2893,9 +2723,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -2921,9 +2749,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -2949,9 +2775,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -2977,9 +2801,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -3005,9 +2827,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -3033,9 +2853,7 @@
     "proposedDate": 1791493483746,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -3061,9 +2879,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -3089,9 +2905,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -3117,9 +2931,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -3145,9 +2957,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -3173,9 +2983,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -3201,9 +3009,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -3229,9 +3035,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -3257,9 +3061,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -3285,9 +3087,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -3313,9 +3113,7 @@
     "proposedDate": 1791493483746,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -3341,9 +3139,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -3369,9 +3165,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -3397,9 +3191,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -3425,9 +3217,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -3453,9 +3243,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -3481,9 +3269,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -3510,9 +3296,7 @@
     "proposedDate": 1791493516987,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "ROSTER"
   },
@@ -3538,9 +3322,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -3567,9 +3349,7 @@
     "proposedDate": 1791494436221,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "ROSTER"
   },
@@ -3656,9 +3436,7 @@
     "proposedDate": 1791493514435,
     "rating": 0,
     "scoringPeriodId": 4,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "FUTURE_ROSTER"
   },
@@ -3684,9 +3462,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -3712,9 +3488,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -3740,9 +3514,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -3768,9 +3540,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -3796,9 +3566,7 @@
     "proposedDate": 1791493483746,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -3824,9 +3592,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -3852,9 +3618,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -3880,9 +3644,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -3908,9 +3670,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -3936,9 +3696,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -3964,9 +3722,7 @@
     "proposedDate": 1791493483746,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -3992,9 +3748,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -4020,9 +3774,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -4048,9 +3800,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -4076,9 +3826,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -4104,9 +3852,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -4132,9 +3878,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -4160,9 +3904,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -4188,9 +3930,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -4217,9 +3957,7 @@
     "proposedDate": 1791501250029,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "ROSTER"
   },
@@ -4245,9 +3983,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -4273,9 +4009,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -4301,9 +4035,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -4329,9 +4061,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -4357,9 +4087,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -4385,9 +4113,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -4413,9 +4139,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -4441,9 +4165,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -4469,9 +4191,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -4508,9 +4228,7 @@
     "proposedDate": 1791501243555,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "ROSTER"
   },
@@ -4536,9 +4254,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -4564,9 +4280,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -4592,9 +4306,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -4620,9 +4332,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -4648,9 +4358,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -4676,9 +4384,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -4704,9 +4410,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -4813,9 +4517,7 @@
     "proposedDate": 1791493514435,
     "rating": 0,
     "scoringPeriodId": 5,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "FUTURE_ROSTER"
   },
@@ -4841,9 +4543,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -4869,9 +4569,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -4897,9 +4595,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -4925,9 +4621,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -4953,9 +4647,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -4981,9 +4673,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -5009,9 +4699,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -5037,9 +4725,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -5065,9 +4751,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -5104,9 +4788,7 @@
     "proposedDate": 1791493506153,
     "rating": 0,
     "scoringPeriodId": 2,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "FUTURE_ROSTER"
   },
@@ -5132,9 +4814,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -5160,9 +4840,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -5188,9 +4866,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -5216,9 +4892,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -5244,9 +4918,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -5272,9 +4944,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -5300,9 +4970,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -5328,9 +4996,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -5356,9 +5022,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -5495,9 +5159,7 @@
     "proposedDate": 1791493882659,
     "rating": 0,
     "scoringPeriodId": 3,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "FUTURE_ROSTER"
   },
@@ -5523,9 +5185,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -5551,9 +5211,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -5579,9 +5237,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -5607,9 +5263,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -5635,9 +5289,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -5663,9 +5315,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -5691,9 +5341,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -5719,9 +5367,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 6,
     "type": "DRAFT"
   },
@@ -5747,9 +5393,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -5775,9 +5419,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -5803,9 +5445,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -5831,9 +5471,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -5859,9 +5497,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -5887,9 +5523,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 10,
     "type": "DRAFT"
   },
@@ -5915,9 +5549,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -5943,9 +5575,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -5971,9 +5601,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 17,
     "type": "DRAFT"
   },
@@ -5999,9 +5627,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -6027,9 +5653,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "DRAFT"
   },
@@ -6055,9 +5679,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 19,
     "type": "DRAFT"
   },
@@ -6094,9 +5716,7 @@
     "proposedDate": 1791667199956,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 5,
     "type": "FREEAGENT"
   },
@@ -6122,9 +5742,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -6150,9 +5768,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 16,
     "type": "DRAFT"
   },
@@ -6178,9 +5794,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -6206,9 +5820,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -6234,9 +5846,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -6262,9 +5872,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -6391,9 +5999,7 @@
     "proposedDate": 1791493514435,
     "rating": 0,
     "scoringPeriodId": 6,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "FUTURE_ROSTER"
   },
@@ -6419,9 +6025,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -6447,9 +6051,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 3,
     "type": "DRAFT"
   },
@@ -6475,9 +6077,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -6503,9 +6103,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 12,
     "type": "DRAFT"
   },
@@ -6531,9 +6129,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -6559,9 +6155,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 1,
     "type": "DRAFT"
   },
@@ -6587,9 +6181,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -6615,9 +6207,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   },
@@ -6643,9 +6233,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 2,
     "type": "DRAFT"
   },
@@ -6671,9 +6259,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 4,
     "type": "DRAFT"
   },
@@ -6699,9 +6285,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 9,
     "type": "DRAFT"
   },
@@ -6727,9 +6311,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 20,
     "type": "DRAFT"
   },
@@ -6755,9 +6337,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 21,
     "type": "DRAFT"
   },
@@ -6783,9 +6363,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 18,
     "type": "DRAFT"
   },
@@ -6811,9 +6389,7 @@
     "proposedDate": 1791493483745,
     "rating": 0,
     "scoringPeriodId": 1,
-    "skipTransactionCounters": false,
     "status": "EXECUTED",
-    "subOrder": 0,
     "teamId": 13,
     "type": "DRAFT"
   }

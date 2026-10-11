@@ -11,7 +11,7 @@
         "FREEAGENT"
       ],
       "name": "Anfernee Simons",
-      "ownership": 29.17,
+      "ownership": 28.76,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -23,7 +23,7 @@
         "FREEAGENT"
       ],
       "name": "Jordan Poole",
-      "ownership": 28.96,
+      "ownership": 28.6,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -35,7 +35,7 @@
         "FREEAGENT"
       ],
       "name": "Shaedon Sharpe",
-      "ownership": 24.33,
+      "ownership": 23.95,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -47,7 +47,7 @@
         "FREEAGENT"
       ],
       "name": "T.J. McConnell",
-      "ownership": 22.69,
+      "ownership": 22.43,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -59,7 +59,7 @@
         "FREEAGENT"
       ],
       "name": "Mark Williams",
-      "ownership": 21.58,
+      "ownership": 21.23,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -71,7 +71,7 @@
         "FREEAGENT"
       ],
       "name": "D'Angelo Russell",
-      "ownership": 16.99,
+      "ownership": 16.71,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -83,7 +83,7 @@
         "FREEAGENT"
       ],
       "name": "Cam Thomas",
-      "ownership": 16.94,
+      "ownership": 16.67,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -95,7 +95,7 @@
         "FREEAGENT"
       ],
       "name": "Klay Thompson",
-      "ownership": 15.53,
+      "ownership": 15.4,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -107,7 +107,7 @@
         "FREEAGENT"
       ],
       "name": "Tari Eason",
-      "ownership": 10.58,
+      "ownership": 10.49,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -119,7 +119,7 @@
         "FREEAGENT"
       ],
       "name": "Aday Mara",
-      "ownership": 8.26,
+      "ownership": 8.3,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -131,7 +131,7 @@
         "FREEAGENT"
       ],
       "name": "Alex Caruso",
-      "ownership": 7.63,
+      "ownership": 7.67,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -143,7 +143,7 @@
         "FREEAGENT"
       ],
       "name": "Jake LaRavia",
-      "ownership": 6.08,
+      "ownership": 6.25,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -155,7 +155,7 @@
         "FREEAGENT"
       ],
       "name": "Tre Jones",
-      "ownership": 5.61,
+      "ownership": 5.65,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -167,7 +167,7 @@
         "FREEAGENT"
       ],
       "name": "Russell Westbrook",
-      "ownership": 5.43,
+      "ownership": 5.44,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -179,7 +179,7 @@
         "FREEAGENT"
       ],
       "name": "Donte DiVincenzo",
-      "ownership": 4.9,
+      "ownership": 4.85,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -191,19 +191,7 @@
         "FREEAGENT"
       ],
       "name": "Bronny James",
-      "ownership": 4.79,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 2779,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Chris Paul",
-      "ownership": 4.58,
+      "ownership": 4.83,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -215,7 +203,19 @@
         "FREEAGENT"
       ],
       "name": "Morez Johnson Jr.",
-      "ownership": 4.57,
+      "ownership": 4.61,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 2779,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Chris Paul",
+      "ownership": 4.51,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -227,7 +227,7 @@
         "FREEAGENT"
       ],
       "name": "Isaiah Stewart",
-      "ownership": 3.52,
+      "ownership": 3.58,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -239,7 +239,7 @@
         "FREEAGENT"
       ],
       "name": "Obi Toppin",
-      "ownership": 3.42,
+      "ownership": 3.4,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -251,7 +251,7 @@
         "FREEAGENT"
       ],
       "name": "Kingston Flemings",
-      "ownership": 3.28,
+      "ownership": 3.3,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -263,7 +263,7 @@
         "FREEAGENT"
       ],
       "name": "Brayden Burries",
-      "ownership": 3.05,
+      "ownership": 3.06,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -275,19 +275,7 @@
         "FREEAGENT"
       ],
       "name": "Brice Sensabaugh",
-      "ownership": 2.8,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 6580,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Bradley Beal",
-      "ownership": 2.74,
+      "ownership": 2.79,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -299,6 +287,18 @@
         "FREEAGENT"
       ],
       "name": "Luguentz Dort",
+      "ownership": 2.73,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 6580,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Bradley Beal",
       "ownership": 2.72,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -311,7 +311,7 @@
         "FREEAGENT"
       ],
       "name": "Bub Carrington",
-      "ownership": 2.64,
+      "ownership": 2.66,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -323,7 +323,7 @@
         "FREEAGENT"
       ],
       "name": "Bilal Coulibaly",
-      "ownership": 2.58,
+      "ownership": 2.59,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -359,7 +359,7 @@
         "FREEAGENT"
       ],
       "name": "Max Christie",
-      "ownership": 2.1,
+      "ownership": 2.12,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -371,7 +371,7 @@
         "FREEAGENT"
       ],
       "name": "Jaylin Williams",
-      "ownership": 2.01,
+      "ownership": 2.0,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -383,19 +383,7 @@
         "FREEAGENT"
       ],
       "name": "Gradey Dick",
-      "ownership": 1.97,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4278580,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Sandro Mamukelashvili",
-      "ownership": 1.91,
+      "ownership": 1.99,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -407,7 +395,31 @@
         "FREEAGENT"
       ],
       "name": "Sam Hauser",
-      "ownership": 1.91,
+      "ownership": 1.93,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4278580,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Sandro Mamukelashvili",
+      "ownership": 1.92,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 5107173,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Danny Wolf",
+      "ownership": 1.87,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -419,7 +431,19 @@
         "FREEAGENT"
       ],
       "name": "Cam Whitmore",
-      "ownership": 1.89,
+      "ownership": 1.87,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 2583632,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Royce O'Neale",
+      "ownership": 1.87,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -437,25 +461,13 @@
       "waiverProcessDate": null
     },
     {
-      "id": 2583632,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Royce O'Neale",
-      "ownership": 1.83,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4277869,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Jose Alvarado",
-      "ownership": 1.82,
+      "ownership": 1.83,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -467,7 +479,7 @@
         "FREEAGENT"
       ],
       "name": "Ryan Kalkbrenner",
-      "ownership": 1.8,
+      "ownership": 1.82,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -479,19 +491,7 @@
         "FREEAGENT"
       ],
       "name": "Nikola Jovic",
-      "ownership": 1.76,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 5107173,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Danny Wolf",
-      "ownership": 1.75,
+      "ownership": 1.78,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -503,7 +503,7 @@
         "FREEAGENT"
       ],
       "name": "Robert Williams III",
-      "ownership": 1.74,
+      "ownership": 1.76,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -515,19 +515,7 @@
         "FREEAGENT"
       ],
       "name": "Tre Johnson",
-      "ownership": 1.71,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4898371,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Maxime Raynaud",
-      "ownership": 1.71,
+      "ownership": 1.72,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -545,13 +533,25 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4898371,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Maxime Raynaud",
+      "ownership": 1.69,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 3213,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Al Horford",
-      "ownership": 1.66,
+      "ownership": 1.67,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -563,7 +563,7 @@
         "FREEAGENT"
       ],
       "name": "Cameron Carr",
-      "ownership": 1.65,
+      "ownership": 1.64,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -575,7 +575,7 @@
         "FREEAGENT"
       ],
       "name": "Meleek Thomas",
-      "ownership": 1.6,
+      "ownership": 1.59,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -587,7 +587,7 @@
         "FREEAGENT"
       ],
       "name": "Carter Bryant",
-      "ownership": 1.55,
+      "ownership": 1.54,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -599,7 +599,7 @@
         "FREEAGENT"
       ],
       "name": "De'Anthony Melton",
-      "ownership": 1.48,
+      "ownership": 1.49,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -611,7 +611,7 @@
         "FREEAGENT"
       ],
       "name": "Andre Drummond",
-      "ownership": 1.47,
+      "ownership": 1.48,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -623,7 +623,7 @@
         "FREEAGENT"
       ],
       "name": "Cam Spencer",
-      "ownership": 1.46,
+      "ownership": 1.47,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -635,7 +635,7 @@
         "FREEAGENT"
       ],
       "name": "Kevin Huerter",
-      "ownership": 1.4,
+      "ownership": 1.43,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -647,19 +647,19 @@
         "FREEAGENT"
       ],
       "name": "Isaiah Jackson",
-      "ownership": 1.37,
+      "ownership": 1.4,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
     },
     {
-      "id": 3904625,
-      "injury": "DAY_TO_DAY",
+      "id": 4896372,
+      "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Tacko Fall",
-      "ownership": 1.36,
+      "name": "Walter Clayton Jr.",
+      "ownership": 1.35,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -671,7 +671,7 @@
         "FREEAGENT"
       ],
       "name": "Isaiah Joe",
-      "ownership": 1.34,
+      "ownership": 1.35,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -683,6 +683,18 @@
         "FREEAGENT"
       ],
       "name": "Marcus Smart",
+      "ownership": 1.35,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 3904625,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Tacko Fall",
       "ownership": 1.34,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -701,25 +713,13 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4896372,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Walter Clayton Jr.",
-      "ownership": 1.3,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4997536,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Gui Santos",
-      "ownership": 1.28,
+      "ownership": 1.29,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -731,7 +731,19 @@
         "FREEAGENT"
       ],
       "name": "Luke Kornet",
-      "ownership": 1.24,
+      "ownership": 1.23,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 3913174,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Luke Kennard",
+      "ownership": 1.22,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -749,25 +761,13 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3913174,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Luke Kennard",
-      "ownership": 1.21,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4278562,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Paul Reed",
-      "ownership": 1.07,
+      "ownership": 1.09,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -779,7 +779,7 @@
         "FREEAGENT"
       ],
       "name": "Jaylen Wells",
-      "ownership": 1.06,
+      "ownership": 1.07,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -791,7 +791,7 @@
         "FREEAGENT"
       ],
       "name": "Max Strus",
-      "ownership": 1.03,
+      "ownership": 1.04,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -821,24 +821,24 @@
       "waiverProcessDate": null
     },
     {
-      "id": 2990984,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Buddy Hield",
-      "ownership": 0.97,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 6578,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Harrison Barnes",
+      "ownership": 0.96,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 2990984,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Buddy Hield",
       "ownership": 0.96,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -863,7 +863,7 @@
         "FREEAGENT"
       ],
       "name": "Kris Dunn",
-      "ownership": 0.91,
+      "ownership": 0.93,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -875,7 +875,7 @@
         "FREEAGENT"
       ],
       "name": "Baylor Scheierman",
-      "ownership": 0.9,
+      "ownership": 0.92,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -905,37 +905,25 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3135046,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Tyus Jones",
-      "ownership": 0.83,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4066421,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Lonzo Ball",
-      "ownership": 0.83,
+      "ownership": 0.84,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
     },
     {
-      "id": 4277848,
+      "id": 3135046,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Marvin Bagley III",
-      "ownership": 0.78,
+      "name": "Tyus Jones",
+      "ownership": 0.82,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -947,6 +935,18 @@
         "FREEAGENT"
       ],
       "name": "Kasparas Jakucionis",
+      "ownership": 0.79,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4277848,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Marvin Bagley III",
       "ownership": 0.78,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -983,18 +983,6 @@
         "FREEAGENT"
       ],
       "name": "Caris LeVert",
-      "ownership": 0.72,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 6609,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Khris Middleton",
       "ownership": 0.71,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -1007,7 +995,19 @@
         "FREEAGENT"
       ],
       "name": "Jordan Walsh",
-      "ownership": 0.69,
+      "ownership": 0.7,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 6609,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Khris Middleton",
+      "ownership": 0.7,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1019,7 +1019,7 @@
         "FREEAGENT"
       ],
       "name": "Dean Wade",
-      "ownership": 0.67,
+      "ownership": 0.68,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1031,6 +1031,18 @@
         "FREEAGENT"
       ],
       "name": "Yang Hansen",
+      "ownership": 0.66,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 5279130,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Nolan Traore",
       "ownership": 0.66,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -1049,30 +1061,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 5101845,
-      "injury": "OUT",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jayden Quaintance",
-      "ownership": 0.65,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 5279130,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Nolan Traore",
-      "ownership": 0.64,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 2326307,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1085,24 +1073,36 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4066757,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Sam Merrill",
-      "ownership": 0.63,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4702382,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Tristan da Silva",
+      "ownership": 0.64,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 5101845,
+      "injury": "OUT",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jayden Quaintance",
+      "ownership": 0.64,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4066757,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Sam Merrill",
       "ownership": 0.63,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -1139,7 +1139,7 @@
         "FREEAGENT"
       ],
       "name": "Ja'Kobe Walter",
-      "ownership": 0.59,
+      "ownership": 0.6,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1157,6 +1157,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4888725,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Ryan Dunn",
+      "ownership": 0.58,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 4065731,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1164,18 +1176,6 @@
       ],
       "name": "Jay Huff",
       "ownership": 0.58,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4888725,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Ryan Dunn",
-      "ownership": 0.57,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1211,7 +1211,7 @@
         "FREEAGENT"
       ],
       "name": "Vit Krejci",
-      "ownership": 0.54,
+      "ownership": 0.55,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1307,7 +1307,7 @@
         "FREEAGENT"
       ],
       "name": "Matisse Thybulle",
-      "ownership": 0.49,
+      "ownership": 0.5,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1367,19 +1367,7 @@
         "FREEAGENT"
       ],
       "name": "Dalton Knecht",
-      "ownership": 0.41,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4870562,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Dominick Barlow",
-      "ownership": 0.4,
+      "ownership": 0.42,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1391,7 +1379,7 @@
         "FREEAGENT"
       ],
       "name": "Bogdan Bogdanovic",
-      "ownership": 0.4,
+      "ownership": 0.41,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1409,24 +1397,36 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4433218,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jaden Ivey",
-      "ownership": 0.39,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 3907823,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Terance Mann",
+      "ownership": 0.39,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4870562,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Dominick Barlow",
+      "ownership": 0.39,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4397077,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jaxson Hayes",
       "ownership": 0.38,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -1445,13 +1445,13 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4397077,
-      "injury": "ACTIVE",
+      "id": 4433218,
+      "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Jaxson Hayes",
-      "ownership": 0.37,
+      "name": "Jaden Ivey",
+      "ownership": 0.38,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1493,13 +1493,25 @@
       "waiverProcessDate": null
     },
     {
+      "id": 5241364,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Bennett Stirtz",
+      "ownership": 0.36,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 5105809,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Tarris Reed Jr.",
-      "ownership": 0.36,
+      "ownership": 0.35,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1511,19 +1523,7 @@
         "FREEAGENT"
       ],
       "name": "Jonas Valanciunas",
-      "ownership": 0.36,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 5241364,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Bennett Stirtz",
-      "ownership": 0.36,
+      "ownership": 0.35,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1577,18 +1577,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 5231919,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Karim Lopez",
-      "ownership": 0.33,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 5060701,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
@@ -1607,6 +1595,18 @@
         "FREEAGENT"
       ],
       "name": "Goga Bitadze",
+      "ownership": 0.32,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 5231919,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Karim Lopez",
       "ownership": 0.32,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -1685,6 +1685,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 5242496,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Noa Essengue",
+      "ownership": 0.28,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 2993874,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1692,6 +1704,30 @@
       ],
       "name": "Kyle Anderson",
       "ownership": 0.28,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4280151,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Corey Kispert",
+      "ownership": 0.27,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 5289900,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Mohamed Diawara",
+      "ownership": 0.27,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -1709,18 +1745,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4280151,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Corey Kispert",
-      "ownership": 0.26,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4397102,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1733,24 +1757,24 @@
       "waiverProcessDate": null
     },
     {
-      "id": 5242496,
+      "id": 4278077,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Noa Essengue",
+      "name": "Jarred Vanderbilt",
       "ownership": 0.25,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
     },
     {
-      "id": 4698719,
+      "id": 4431687,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Trevon Brazile",
+      "name": "Patrick Williams",
       "ownership": 0.25,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -1781,36 +1805,36 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4278077,
+      "id": 4431752,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Jarred Vanderbilt",
+      "name": "Kobe Brown",
       "ownership": 0.24,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
     },
     {
-      "id": 4431687,
+      "id": 4065670,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Patrick Williams",
+      "name": "Bruce Brown",
       "ownership": 0.24,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
     },
     {
-      "id": 5289900,
+      "id": 4698719,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Mohamed Diawara",
+      "name": "Trevon Brazile",
       "ownership": 0.24,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -1847,18 +1871,6 @@
         "FREEAGENT"
       ],
       "name": "Simone Fontecchio",
-      "ownership": 0.23,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4065670,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Bruce Brown",
       "ownership": 0.23,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -1925,6 +1937,30 @@
       "waiverProcessDate": null
     },
     {
+      "id": 5239561,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jase Richardson",
+      "ownership": 0.21,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4397886,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Charles Bassey",
+      "ownership": 0.21,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 3012,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -1961,12 +1997,24 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4431752,
+      "id": 5211983,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Kobe Brown",
+      "name": "Pacome Dadiet",
+      "ownership": 0.2,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 2580365,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Larry Nance Jr.",
       "ownership": 0.2,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2081,18 +2129,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 2580365,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Larry Nance Jr.",
-      "ownership": 0.19,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 5157066,
       "injury": "OUT",
       "matchedFilters": [
@@ -2129,18 +2165,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4397886,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Charles Bassey",
-      "ownership": 0.19,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 5159895,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2153,60 +2177,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4432907,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Justin Champagnie",
-      "ownership": 0.19,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4433144,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Caleb Love",
-      "ownership": 0.19,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 5211983,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Pacome Dadiet",
-      "ownership": 0.18,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4278076,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Nick Richards",
-      "ownership": 0.18,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 2566769,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Malcolm Brogdon",
       "ownership": 0.18,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2225,12 +2201,24 @@
       "waiverProcessDate": null
     },
     {
-      "id": 5239561,
+      "id": 4432907,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Jase Richardson",
+      "name": "Justin Champagnie",
+      "ownership": 0.18,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4433144,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Caleb Love",
       "ownership": 0.18,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2261,6 +2249,30 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4997537,
+      "injury": "OUT",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Tristan Vukcevic",
+      "ownership": 0.17,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 2566769,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Malcolm Brogdon",
+      "ownership": 0.17,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 2990969,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
@@ -2285,12 +2297,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4684806,
+      "id": 4433076,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Taylor Hendricks",
+      "name": "Ben Sheppard",
       "ownership": 0.17,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2333,36 +2345,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4997537,
-      "injury": "OUT",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Tristan Vukcevic",
-      "ownership": 0.16,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 3138160,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Caleb Martin",
-      "ownership": 0.16,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4433076,
+      "id": 4684806,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Ben Sheppard",
+      "name": "Taylor Hendricks",
       "ownership": 0.16,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2375,18 +2363,6 @@
         "FREEAGENT"
       ],
       "name": "Jalen Wilson",
-      "ownership": 0.15,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4278402,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jordan Goodwin",
       "ownership": 0.15,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2441,6 +2417,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 3138160,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Caleb Martin",
+      "ownership": 0.15,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 3146557,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2448,6 +2436,18 @@
       ],
       "name": "Jock Landale",
       "ownership": 0.15,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 3134916,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jordan McLaughlin",
+      "ownership": 0.14,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -2477,12 +2477,36 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4278402,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jordan Goodwin",
+      "ownership": 0.14,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 5105854,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Braden Smith",
+      "ownership": 0.14,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4065654,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jonathan Isaac",
       "ownership": 0.14,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2507,6 +2531,18 @@
         "FREEAGENT"
       ],
       "name": "Alex Antetokounmpo",
+      "ownership": 0.14,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 5157587,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Rocco Zikarsky",
       "ownership": 0.14,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2549,12 +2585,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3134916,
+      "id": 4433569,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Jordan McLaughlin",
+      "name": "Johni Broome",
       "ownership": 0.13,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2621,36 +2657,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4065654,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jonathan Isaac",
-      "ownership": 0.13,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4278572,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Jamal Cain",
-      "ownership": 0.13,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 5157587,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Rocco Zikarsky",
       "ownership": 0.13,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2669,12 +2681,36 @@
       "waiverProcessDate": null
     },
     {
+      "id": 2999547,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Gary Harris",
+      "ownership": 0.13,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 4592829,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Quenton Jackson",
+      "ownership": 0.13,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4398390,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jalen Pickett",
       "ownership": 0.13,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2705,12 +2741,36 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4433569,
+      "id": 3137259,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Johni Broome",
+      "name": "Gabe Vincent",
+      "ownership": 0.12,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4591259,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Koby Brea",
+      "ownership": 0.12,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 2578239,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Pat Connaughton",
       "ownership": 0.12,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2741,6 +2801,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 5105553,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Julian Phillips",
+      "ownership": 0.12,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 4432107,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
@@ -2765,6 +2837,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4594326,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Kris Murray",
+      "ownership": 0.12,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 4592714,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -2777,25 +2861,13 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4398390,
+      "id": 3136777,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Jalen Pickett",
+      "name": "Jae'Sean Tate",
       "ownership": 0.12,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 3137259,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Gabe Vincent",
-      "ownership": 0.11,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
       "waiverProcessDate": null
@@ -2837,36 +2909,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4594326,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Kris Murray",
-      "ownership": 0.11,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 5075626,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Baba Miller",
-      "ownership": 0.11,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 2999547,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Gary Harris",
       "ownership": 0.11,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2891,18 +2939,6 @@
         "FREEAGENT"
       ],
       "name": "Wang Zhelin",
-      "ownership": 0.1,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4591259,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Koby Brea",
       "ownership": 0.1,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -2939,18 +2975,6 @@
         "FREEAGENT"
       ],
       "name": "Tyrese Proctor",
-      "ownership": 0.1,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 5105553,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Julian Phillips",
       "ownership": 0.1,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3041,18 +3065,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 2578239,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Pat Connaughton",
-      "ownership": 0.09,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 5105571,
       "injury": "OUT",
       "matchedFilters": [
@@ -3071,6 +3083,18 @@
         "FREEAGENT"
       ],
       "name": "Adou Thiero",
+      "ownership": 0.09,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 5105806,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jett Howard",
       "ownership": 0.09,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3113,6 +3137,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4871141,
+      "injury": "OUT",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Ariel Hukporti",
+      "ownership": 0.09,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 2528386,
       "injury": null,
       "matchedFilters": [
@@ -3149,36 +3185,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3136777,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jae'Sean Tate",
-      "ownership": 0.09,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4066731,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Jalen McDaniels",
-      "ownership": 0.08,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4066993,
-      "injury": "DAY_TO_DAY",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Dru Smith",
       "ownership": 0.08,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3221,18 +3233,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 5105806,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jett Howard",
-      "ownership": 0.08,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 2488653,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -3251,18 +3251,6 @@
         "FREEAGENT"
       ],
       "name": "Joe Ingles",
-      "ownership": 0.08,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4871141,
-      "injury": "OUT",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Ariel Hukporti",
       "ownership": 0.08,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3317,12 +3305,24 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4433607,
+      "id": 4066993,
+      "injury": "DAY_TO_DAY",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Dru Smith",
+      "ownership": 0.07,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 3059409,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "DaRon Holmes II",
+      "name": "Nigel Hayes-Davis",
       "ownership": 0.07,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3389,12 +3389,36 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4432737,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jaden Bradley",
+      "ownership": 0.07,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 4592427,
       "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Spencer Jones",
+      "ownership": 0.07,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4432813,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jeremiah Robinson-Earl",
       "ownership": 0.07,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3461,12 +3485,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3059409,
+      "id": 4433607,
       "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Nigel Hayes-Davis",
+      "name": "DaRon Holmes II",
       "ownership": 0.06,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3491,6 +3515,18 @@
         "FREEAGENT"
       ],
       "name": "Julian Reese",
+      "ownership": 0.06,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 3032978,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Dario Saric",
       "ownership": 0.06,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3527,18 +3563,6 @@
         "FREEAGENT"
       ],
       "name": "Udonis Haslem",
-      "ownership": 0.06,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 3133602,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Svi Mykhailiuk",
       "ownership": 0.06,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3593,18 +3617,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4432737,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jaden Bradley",
-      "ownership": 0.06,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4432735,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -3629,12 +3641,12 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4432813,
-      "injury": null,
+      "id": 4433159,
+      "injury": "ACTIVE",
       "matchedFilters": [
         "FREEAGENT"
       ],
-      "name": "Jeremiah Robinson-Earl",
+      "name": "Dalen Terry",
       "ownership": 0.06,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3701,18 +3713,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3032978,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Dario Saric",
-      "ownership": 0.05,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4023,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -3743,6 +3743,18 @@
         "FREEAGENT"
       ],
       "name": "McKinley Wright IV",
+      "ownership": 0.05,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 3133602,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Svi Mykhailiuk",
       "ownership": 0.05,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -3833,18 +3845,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4433159,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Dalen Terry",
-      "ownership": 0.05,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 2596112,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -3875,6 +3875,18 @@
         "FREEAGENT"
       ],
       "name": "Shake Milton",
+      "ownership": 0.04,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 3913180,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Garrison Mathews",
       "ownership": 0.04,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -4337,6 +4349,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 3913220,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "DaQuan Jeffries",
+      "ownership": 0.03,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 4593043,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -4355,18 +4379,6 @@
         "FREEAGENT"
       ],
       "name": "Willie Reed",
-      "ownership": 0.03,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 3913180,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Garrison Mathews",
       "ownership": 0.03,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -4499,6 +4511,18 @@
         "FREEAGENT"
       ],
       "name": "Blake Hinson",
+      "ownership": 0.03,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4431786,
+      "injury": "OUT",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Keshad Johnson",
       "ownership": 0.03,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -4745,6 +4769,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 3902067,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Satnam Singh Bhamara",
+      "ownership": 0.03,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 5159486,
       "injury": null,
       "matchedFilters": [
@@ -4806,7 +4842,7 @@
     },
     {
       "id": 4590360,
-      "injury": "ACTIVE",
+      "injury": "DAY_TO_DAY",
       "matchedFilters": [
         "FREEAGENT"
       ],
@@ -4859,18 +4895,6 @@
         "FREEAGENT"
       ],
       "name": "Isaiah Mobley",
-      "ownership": 0.03,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4066268,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Duop Reath",
       "ownership": 0.03,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -5045,18 +5069,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3913220,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "DaQuan Jeffries",
-      "ownership": 0.02,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4066790,
       "injury": null,
       "matchedFilters": [
@@ -5147,6 +5159,18 @@
         "FREEAGENT"
       ],
       "name": "Brian Bowen II",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 3059311,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Matt Thomas",
       "ownership": 0.02,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -5369,6 +5393,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4701992,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Max Shulga",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 4845363,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -5477,18 +5513,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4431786,
-      "injury": "OUT",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Keshad Johnson",
-      "ownership": 0.02,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 5107818,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -5513,12 +5537,36 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4585610,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Kenneth Lofton Jr.",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 2328615,
       "injury": null,
       "matchedFilters": [
         "FREEAGENT"
       ],
       "name": "Mitchell Watt",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4423887,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jalen Lecque",
       "ownership": 0.02,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -5633,6 +5681,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 3911893,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Jack McVeigh",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 6428,
       "injury": null,
       "matchedFilters": [
@@ -5711,6 +5771,18 @@
         "FREEAGENT"
       ],
       "name": "Micah Peavy",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 2982249,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Amile Jefferson",
       "ownership": 0.02,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -5957,18 +6029,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3902067,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Satnam Singh Bhamara",
-      "ownership": 0.02,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 3902065,
       "injury": null,
       "matchedFilters": [
@@ -6113,6 +6173,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 2968363,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Marcelo Huertas",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 4576085,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -6155,6 +6227,18 @@
         "FREEAGENT"
       ],
       "name": "Jacob Wiley",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 2968458,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Salah Mejri",
       "ownership": 0.02,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -6269,6 +6353,18 @@
       "waiverProcessDate": null
     },
     {
+      "id": 4066268,
+      "injury": "ACTIVE",
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Duop Reath",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
       "id": 3136479,
       "injury": null,
       "matchedFilters": [
@@ -6299,6 +6395,18 @@
         "FREEAGENT"
       ],
       "name": "Tyler Johnson",
+      "ownership": 0.02,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4066377,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Zavier Simpson",
       "ownership": 0.02,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -6965,18 +7073,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 3059311,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Matt Thomas",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 3059310,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -7577,18 +7673,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4701992,
-      "injury": "ACTIVE",
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Max Shulga",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 2578259,
       "injury": null,
       "matchedFilters": [
@@ -7973,18 +8057,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4585610,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Kenneth Lofton Jr.",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 2531364,
       "injury": null,
       "matchedFilters": [
@@ -8087,18 +8159,6 @@
         "FREEAGENT"
       ],
       "name": "RayJ Dennis",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4423887,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jalen Lecque",
       "ownership": 0.01,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -8327,18 +8387,6 @@
         "FREEAGENT"
       ],
       "name": "Trentyn Flowers",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 3911893,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Jack McVeigh",
       "ownership": 0.01,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -8717,18 +8765,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 2982249,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Amile Jefferson",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4397371,
       "injury": null,
       "matchedFilters": [
@@ -8903,6 +8939,18 @@
         "FREEAGENT"
       ],
       "name": "Maxwell Lewis",
+      "ownership": 0.01,
+      "rawStatus": "FREEAGENT",
+      "status": "FREEAGENT",
+      "waiverProcessDate": null
+    },
+    {
+      "id": 4278783,
+      "injury": null,
+      "matchedFilters": [
+        "FREEAGENT"
+      ],
+      "name": "Will Magnay",
       "ownership": 0.01,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -9545,18 +9593,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 2968363,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Marcelo Huertas",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 2579251,
       "injury": null,
       "matchedFilters": [
@@ -9635,18 +9671,6 @@
         "FREEAGENT"
       ],
       "name": "Isaiah Cousins",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 2968458,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Salah Mejri",
       "ownership": 0.01,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -10007,18 +10031,6 @@
         "FREEAGENT"
       ],
       "name": "Dusty Hannahs",
-      "ownership": 0.01,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
-      "id": 4066377,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Zavier Simpson",
       "ownership": 0.01,
       "rawStatus": "FREEAGENT",
       "status": "FREEAGENT",
@@ -10769,18 +10781,6 @@
       "waiverProcessDate": null
     },
     {
-      "id": 4278783,
-      "injury": null,
-      "matchedFilters": [
-        "FREEAGENT"
-      ],
-      "name": "Will Magnay",
-      "ownership": 0.0,
-      "rawStatus": "FREEAGENT",
-      "status": "FREEAGENT",
-      "waiverProcessDate": null
-    },
-    {
       "id": 4395704,
       "injury": "ACTIVE",
       "matchedFilters": [
@@ -10823,7 +10823,7 @@
         "WAIVERS"
       ],
       "name": "Jalen Smith",
-      "ownership": 1.38,
+      "ownership": 1.39,
       "rawStatus": "WAIVERS",
       "status": "WAIVERS",
       "waiverProcessDate": 1791788400000
@@ -10831,5 +10831,5 @@
   ],
   "rosteredExcluded": 193,
   "unverifiedCount": 0,
-  "updatedAt": "2026-10-10T23:53:28.951303+00:00"
+  "updatedAt": "2026-10-11T01:50:11.765830+00:00"
 }
