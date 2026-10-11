@@ -27,7 +27,26 @@ def sheet(wb,name,headers,rows):
     for col,width in {"A":23,"B":24,"C":28,"D":22,"E":30,"F":22,"G":23}.items():ws.column_dimensions[col].width=width
     return ws
 def main():
-    data=fetch(["mTeam","mRoster","mStatus","mMatchup","mTransactions2"])
+    # Split ESPN views to avoid oversized/partial combined responses.
+    data=fetch(["mTeam","mRoster","mStatus"])
+    matchup=fetch(["mMatchupScore"])
+    if not isinstance(matchup.get("schedule"),list):
+        raise RuntimeError("Missing ESPN matchup schedule")
+    data["schedule"]=matchup["schedule"]
+    # mTransactions2 is scoring-period scoped; an unscoped response may be partial.
+    period=int((data.get("status") or {}).get("currentScoringPeriod") or 1)
+    if not 1 <= period <= 400:
+        raise RuntimeError("Invalid ESPN scoring period: "+str(period))
+    tx_by_id={}
+    for scoring_period in range(1,period+1):
+        batch=fetch(["mTransactions2"],params={"scoringPeriodId":scoring_period})
+        items=batch.get("transactions")
+        if not isinstance(items,list):
+            raise RuntimeError("Missing transactions in scoring period "+str(scoring_period))
+        for item in items:
+            key=str(item.get("id") or item.get("transactionId") or "")
+            if key:tx_by_id[key]=item
+    data["transactions"]=list(tx_by_id.values())
     teams=data.get("teams",[])
     if data.get("id")!=88948640 or len(teams)!=16:raise RuntimeError("Unexpected league or incomplete team list")
     current={}
@@ -54,6 +73,7 @@ def main():
     if not isinstance(tx,list):tx=[]
     txfile=DIR/"transactions.json"
     previous=json.loads(txfile.read_text(encoding="utf-8")) if txfile.exists() else {}
+    if not isinstance(previous,dict):raise RuntimeError("Invalid previous transaction archive")
     txmap=dict(previous)
     for x in tx:
         key=str(x.get("id") or x.get("transactionId") or "")
