@@ -51,7 +51,16 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Update ESPN league archive"
             for attempt in 1 2 3; do
-              git pull --rebase origin main && git push origin HEAD:main && exit 0
+              if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            # The generated XLSX is binary and cannot be rebased; restart from
+            # the newest committed archive and regenerate the snapshot.
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/sync_espn_league.py
+            git add league_archive/
+            git diff --cached --quiet && exit 0
+            git commit -m "Update ESPN league archive (retry)"
               sleep 10
             done
             exit 1
