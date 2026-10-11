@@ -51828,7 +51828,7 @@
         },
         {
           "id": 4601025,
-          "injury": "ACTIVE",
+          "injury": "DAY_TO_DAY",
           "name": "Pelle Larsson",
           "slot": 12,
           "stats": [
@@ -72591,5 +72591,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-11T01:50:11.765830+00:00"
+  "updatedAt": "2026-10-11T02:09:23.022750+00:00"
 }
