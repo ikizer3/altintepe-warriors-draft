@@ -22,6 +22,19 @@ def validate(rosters,available):
     if set(ids)&set(free):raise ValueError("Roster/FA overlap")
     return len(ids)+len(free)
 
+def roster_changes(before,after):
+    changes=[]
+    for team_id in sorted(set(before)|set(after)):
+        old=set(before.get(team_id,[]))
+        new=set(after.get(team_id,[]))
+        changes.extend((team_id,"ADD",pid) for pid in sorted(new-old))
+        changes.extend((team_id,"DROP",pid) for pid in sorted(old-new))
+    return changes
+
+def injury_changes(before,after):
+    return [(pid,before[pid],after[pid]) for pid in sorted(set(before)&set(after))
+            if before[pid]!=after[pid]]
+
 class SyncTests(unittest.TestCase):
     def test_master_scoring_21_categories(self):
         self.assertEqual(len(SCORING),21)
@@ -36,6 +49,16 @@ class SyncTests(unittest.TestCase):
         with self.assertRaises(ValueError):validate({"a":[1]},[2,2])
     def test_valid_transfer(self):
         self.assertEqual(validate({"a":[1],"b":[2]},[3,4]),4)
+    def test_add_drop_between_teams(self):
+        self.assertEqual(roster_changes({"a":[1,2],"b":[3]},{"a":[1],"b":[2,3]}),
+                         [("a","DROP",2),("b","ADD",2)])
+    def test_waiver_drop(self):
+        self.assertEqual(roster_changes({"a":[1,2]},{"a":[1]}),[("a","DROP",2)])
+        self.assertEqual(validate({"a":[1]},[2,3]),3)
+    def test_injury_transition(self):
+        self.assertEqual(injury_changes({1:"ACTIVE",2:"DTD"},{1:"OUT",2:"DTD"}),[(1,"ACTIVE","OUT")])
+    def test_injury_addition_not_a_change(self):
+        self.assertEqual(injury_changes({1:"OUT"},{1:"ACTIVE",2:"OUT"}),[(1,"OUT","ACTIVE")])
     def test_unknown_stat_fails(self):
         with self.assertRaises(ValueError):score({"UNKNOWN":2})
 
