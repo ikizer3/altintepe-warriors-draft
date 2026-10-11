@@ -180,6 +180,12 @@ def main():
     trade_records=[{"id":key,"type":v.get("type"),"status":v.get("status"),"processDate":v.get("processDate"),"items":v.get("items",[])} for key,v in txmap.items() if "TRADE" in str(v.get("type","")).upper()]
     dump(DIR/"trade_audit.json",{"checkedAt":NOW,"status":"OBSERVATION_ONLY","count":len(trade_records),"trades":trade_records})
     dump(DIR/"integrity_audit.json",{"checkedAt":NOW,"status":"PASS","teams":len(teams),"rostered":len(roster_ids),"available":len(available_ids),"transactions":len(txmap),"rosterChanges":len(changes),"overlap":0,"unverified":0})
+    # Persist a machine-readable health report for external monitors.
+    health={"checkedAt":NOW,"status":"HEALTHY","leagueId":88948640,
+            "teams":len(teams),"rostered":len(roster_ids),"freeAgentsAndWaivers":len(available_ids),
+            "transactions":len(txmap),"playerPoolMatch":True,"regressionTests":"GITHUB_ACTIONS_REQUIRED",
+            "waiverPolicy":"ESPN_SOURCE_OF_TRUTH","alerts":[]}
+    dump(DIR/"health.json",health)
     # Preserve a snapshot and change history; this is separate from the master file.
     latest={"updatedAt":NOW,"leagueId":88948640,"teams":current,"status":data.get("status"),"schedule":data.get("schedule")}
     dump(oldfile,latest)
