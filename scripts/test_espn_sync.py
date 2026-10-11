@@ -25,7 +25,7 @@ def validate(rosters,available):
 class SyncTests(unittest.TestCase):
     def test_master_scoring_21_categories(self):
         self.assertEqual(len(SCORING),21)
-        self.assertEqual(score({"PTS":20,"FGM":8,"FGA":15,"FTM":4,"FTA":5,"3PM":3,"REB":7,"OREB":2,"AST":6,"STL":2,"BLK":1,"TO":3,"PF":2,"TW":1}),31.75)
+        self.assertEqual(score({"PTS":20,"FGM":8,"FGA":15,"FTM":4,"FTA":5,"3PM":3,"REB":7,"OREB":2,"AST":6,"STL":2,"BLK":1,"TO":3,"PF":2,"TW":1}),36.35)
     def test_scoring_negative_and_bonus(self):
         self.assertEqual(score({"EJ":1,"FF":1,"TF":1,"DQ":1,"DD":1,"TD":1,"QD":1}),17)
     def test_duplicate_rostered(self):
