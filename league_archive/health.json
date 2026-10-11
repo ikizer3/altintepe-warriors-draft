@@ -1,0 +1,13 @@
+{
+  "alerts": [],
+  "checkedAt": "2026-10-11T02:25:11.634099+00:00",
+  "freeAgentsAndWaivers": 902,
+  "leagueId": 88948640,
+  "playerPoolMatch": true,
+  "regressionTests": "GITHUB_ACTIONS_REQUIRED",
+  "rostered": 193,
+  "status": "HEALTHY",
+  "teams": 16,
+  "transactions": 212,
+  "waiverPolicy": "ESPN_SOURCE_OF_TRUTH"
+}
