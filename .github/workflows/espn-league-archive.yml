@@ -12,6 +12,7 @@ on:
     - cron: '17,47 * * * *'
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: espn-league-sync
   cancel-in-progress: false
